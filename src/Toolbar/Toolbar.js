@@ -4,10 +4,8 @@ import './Toolbar.css';
 
 class Toolbar extends Component {
     render() {
-        return (
-            
+        return (       
             <div className="toolbar">
-                Shafrir
             </div>
         );
     }

@@ -1,6 +1,4 @@
-.App{
 
-}
 .container{
   background-image: url(./Background/Trek.jpg);
   background-position: 0px 0px; 
@@ -11,11 +9,20 @@
   
 }
 .toolbar{
-  position: absolute;
-  top: 0;
+ display: flex;
+ 
 }
-.vipline {
-  position: absolute;
-  top: 100px;
+
+.nav__items {
+
+display: flex;
+flex-grow: 4;
+height: 100px;
+top: 0;
+width: 50%;
+
+}
+.logo {
+width: 15%;
 }
 
