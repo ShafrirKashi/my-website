@@ -14,7 +14,7 @@ class Toolbar extends Component {
             <li>Equipment</li>
             <li>Accessories</li>
           </ul>
-          <div></div>
+
             </div>
         );
     }
