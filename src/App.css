@@ -6,23 +6,11 @@
   background-repeat: no-repeat;
   height: 100vh;
   z-index: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
 }
-.toolbar{
- display: flex;
- 
-}
 
-.nav__items {
 
-display: flex;
-flex-grow: 4;
-height: 100px;
-top: 0;
-width: 50%;
-
-}
-.logo {
-width: 15%;
-}
 

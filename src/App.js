@@ -7,21 +7,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <div className="toolbar"><Toolbar/>
-          <div className="logo">
-            logo
-          </div>
-          <ul className="nav__items">
-            <li>Men</li>
-            <li>Women</li>
-            <li>Kids</li>
-            <li>Equipment</li>
-            <li>Accessories</li>
-          </ul>
-        
-        
+      <div className="navbar"><Toolbar/>
       </div>
-      <div className="vipline"><Vipline/></div>
+      <div className="vip__line"><Vipline/></div>
       </div>
     </div>
     

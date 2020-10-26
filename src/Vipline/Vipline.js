@@ -6,7 +6,7 @@ class Vipline extends Component {
     render() {
         return (
             <div className="text">
-                Kashi
+                Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
             </div>
         );
     }
