@@ -5,12 +5,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
   
 }
-
-
-
+.navbar {
+  position: sticky;
+  top: 0px;
+}
+.vip__line {
+  position: sticky;
+  top: 80px;
+}
