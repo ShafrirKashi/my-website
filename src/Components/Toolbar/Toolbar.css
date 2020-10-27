@@ -8,7 +8,7 @@
     
 }
 .logo_container {
-    background-image: url(../Background/1.png);
+    background-image: url('../Background/1.png');
     background-position:  center center; 
     background-size: 80%;
     background-repeat: no-repeat;

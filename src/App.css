@@ -1,6 +1,6 @@
 
 .container{
-  background-image: url(./Background/Trek.jpg);
+  background-image: url('./Components/Background/Trek.jpg');
   background-position: 0px 0px; 
   background-size: cover;
   background-repeat: no-repeat;

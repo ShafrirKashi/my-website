@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Toolbar from './Toolbar/Toolbar'
-import Vipline from './Vipline/Vipline'
+import Toolbar from './Components/Toolbar/Toolbar'
+import Vipline from './Components/Vipline/Vipline'
 
 
 
@@ -13,6 +13,7 @@ function App() {
       </div>
       <div className="vip__line"><Vipline/></div>
       </div>
+      <div>shafrir</div>
     </div>
     
   );
