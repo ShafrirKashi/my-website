@@ -5,6 +5,7 @@
     background-color: white;
     margin: 0;
     padding: 0;
+    
 
     
 }
@@ -18,27 +19,29 @@
     justify-content: space-around;
     margin: 0;
     padding: 0;
-    width: 200px;  
+    width: 200px;
+    
 }
 
 .nav__items {
      display: flex; 
      justify-content: space-between;  
     align-items: center; 
-    width: 40%;
+    width: 25%;
     height: 80px;
     color: black;
     margin: 0;
     padding: 0;
     cursor: pointer;
     border-color: green;
+    z-index: 3
 }
 .nav__items li{
     display: flex; 
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    width: 100%;
+    width: auto;
     height: 80px;
     padding: 0;
     font-size: 18px;

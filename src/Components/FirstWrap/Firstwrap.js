@@ -5,7 +5,9 @@ class FirstWrap extends Component {
     render() {
         return (
             <div className="wrap">
-                Shafrir
+                <div className="wrap__text1">
+                    Denali Series™
+                </div>
             </div>
         );
     }

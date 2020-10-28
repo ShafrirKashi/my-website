@@ -1,0 +1,44 @@
+.wrap__text {
+    display: flex;
+    height: 88vh;
+    background-color: transparent;
+}
+.text_1 {
+    position: absolute;
+    font-family: Typographica;
+    font-size:100px;
+    top: 180px;
+    left: 200px;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    z-index: 2
+}
+.text_2 {
+    position: absolute;
+    font-family: Typographica;
+    font-size:100px;
+    top: 270px;
+    left: 200px;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+.text_3 {
+    position: absolute;
+    font-family: Typographica;
+    font-size:100px;
+    top: 360px;
+    left: 200px;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+.text_4 {
+    position: absolute;
+    font-family: Moonglade demo;
+    font-size:23px;
+    top: 575px;
+    left: 210px;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}

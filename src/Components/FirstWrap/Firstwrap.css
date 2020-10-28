@@ -1,6 +1,12 @@
 .wrap {
-    height: 600px;
+    height: 750px;
     width: 100vw;
-    background-color: green;
+    background-image: url('../Background/2.jpg');
+    background-repeat: no-repeat;
     margin-top: 30px;
+}
+.wrap__text1 {
+        color: white;
+        position: absolute;
+        top: 10px;
 }
