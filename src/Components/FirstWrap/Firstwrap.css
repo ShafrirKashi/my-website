@@ -4,9 +4,24 @@
     background-image: url('../Background/2.jpg');
     background-repeat: no-repeat;
     margin-top: 30px;
+    
 }
 .wrap__text1 {
         color: white;
         position: absolute;
         top: 10px;
+}
+.button {
+    background-color: black;
+    border: 1px solid;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+
 }

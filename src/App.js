@@ -4,6 +4,7 @@ import Toolbar from './Components/Toolbar/Toolbar'
 import Vipline from './Components/Vipline/Vipline'
 import Firstwrap from './Components/FirstWrap/Firstwrap'
 import Wrap from './Components/Wrap/Wrap'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </div>
       
       <div><Firstwrap/></div>
+      <div><Footer/></div>
     </div>
     
   );
