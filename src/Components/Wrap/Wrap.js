@@ -7,9 +7,9 @@ class Wrap extends Component {
             <div className="wrap__text">
                 <pre className="text_1">Winter</pre>
                 <pre className="text_2"> Is</pre>
-                <pre className="text_3">Coming</pre>
+                <pre className="text_3">Coming.</pre>
                 <pre className="text_4">The ultimate cold-weather answer. <br/>
-                Extra soft. Warm to the core.</pre>
+                 Extra soft. Warm to the core.</pre>
             </div>
         );
     }
