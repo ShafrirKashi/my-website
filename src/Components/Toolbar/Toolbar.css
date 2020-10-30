@@ -44,35 +44,10 @@
     list-style: none;
     width: auto;
     height: 80px;
-<<<<<<< HEAD
     padding: 30px;
     font-size: 18px;
     font-weight: bold;
     margin: 0;
-=======
-    padding: 0;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 20px;
->>>>>>> 4fefe44a0c8ea2739df7cec677e9b186df1ab5f8
     border-color: black;
     cursor: pointer;
-
 }
-<<<<<<< HEAD
-=======
-.searchbar {
-    display: flex;
-    align-items: center;
-    height: 880px;
-    top: 20px;
-    width: 200px;
-    margin-left: 20px;
-}
-.Search__bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
->>>>>>> 4fefe44a0c8ea2739df7cec677e9b186df1ab5f8

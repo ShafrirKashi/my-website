@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Toolbar.css';
-import Searchbar from '../Searchbar/Searchbar'
+
 
 
 class Toolbar extends Component {
