@@ -1,7 +1,7 @@
 
 .container{
   background-image: url('./Components/Background/Trek.jpg');
-  background-position: 0px 0px; 
+  background-position: 0px -40px; 
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -9,10 +9,16 @@
   
 }
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0px;
+  z-index: 1;
+  min-width: 100%;
 }
 .vip__line {
-  position: sticky;
+  position: fixed;
   top: 80px;
+  z-index: 1;
+  min-width: 100%;
+
+
 }

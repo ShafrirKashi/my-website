@@ -14,8 +14,7 @@ class Toolbar extends Component {
                 <li>Kids</li>
                 <li>Equipment</li>
                 <li>Accessories</li>
-             </ul>
-               <div className="Search__bar"><Searchbar/></div>           
+             </ul>         
             </div>
         );
     }

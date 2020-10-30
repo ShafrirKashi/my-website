@@ -11,7 +11,7 @@
     left: 200px;
     color: white;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    z-index: 2
+   
 }
 .text_2 {
     position: absolute;
@@ -35,7 +35,8 @@
 }
 .text_4 {
     position: absolute;
-    font-family: Moonglade demo;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     font-size:23px;
     top: 575px;
     left: 210px;

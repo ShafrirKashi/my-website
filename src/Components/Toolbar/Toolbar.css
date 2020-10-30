@@ -34,7 +34,7 @@
     padding: 0;
     cursor: pointer;
     border-color: green;
-    z-index: 3
+    
 }
 .nav__items li{
     display: flex; 
@@ -43,25 +43,9 @@
     list-style: none;
     width: auto;
     height: 80px;
-    padding: 0;
+    padding: 30px;
     font-size: 18px;
     font-weight: bold;
     margin: 0;
-    margin: 0;
-    padding: 0;
     border-color: black;
-}
-.searchbar {
-    display: flex;
-    align-items: center;
-    height: 80px;
-    top: 20px;
-    width: 200px;
-    padding-left: 20px;
-}
-.Search__bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
 }
