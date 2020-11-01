@@ -54,5 +54,6 @@
 }
 li:hover {
 /* background-color:black; */
-color: rgb(172, 172, 172);    
+color: rgb(172, 172, 172);  
+transition: 0.2s  
 }
