@@ -3,7 +3,7 @@
     width: 100vw;
     background-image: url('../Background/2.jpg');
     background-repeat: no-repeat;
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 .wrap__text1 {
@@ -11,17 +11,50 @@
         position: absolute;
         top: 10px;
 }
- .button {
-    background-color: white;
+ .button1 {
+    position: absolute;
+    font-size: 17px;
+    background-color: white(41, 41, 41);
     border: white;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 16px;
-    
+    top: 530px;
+    left: 210px;
+    cursor: pointer;
+    border: 1px solid black
+
 
 } 
+.button2 {
+    position: absolute;
+    font-size: 17px;
+    background-color: white(41, 41, 41);
+    border: white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 530px;
+    left: 350px;
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid black
+} 
+  .button1:hover{
+    background-color: rgba(41, 41, 41);
+    color: white;
+    transition: 0.3s
+}
+.button2:hover{
+    background-color: rgba(41, 41, 41);
+    color: white;
+    transition: 0.3s
+}

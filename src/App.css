@@ -1,7 +1,7 @@
 
 .container{
   background-image: url('./Components/Background/Trek.jpg');
-  background-position: 0px -40px; 
+  background-position: 0px 0px; 
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

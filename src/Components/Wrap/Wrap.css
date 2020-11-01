@@ -6,31 +6,31 @@
 .text_1 {
     position: absolute;
     font-family: Typographica;
-    font-size:70px;
+    font-size:80px;
     top: 180px;
     left: 190px;
-    color: white;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: rgb(41, 41, 41);
+    /* text-shadow: 1px 0 0 rgb(255, 255, 255), 0 -1px 0 rgb(255, 255, 255), 0 1px 0 rgb(255, 255, 255), -1px 0 0 rgb(255, 255, 255); */
    
 }
 .text_2 {
     position: absolute;
     font-family: Typographica;
-    font-size:70px;
+    font-size:80px;
     top: 180px;
-    left: 395px;
-    color: white;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    left: 430px;
+    color: rgb(41, 41, 41);
+    /* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; */
 
 }
 .text_3 {
     position: absolute;
     font-family: Typographica;
-    font-size:70px;
-    top: 245px;
+    font-size:80px;
+    top: 255px;
     left: 210px;
-    color: white;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color:  rgb(41, 41, 41);
+    /* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; */
 
 }
 .text_4 {
@@ -38,8 +38,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size:20px;
-    top: 390px;
+    top: 422px;
     left: 200px;
-    color: white;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: rgb(41, 41, 41);
+    /* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; */
 }
+.button {
+    background-color: white;
+    border: white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    
+
+} 
