@@ -2,7 +2,7 @@
 .toolbar {
     display: flex;
     color:black;
-    background-color: white;
+    background-color: rgb(29, 29, 29);
     margin: 0;
     padding: 0;
     
@@ -31,10 +31,10 @@
     align-items: center; 
     width: 25%;
     height: 80px;
-    color: black;
+    color: white;
     margin: 0;
     padding: 0;
-    border-color: green;
+    
     
 }
 .nav__items li{
@@ -44,10 +44,15 @@
     list-style: none;
     width: auto;
     height: 80px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 18px;
     font-weight: bold;
     margin: 0;
     border-color: black;
     cursor: pointer;
+}
+li:hover {
+/* background-color:black; */
+color: rgb(172, 172, 172);    
 }

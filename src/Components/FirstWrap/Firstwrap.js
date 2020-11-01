@@ -6,7 +6,7 @@ class FirstWrap extends Component {
         return (
             <div className="wrap">
                 <div className="wrap__text1"></div>
-           
+                <button class="button">Psill Button</button> 
             </div>
         );
     }
