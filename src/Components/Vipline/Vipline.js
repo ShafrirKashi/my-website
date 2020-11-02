@@ -8,6 +8,8 @@ class Vipline extends Component {
             <div className="text">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
             </div>
+            
+            
         );
     }
 }

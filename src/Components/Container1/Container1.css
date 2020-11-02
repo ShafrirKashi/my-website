@@ -1,0 +1,9 @@
+.container1image {     
+      background-image: url('../Background/Trek.jpg');
+      background-position: 0px 0px; 
+      margin-top: 117px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh; 
+    }
+    
