@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import './Toolbar.css';
+import './Navbar.css';
 
 
-
-class Toolbar extends Component {
+class Vipline extends Component {
     render() {
-        return (       
+        return (
+            <div className="both">
+            <div className="text">
+                Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
+            </div> 
             <div className="toolbar">
                 <div className="logo_container"></div>
               <ul className="nav__items"> 
@@ -15,9 +18,10 @@ class Toolbar extends Component {
                 <li>Equipment</li>
                 <li>Accessories</li>
              </ul>         
-            </div>
+            </div> 
+        </div>
         );
     }
 }
 
-export default Toolbar;
+export default Vipline;

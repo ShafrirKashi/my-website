@@ -1,9 +1,19 @@
 .container1image {     
       background-image: url('../Background/Trek.jpg');
       background-position: 0px 0px; 
-      margin-top: 117px;
       background-size: cover;
       background-repeat: no-repeat;
       height: 100vh; 
+      display: flex;
+      align-items: flex-start;
+      
+    }
+    .textdiv1 {
+      /* display: flex; */
+border: 3px solid greenyellow;      /* position: absolute; */
+      /* top: 50%; */
+      width: 100%;
+      height: 50%;
+
     }
     
