@@ -3,17 +3,32 @@
       background-position: 0px 0px; 
       background-size: cover;
       background-repeat: no-repeat;
-      height: 100vh; 
-      display: flex;
-      align-items: flex-start;
-      
+      height: 100vh;
+      top: 117px;
+      position: relative;
     }
     .textdiv1 {
-      /* display: flex; */
-border: 3px solid greenyellow;      /* position: absolute; */
-      /* top: 50%; */
+      position: absolute;
+      /* border: 3px solid greenyellow;       */
       width: 100%;
       height: 50%;
-
+      display: grid;
+      grid-template-columns: 180px 500px auto ;
+      grid-template-rows: 200px 200px auto;
     }
-    
+    .h1 {
+        font-family: eras itc ;
+        color: rgb(41, 41, 41);
+        /* -webkit-text-stroke: 1px rgb(156, 156, 156); */
+        font-size: 60px;
+        
+       
+    }
+    .h2 {
+      font-family: eras  itc;
+      color: rgb(41, 41, 41);
+      /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
+      font-size: 27px;
+     
+
+}    

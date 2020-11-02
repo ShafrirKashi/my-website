@@ -4,6 +4,8 @@
     background-image: url('../Background/2.jpg');
     background-repeat: no-repeat;
     margin-top: 20px;
+    position: relative;
+    top: 117px;
     
 }
 .wrap__text1 {
