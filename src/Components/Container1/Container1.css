@@ -13,16 +13,22 @@
       width: 100%;
       height: 50%;
       display: grid;
-      grid-template-columns: 3vw 32vw auto ;
-      grid-template-rows: 5vh 11vh 9vh auto;
+      display: inline-grid;
+      justify-items: flex-start;
+      align-items: center;
+      /* grid-gap: 10px; */
+      text-size-adjust: none;
+      grid-template-columns: 3vw 30vw auto ;
+      grid-template-rows: 9vh 9vh 7vh auto;
     }
     .h1 {
         font-family: typographica ;
         color: rgb(41, 41, 41);
         /* -webkit-text-stroke: 1px rgb(156, 156, 156); */
-        font-size: 3.7vw;
+        font-size: 420%;
         grid-column: 2/3;
         grid-row: 2/3;
+        text-size-adjust: none;
         /* -webkit-text-stroke: 4px rgb(248, 4, 4); */ 
        
     }
@@ -30,7 +36,7 @@
       font-family: eras  itc;
       color: rgb(41, 41, 41);
       /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
-      font-size: 1.4vw;
+      font-size: 140%;
       grid-column: 2/3;
       grid-row: 3/4;
       position: relative;
