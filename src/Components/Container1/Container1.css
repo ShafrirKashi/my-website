@@ -16,9 +16,7 @@
       display: inline-grid;
       justify-items: flex-start;
       align-items: center;
-      /* grid-gap: 10px; */
-      text-size-adjust: none;
-      grid-template-columns: 3vw 30vw auto ;
+      grid-template-columns: 3vw 70vw auto ;
       grid-template-rows: 9vh 9vh 7vh auto;
     }
     .h1 {
@@ -29,6 +27,7 @@
         grid-column: 2/3;
         grid-row: 2/3;
         text-size-adjust: none;
+
         /* -webkit-text-stroke: 4px rgb(248, 4, 4); */ 
        
     }
@@ -41,6 +40,7 @@
       grid-row: 3/4;
       position: relative;
       left: 2px;
+  
 }   
     .button1 {
       background-color:#fabc02;
