@@ -5,8 +5,10 @@ class FirstWrap extends Component {
     render() {
         return (
             <div className="secondcontainer">
-                <div className="wrap__text1"></div> 
-                <button class="button">Psill Button</button>  
+                <div className="wrap__text1"> asdasd
+                <button class="button2">Shop Now</button>  
+                    </div> 
+                
             </div>
         );
     }

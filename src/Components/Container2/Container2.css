@@ -7,56 +7,46 @@
     position: relative;
     top: 117px;
     
+    
 }
 .wrap__text1 {
+    
         color: white;
         position: absolute;
-        top: 10px;
+        top: 15%;
+        width: 100%;
+        height: 60%;
+        display: grid;
+        grid-template-columns: 900px 500px auto;
+        grid-template-r: 900px 500px auto;
 }
- .button1 {
-    position: absolute;
-    font-size: 17px;
-    background-color: white(41, 41, 41);
-    border: white;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    top: 530px;
-    left: 210px;
-    cursor: pointer;
-    border: 1px solid black
 
-
-} 
 .button2 {
+    background-color:#fabc02;
+    border: none;
+    font-family: eras itc;
+    font-weight: bold;
     position: absolute;
-    font-size: 17px;
-    background-color: white(41, 41, 41);
-    border: white;
+    left: 0px;
+    top: 10px;
     color: black;
-    padding: 10px 20px;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    padding: 17px 29px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: 19px;
     margin: 4px 2px;
     cursor: pointer;
-    top: 530px;
-    left: 350px;
-    border-radius: 0px;
-    cursor: pointer;
-    border: 1px solid black
-} 
-  .button1:hover{
-    background-color: rgba(41, 41, 41);
-    color: white;
-    transition: 0.3s
-}
-.button2:hover{
-    background-color: rgba(41, 41, 41);
-    color: white;
-    transition: 0.3s
-}
+    grid-row: 4/5;
+    grid-column: 2/3;
+
+  }
+
+  .button2:hover {
+    background-color: #ffd557;
+    color: black;
+    transition: 0.2s
+  }
