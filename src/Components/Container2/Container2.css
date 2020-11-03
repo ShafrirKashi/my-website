@@ -51,7 +51,7 @@
   }
   .h1_2 {
     font-family: typographica;
-    font-size: 75px;
+    font-size: 3.7vw;
     grid-row: 1/2;
     grid-column: 2/3;
 
@@ -60,5 +60,5 @@
     font-family: eras itc;
     grid-row: 2/3;
     grid-column: 2/3;
-    font-size: 23px;
+    font-size: 1.19vw;
   }
