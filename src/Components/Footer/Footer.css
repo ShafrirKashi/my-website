@@ -1,8 +1,89 @@
 .foot {
-    height: 400px;
-    color: green;
+    height: 550px;
     background-color:  rgb(61, 61, 61);
     margin-top: 20px;
     position: relative;
     top: 117px;
+}
+.footop {
+    height: 180px;
+    background-image: url('../Background/5.jpg');
+    background-position: 0px 0px; 
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.overlay {
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  cursor: pointer;
+}
+.square {
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 90px;
+    height: 130px;
+    width: 450px;
+    border: 7px solid white;
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    
+}
+.logo {
+    background-image: url('../Background/aa.png');
+    height: 100px;
+    width: 100px;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    position: relative;
+    left: 20px;
+    display: grid;
+
+    
+}
+.ad {
+    font-size: 90px;
+    height: 100px;
+    font-family: typographica;
+    font-weight: bold;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    display: grid;
+    position: relative;
+    top: 19px;
+    right: 30px;
+    justify-content:center;
+    align-content: center;
+
+}
+.textoverlay {
+
+   color: white;
+   font-size: 70px;
+   font-family:eras itc ; 
+   /* font-weight: bold; */
+   position: relative;
+   left: 700px;
+   top: -89px;
+}
+.footer {
+    background-color: rgb(41, 41, 41);
+    height: 355px;
+
+
+}
+.footbottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-size: 16px;
+    background-color: rgb(51, 51, 51);
+    font-family: Bell MT;
+    color: rgb(100, 100, 100);
 }

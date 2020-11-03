@@ -9,7 +9,6 @@
     }
     .textdiv1 {
       position: absolute;
-      /* border: 3px solid greenyellow;       */
       width: 100%;
       height: 50%;
       display: grid;
@@ -22,19 +21,14 @@
     .h1 {
         font-family: typographica ;
         color: rgb(41, 41, 41);
-        /* -webkit-text-stroke: 1px rgb(156, 156, 156); */
         font-size: 420%;
         grid-column: 2/3;
         grid-row: 2/3;
-        text-size-adjust: none;
-
-        /* -webkit-text-stroke: 4px rgb(248, 4, 4); */ 
-       
+        text-size-adjust: none; 
     }
     .h2 {
       font-family: eras itc;
       color: rgb(41, 41, 41);
-      /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
       font-size: 140%;
       grid-column: 2/3;
       grid-row: 3/4;
@@ -46,12 +40,10 @@
       background-color:#fabc02;
       border: none;
       font-family: eras itc;
-      /* font-weight: bold; */
       position: absolute;
       left: 0px;
       top: 10px;
       color: black;
-      /* border: 2px solid black; */
       height: auto;
       width: auto;
       padding: 10px 20px;
