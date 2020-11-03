@@ -6,7 +6,7 @@
     top: 117px;
 }
 .footop {
-    height: 180px;
+    height: 150px;
     background-image: url('../Background/5.jpg');
     background-position: 0px 0px; 
       background-size: cover;
@@ -25,7 +25,7 @@
     position: relative;
     top: 15px;
     left: 90px;
-    height: 130px;
+    height: 110px;
     width: 450px;
     border: 7px solid white;
     display: grid;
@@ -58,7 +58,7 @@
     position: relative;
     display: grid;
     position: relative;
-    top: 19px;
+    top: 10px;
     right: 30px;
     justify-content:center;
     align-content: center;
@@ -67,16 +67,16 @@
 .textoverlay {
 
    color: white;
-   font-size: 70px;
+   font-size: 60px;
    font-family:eras itc ; 
    /* font-weight: bold; */
    position: relative;
    left: 700px;
-   top: -89px;
+   top: -75px;
 }
 .footer {
     background-color: rgb(41, 41, 41);
-    height: 355px;
+    height: 365px;
 
 
 }
@@ -86,7 +86,7 @@
     justify-content: center;
     height: 35px;
     font-size: 16px;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(49, 49, 49);
     font-family: Bell MT;
-    color: rgb(100, 100, 100);
+    color: rgb(150, 150, 150);
 }
