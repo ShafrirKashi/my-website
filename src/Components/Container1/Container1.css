@@ -20,7 +20,7 @@
         font-family: typographica ;
         color: rgb(41, 41, 41);
         /* -webkit-text-stroke: 1px rgb(156, 156, 156); */
-        font-size: 450%;
+        font-size: 3.7vw;
         grid-column: 2/3;
         grid-row: 2/3;
         /* -webkit-text-stroke: 4px rgb(248, 4, 4); */ 
@@ -30,7 +30,7 @@
       font-family: eras  itc;
       color: rgb(41, 41, 41);
       /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
-      font-size: 140%;
+      font-size: 1.3vw;
       grid-column: 2/3;
       grid-row: 3/4;
       position: relative;
