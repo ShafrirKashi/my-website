@@ -13,22 +13,57 @@
       width: 100%;
       height: 50%;
       display: grid;
-      grid-template-columns: 180px 500px auto ;
-      grid-template-rows: 200px 200px auto;
+      grid-template-columns: 150px 600px auto ;
+      grid-template-rows: 45px 130px 100px 100px;
     }
     .h1 {
-        font-family: eras itc ;
+        font-family: typographica ;
         color: rgb(41, 41, 41);
         /* -webkit-text-stroke: 1px rgb(156, 156, 156); */
-        font-size: 60px;
-        
+        font-size: 65px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        /* -webkit-text-stroke: 4px rgb(248, 4, 4); */ 
        
     }
     .h2 {
       font-family: eras  itc;
       color: rgb(41, 41, 41);
       /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
-      font-size: 27px;
-     
+      font-size: 22px;
+      grid-column: 2/3;
+      grid-row: 3/4;
+      position: relative;
+      left: 2px;
+}   
+    .button1 {
+      background-color:#fabc02;
+      border: none;
+      font-family: eras itc;
+      font-weight: bold;
+      position: absolute;
+      left: 0px;
+      top: 10px;
+      color: black;
+      border: 1px solid black;
+      height: auto;
+      width: auto;
+      padding: 17px 29px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 19px;
+      margin: 4px 2px;
+      cursor: pointer;
+      grid-row: 4/5;
+      grid-column: 2/3;
 
-}    
+    }
+
+    .button1:hover {
+      background-color: #ffd557;
+      color: black;
+      transition: 0.2s
+    }
+
+    

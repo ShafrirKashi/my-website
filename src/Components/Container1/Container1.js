@@ -10,6 +10,7 @@ class Container1 extends Component {
                     <h1 className="h1">Winter Is Coming</h1>
                     <h2 className="h2">Built for unforgiving conditions. 
                     <br/>Trusted by athletes across the globe.</h2>
+                    <a href="22" class="button1">Shop Now</a>
                   </div>
                 </div>
             </div>

@@ -69,7 +69,8 @@
   cursor: pointer;
 }
 li:hover {
-/* background-color:black; */
-color: rgb(172, 172, 172);  
-transition: 0.2s  
+  text-decoration: underline;
+  text-decoration-color: #fabc02;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
 }
