@@ -11,6 +11,9 @@
     background-position: 0px 0px; 
       background-size: cover;
       background-repeat: no-repeat;
+      position: relative;
+
+
 }
 .overlay {
   height: 100%; 
