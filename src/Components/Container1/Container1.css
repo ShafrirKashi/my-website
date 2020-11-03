@@ -13,14 +13,14 @@
       width: 100%;
       height: 50%;
       display: grid;
-      grid-template-columns: 70px 600px auto ;
-      grid-template-rows: 45px 130px 100px 100px;
+      grid-template-columns: 3% 38% auto ;
+      grid-template-rows: 11% 30% 19% auto;
     }
     .h1 {
         font-family: typographica ;
         color: rgb(41, 41, 41);
         /* -webkit-text-stroke: 1px rgb(156, 156, 156); */
-        font-size: 75px;
+        font-size: 450%;
         grid-column: 2/3;
         grid-row: 2/3;
         /* -webkit-text-stroke: 4px rgb(248, 4, 4); */ 
@@ -30,7 +30,7 @@
       font-family: eras  itc;
       color: rgb(41, 41, 41);
       /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
-      font-size: 23px;
+      font-size: 140%;
       grid-column: 2/3;
       grid-row: 3/4;
       position: relative;
