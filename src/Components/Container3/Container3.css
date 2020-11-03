@@ -1,7 +1,10 @@
 .container3 {
-    background-color: green;
+    /* background-color: blue; */
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 700px;
     position: relative;
     top: 117px;
+   
+
 }

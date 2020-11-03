@@ -25,14 +25,13 @@
     background-color:#fabc02;
     border: none;
     font-family: eras itc;
-    font-weight: bold;
     position: absolute;
     left: 0px;
     top: 10px;
     color: black;
     height: auto;
     width: auto;
-    padding: 17px 29px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -41,12 +40,13 @@
     cursor: pointer;
     grid-row: 3/4;
     grid-column: 2/3;
+    border-radius: 100px;
 
   }
 
   .button2:hover {
     background-color: #ffd65c;
-    color: black;
+    opacity: 78%;
     transition: 0.2s
   }
   .h1_2 {

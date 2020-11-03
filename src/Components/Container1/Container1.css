@@ -18,7 +18,7 @@
       align-items: center;
       /* grid-gap: 10px; */
       text-size-adjust: none;
-      grid-template-columns: 3vw 30vw auto ;
+      grid-template-columns: 3vw 70vw auto ;
       grid-template-rows: 9vh 9vh 7vh auto;
     }
     .h1 {
@@ -33,7 +33,7 @@
        
     }
     .h2 {
-      font-family: eras  itc;
+      font-family: eras itc;
       color: rgb(41, 41, 41);
       /* -webkit-text-stroke: 1px rgb(148, 148, 148); */
       font-size: 140%;
@@ -46,15 +46,15 @@
       background-color:#fabc02;
       border: none;
       font-family: eras itc;
-      font-weight: bold;
+      /* font-weight: bold; */
       position: absolute;
       left: 0px;
       top: 10px;
       color: black;
-      border: 1px solid black;
+      /* border: 2px solid black; */
       height: auto;
       width: auto;
-      padding: 17px 29px;
+      padding: 10px 20px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -63,12 +63,13 @@
       cursor: pointer;
       grid-row: 4/5;
       grid-column: 2/3;
+      border-radius: 100px;
 
     }
 
     .button1:hover {
       background-color: #ffd760;
-      color: black;
+      opacity: 78%;
       transition: 0.2s
     }
 

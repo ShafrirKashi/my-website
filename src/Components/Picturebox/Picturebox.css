@@ -1,5 +1,179 @@
-.box {
-    height: 300px;
-    width: 300px;
-    background-color: green;
+.container3grid {
+    /* background-color: green; */
+    /* margin-top: 20px; */
+    height: 100%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    
 }
+.box1 {
+    grid-row: 1/5;
+    grid-column: 1/3;
+    background-image: url('../Background/3.jpg');
+    position: relative;
+    background-size: 170% 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 5% auto;
+    grid-template-rows: auto 30px 120px;
+    }
+    .box1text{
+        font-family: Eras itc;
+        color: white;
+        font-size: 130%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        position: relative;
+        
+    }
+    .buttonbox1 {
+        background-color:#fabc02;
+        border: none;
+        font-family: Eras itc;
+        /* font-weight: bold; */
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        color: black;
+        /* border: 1px solid black; */
+        height: auto;
+        width: auto;
+        padding: 9px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-row: 3/4;
+        grid-column: 2/3;
+        border-radius: 100px;
+  
+      }
+  
+      .buttonbox1:hover {
+        background-color: #ffd760;
+        opacity: 78%;
+        transition: 0.2s
+      }
+.box2 {
+    background-image: url('../Background/4.jpg');
+    grid-row: 1/3;
+    grid-column: 3/5;
+    background-size: 100% 113%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 5% auto;
+    grid-template-rows: auto 30px 110px;
+}
+.box2text{
+    font-family: Eras itc;
+    color: rgb(41, 41, 41);
+    font-size: 150%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;     
+}
+.buttonbox2 {
+    background-color:#fabc02;
+    font-family: eras itc;
+    /* font-weight: bold; */
+    color: black;
+    position: relative;
+    top: 10px;
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 90px;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    grid-row:3/4 ;
+    grid-column:2/3 ;
+
+  }
+
+  .buttonbox2:hover {
+    background-color: #ffd760;
+    opacity: 78%;
+    transition: 0.2s
+  }
+.box3 {
+    background-image: url('../Background/22.jpg');
+    grid-row: 3/5;
+    grid-column: 3/4;
+    background-color: rgb(214, 228, 20);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+.buttonbox3 {
+    background-color:#fabc02;
+    font-family: eras itc;
+    /* font-weight: bold; */
+    color: black;
+    position: relative;
+    top: 10px;
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 140px;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    grid-row:3/4 ;
+    grid-column:2/3 ;
+    position: relative;
+    left: 20px;
+    top: 270px;
+
+  }
+       
+.box4 {
+    background-image: url('../Background/6.jpg');
+    grid-row: 3/5;
+    grid-column: 4/5;
+    background-color: rgb(18, 145, 145);
+    background-size: 100% 113%;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    
+}
+.buttonbox4 {
+    background-color:#fabc02;
+    font-family: eras itc;
+    /* font-weight: bold; */
+    color: black;
+    position: relative;
+    top: 10px;
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 110px;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    grid-row:3/4 ;
+    grid-column:2/3 ;
+    position: relative;
+    left: 20px;
+    top: 270px;
+
+  }
+
