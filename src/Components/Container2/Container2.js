@@ -6,6 +6,8 @@ class FirstWrap extends Component {
         return (
             <div className="secondcontainer">
                 <div className="wrap__text1"> asdasd
+                <h1 className="h1_2">Reset Warmth</h1>
+                <h2 className="h2_2">Unrestricted mobility. Lightweight, packable down. The perfect winter jacket isn’t a stretch—it’s a fact.</h2>
                 <button class="button2">Shop Now</button>  
                     </div> 
                 
