@@ -23,10 +23,10 @@
 .square {
     color: white;
     position: relative;
-    top: 15px;
-    left: 90px;
-    height: 110px;
-    width: 450px;
+    top: 1.6vh;
+    left: 13vw;
+    height: 11.5vh;
+    width: 24vw;
     border: 7px solid white;
     display: grid;
     grid-template-columns: 40% 60%; 
@@ -58,7 +58,7 @@
     position: relative;
     display: grid;
     position: relative;
-    top: 10px;
+    top: 1vh;
     right: 30px;
     justify-content:center;
     align-content: center;
@@ -71,8 +71,8 @@
    font-family:eras itc ; 
    /* font-weight: bold; */
    position: relative;
-   left: 700px;
-   top: -75px;
+   left: 48vw;
+   top: -8vh;
 }
 .footer {
     background-color: rgb(41, 41, 41);

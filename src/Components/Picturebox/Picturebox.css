@@ -55,8 +55,8 @@
       }
   
       .buttonbox1:hover {
-        background-color: #ffd760;
-        opacity: 78%;
+        
+        opacity: 82%;
         transition: 0.2s
       }
 .box2 {
@@ -101,8 +101,8 @@
   }
 
   .buttonbox2:hover {
-    background-color: #ffd760;
-    opacity: 78%;
+    
+    opacity: 82%;
     transition: 0.2s
   }
 .box3 {
@@ -135,9 +135,14 @@
     grid-row:3/4 ;
     grid-column:2/3 ;
     position: relative;
-    left: 20px;
-    top: 270px;
+    left: 1.5vw;
+    top: 41vh;
 
+  }
+  .buttonbox3:hover {
+    
+    opacity: 82%;
+    transition: 0.2s
   }
        
 .box4 {
@@ -172,8 +177,13 @@
     grid-row:3/4 ;
     grid-column:2/3 ;
     position: relative;
-    left: 20px;
-    top: 270px;
+    left: 1.5vw;
+    top: 41vh;
 
+  }
+  .buttonbox4:hover {
+    /* background-color: #ffd760; */
+    opacity: 82%;
+    transition: 0.2s
   }
 

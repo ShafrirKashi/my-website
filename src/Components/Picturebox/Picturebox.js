@@ -13,12 +13,10 @@ class Picturebox extends Component {
                 <div className="box2text">Ultimate Breathable Protection</div>
                 <a href="33" class="buttonbox2">Shop Now</a>
             </div>
-            <div className="box3">
-                <div className="box3text"></div>
+            <div className="box3">           
                 <a href="44" class="buttonbox3">Shop For Women</a>
             </div>
             <div className="box4">
-                <div className="box4text"></div>
                 <a href="55" class="buttonbox4">Shop For Men</a>
             </div>
         </div>   

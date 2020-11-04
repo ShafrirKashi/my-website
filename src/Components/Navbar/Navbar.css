@@ -83,12 +83,12 @@
   display: none;
 }
 
-li:hover + .dropdown {
+li:hover {
   text-decoration: underline;
   text-decoration-color: #fabc02;
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;
-  display: block;
+  
 }
 
  .row {
