@@ -91,6 +91,16 @@ li:hover {
   
 }
 
- .row {
+ .cartbox {
+   color: white;
+   position: relative;
+   background-color: blue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   left: 52vw;
+   width: 5vw;
+
 
  }

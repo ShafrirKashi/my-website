@@ -17,18 +17,9 @@ class Vipline extends Component {
                 <li>Kids</li>
                 <li>Equipment</li>
                 <li>Accessories</li>
-             </ul>         
+             </ul>  
+             <div className="cartbox">ss</div>       
             </div> 
-            <div className="dropdown">
-                  <div className="row">ss
-                    {/* <ul>
-                        <li>New</li>
-
-
-
-                    </ul> */}
-                    </div> 
-            </div>
         </div>
         );
     }
