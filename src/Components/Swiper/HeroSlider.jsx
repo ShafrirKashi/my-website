@@ -30,6 +30,7 @@ const HeroSlider = () => {
     const [parallaxSwiper, setParallaxSwiper] = useState(null);
     const  parallaxAmount = parallaxSwiper ? parallaxSwiper.width * 0.95 : 0;
     const parallaxOpacity = 0.5;
+    
 
 return( 
 
@@ -45,6 +46,9 @@ return(
              Laborum adipisci assumenda nostrum id, quae asperiores ratione accusamus possimus dolorem
               cumque minus doloremque quis quas modi, placeat eligendi impedit debitis harum?</p>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
          </div>
       
     </div>
@@ -60,6 +64,8 @@ return(
              Laborum adipisci assumenda nostrum id, quae asperiores ratione accusamus possimus dolorem
               cumque minus doloremque quis quas modi, placeat eligendi impedit debitis harum?</p>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
        
     </div>
@@ -75,6 +81,8 @@ return(
              Laborum adipisci assumenda nostrum id, quae asperiores ratione accusamus possimus dolorem
               cumque minus doloremque quis quas modi, placeat eligendi impedit debitis harum?</p>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
       
     </div>

@@ -43,3 +43,10 @@
     top: 117px;
     position: relative;
 }
+.swiper-button-next{
+    color: #c59400;
+    
+}
+.swiper-button-prev{
+    color: #c59400;
+}
