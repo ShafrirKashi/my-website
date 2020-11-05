@@ -30,7 +30,7 @@ const HeroSlider = () => {
     const [parallaxSwiper, setParallaxSwiper] = useState(null);
     const  parallaxAmount = parallaxSwiper ? parallaxSwiper.width * 0.95 : 0;
     const parallaxOpacity = 0.5;
-    
+    var swiper = new Swiper('.swiper-container', {pagination: {el: '.swiper-pagination',},});
 
 return( 
 

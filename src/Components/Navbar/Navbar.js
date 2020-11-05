@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Navbar.css';
+import image8 from '../Background/image8.png'
 
 
 class Vipline extends Component {
@@ -18,7 +19,10 @@ class Vipline extends Component {
                 <li>Equipment</li>
                 <li>Accessories</li>
              </ul>  
-             <div className="cartbox">ss</div>       
+             <div className="cartbox">
+                 <img src={image8} alt="cart logo" className="cartlogo"/>
+                 <div className="cartboxtext">Cart</div>
+                 </div>       
             </div> 
         </div>
         );

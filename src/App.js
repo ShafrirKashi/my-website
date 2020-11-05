@@ -13,13 +13,7 @@ function App() {
   return (
     <div className="App">  
      <div><Navbar/></div>
-       <div className="container-fluid">
-         <div className="row">
-           <div className="col-md-12 px-0">
-             <HeroSlider/>
-           </div>
-         </div>
-       </div>
+       <div><HeroSlider /></div>
       <div><Container1/></div>
       <div><Container2/></div>
       <div><Container3/></div>

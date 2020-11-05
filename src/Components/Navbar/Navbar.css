@@ -50,6 +50,8 @@
   color: white;
   margin: 0;
   padding: 0;
+  font-family: eras itc;
+
   
   
 }
@@ -67,6 +69,7 @@
   margin: 0;
   border-color: black;
   cursor: pointer;
+  
 }
 .dropdown {
   width: 100%;
@@ -94,13 +97,35 @@ li:hover {
  .cartbox {
    color: white;
    position: relative;
-   background-color: blue;
+   /* background-color: blue; */
    display: flex;
    align-items: center;
    justify-content: center;
    position: relative;
    left: 52vw;
    width: 5vw;
+   height: 6vh;
+   cursor: pointer;
+margin-top: 12px; 
+}
 
+ .cartboxtext {
+   position: relative;
+   left: 1.1vw;
+   font-size: 20px;
+   font-family: eras itc;
+   font-weight: bold;
+  
 
+ }
+ .cartlogo {
+  background-position: 0px 0px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 42%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 1px;
  }
