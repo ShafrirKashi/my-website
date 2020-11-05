@@ -1,12 +1,12 @@
 .hero-slide {
-    height: 100vh;
+    height: 97.8vh;
     display: flex;
     position: relative;
     overflow: hidden;
 }
 .slide-image {
-    height: 100%;
-    width: 100%;
+    height: 95%;
+    width: 97.8%;
     position: absolute;
     top: 0;
     left: 0;

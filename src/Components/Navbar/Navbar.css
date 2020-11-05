@@ -123,9 +123,9 @@ margin-top: 12px;
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-  width: 42%;
+  width: 30%;
   position: absolute;
   justify-content: center;
   align-items: center;
-  left: 1px;
+  left: 10px;
  }
