@@ -9,6 +9,10 @@ height: 75vh;
 width: 100%;
 
 }
+.swiper-scrollbar{
+display: none;
+}
+
 .Swiper1{
     background-image: url('../Background/image1.png'); 
 }
@@ -45,4 +49,5 @@ width: 100%;
     cursor: pointer;
     opacity: 75%;
 }
+#swiper-container #swiper-container-initialized #swiper-container-horizontal:hover > #swiper-scrollbar { display: inline; }
 
