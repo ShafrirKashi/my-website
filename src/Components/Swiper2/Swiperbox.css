@@ -1,0 +1,90 @@
+
+.swiperwrap1 {
+
+    height: 70vh;
+    position: relative;
+    margin-left: 20px;
+    /* background-color: rebeccapurple; */
+    
+}
+.swiper-container {
+    height: 70vh;
+}
+
+.Swiper1{
+    background-image: url('../Background/image1.jpg');
+    height: 435px;
+    width: 379px;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-left: 20px; */
+}
+.Swiper2{
+    background-image: url('../Background/image2.png');
+    height: 435px;
+    width: auto;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Swiper3{
+    background-image: url('../Background/image3.png');
+    height: 435px;
+    width: auto;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Swiper4{
+    background-image: url('../Background/image1.jpg');
+    height: 435px;
+    width: auto;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Swiper5{
+    background-image: url('../Background/image3.png');
+    height: 435px;
+    width: auto;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Swiper6{
+    background-image: url('../Background/image2.png');
+    height: 435px;
+    width: auto;
+        background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Swiper7{
+    background-image: url('../Background/image1.jpg');
+    height: 435px;
+    width: auto;
+        background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Swiper8{
+    background-image: url('../Background/image2.png');
+    height: 435px;
+    width: auto;
+        background-position: 0px 0px; 
+    background-size: 435 379;
+    background-repeat: no-repeat;
+}
+
+/* .swiper-container-horizontal > .swiper-scrollbar {
+    display: none;
+}
+.swiper-container-horizontal > .swiper-scrollbar:hover {
+    display: block;
+}
+ */
