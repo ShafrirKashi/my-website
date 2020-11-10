@@ -1,15 +1,16 @@
-
+/* 
 .swiperwrap1 {
 
     height: 70vh;
     position: relative;
     margin-left: 20px;
-    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rebeccapurple;
     
-}
-.swiper-container {
-    height: 70vh;
-}
+} */
+
+
 
 .Swiper1{
     background-image: url('../Background/image1.jpg');
@@ -17,68 +18,77 @@
     width: 379px;
     background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     /* margin-left: 20px; */
+    /* background-color: chartreuse; */
+    
 }
 .Swiper2{
     background-image: url('../Background/image2.png');
     height: 435px;
-    width: auto;
+    width: 379px;
     background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    /* background-color: rgb(26, 54, 0); */
 }
 .Swiper3{
     background-image: url('../Background/image3.png');
-    height: 435px;
-    width: auto;
-    background-position: 0px 0px; 
+     height: 435px;
+     width: 379px;
+     background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    /* background-color: rgb(16, 51, 117); */
 }
 .Swiper4{
     background-image: url('../Background/image1.jpg');
     height: 435px;
-    width: auto;
+    width: 379px;
     background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    /* background-color: rgb(199, 72, 22); */
 }
 
 .Swiper5{
     background-image: url('../Background/image3.png');
     height: 435px;
-    width: auto;
+    width: 379px;
     background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    /* background-color: rgb(255, 0, 212); */
 }
 
 .Swiper6{
     background-image: url('../Background/image2.png');
-    height: 435px;
-    width: auto;
-        background-position: 0px 0px; 
+     height: 435px;
+     width: 379px;
+     background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    /* background-color: rgb(0, 255, 221); */
 }
 
 .Swiper7{
     background-image: url('../Background/image1.jpg');
     height: 435px;
-    width: auto;
-        background-position: 0px 0px; 
+    width: 379px;
+    background-position: 0px 0px; 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    /* background-color: rgb(0, 84, 95); */
 }
 
 .Swiper8{
     background-image: url('../Background/image2.png');
-    height: 435px;
-    width: auto;
-        background-position: 0px 0px; 
-    background-size: 435 379;
-    background-repeat: no-repeat;
+     height: 435px;
+     width: 379px;
+     background-position: 0px 0px; 
+     background-size: cover;
+     background-repeat: no-repeat; 
+    /* background-color: rgb(150, EW4, 4); */
 }
 
 /* .swiper-container-horizontal > .swiper-scrollbar {
