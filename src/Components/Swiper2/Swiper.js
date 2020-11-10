@@ -12,38 +12,39 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swiperbox () {
     return (
-      <div className="Swiperbox" style={{marginTop: "177px"}}>
+      <div className="Swiperbox" style={{marginTop: "110px"}}>
         {/* <div className="swiperwrap1">  */}
         {/* <div className="swiperh1">sss</div> */}
         <Swiper
-          spaceBetween={-200}
-          slidesPerView={3}
+          spaceBetween={0}
+          slidesPerView={3.8}
+          navigation
           scrollbar={{ draggable: true }}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <SwiperSlide><div className="Swiper1">1</div>
+          <SwiperSlide><div className="Swiper1 james"></div>
               sss
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper2">2</div>
+          <SwiperSlide><div className="Swiper2 james"></div>
           
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper3">3</div>
+          <SwiperSlide><div className="Swiper3 james"></div>
           
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper4">4</div>
+          <SwiperSlide><div className="Swiper4 james"></div>
           
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper5">5</div>
+          <SwiperSlide><div className="Swiper5 james"></div>
           
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper6">6</div>
+          <SwiperSlide><div className="Swiper6 james"></div>
           
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper7">7</div>
+          <SwiperSlide><div className="Swiper7 james"></div>
           
           </SwiperSlide>
-          <SwiperSlide><div className="Swiper8">8</div>
+          <SwiperSlide><div className="Swiper8 james"></div>
           
           </SwiperSlide>
         </Swiper>

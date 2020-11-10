@@ -1,100 +1,48 @@
-/* 
-.swiperwrap1 {
-
-    height: 70vh;
+.swiper-wrapper{
     position: relative;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rebeccapurple;
-    
-} */
+    left: 20px;
 
+}
+.swiper-container {
 
+height: 75vh;
+width: 100%;
 
+}
 .Swiper1{
-    background-image: url('../Background/image1.jpg');
-    height: 435px;
-    width: 379px;
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* margin-left: 20px; */
-    /* background-color: chartreuse; */
-    
+    background-image: url('../Background/image1.png'); 
 }
 .Swiper2{
-    background-image: url('../Background/image2.png');
-    height: 435px;
-    width: 379px;
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-color: rgb(26, 54, 0); */
+    background-image: url('../Background/image2.png');   
 }
 .Swiper3{
-    background-image: url('../Background/image3.png');
-     height: 435px;
-     width: 379px;
-     background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-color: rgb(16, 51, 117); */
+    background-image: url('../Background/image3.jpg');
 }
 .Swiper4{
-    background-image: url('../Background/image1.jpg');
-    height: 435px;
-    width: 379px;
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-color: rgb(199, 72, 22); */
+    background-image: url('../Background/image4.png');
 }
-
 .Swiper5{
-    background-image: url('../Background/image3.png');
-    height: 435px;
-    width: 379px;
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-color: rgb(255, 0, 212); */
+    background-image: url('../Background/image5.png');
 }
-
 .Swiper6{
-    background-image: url('../Background/image2.png');
-     height: 435px;
-     width: 379px;
-     background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-color: rgb(0, 255, 221); */
+    background-image: url('../Background/image6.png');
 }
-
 .Swiper7{
-    background-image: url('../Background/image1.jpg');
+    background-image: url('../Background/image7.png');
+}
+.Swiper8{
+    background-image: url('../Background/image8.png');
+}
+.james{
     height: 435px;
     width: 379px;
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat; 
-    /* background-color: rgb(0, 84, 95); */
+}
+.james:hover {
+ 
+    cursor: pointer;
+    opacity: 75%;
 }
 
-.Swiper8{
-    background-image: url('../Background/image2.png');
-     height: 435px;
-     width: 379px;
-     background-position: 0px 0px; 
-     background-size: cover;
-     background-repeat: no-repeat; 
-    /* background-color: rgb(150, EW4, 4); */
-}
-
-/* .swiper-container-horizontal > .swiper-scrollbar {
-    display: none;
-}
-.swiper-container-horizontal > .swiper-scrollbar:hover {
-    display: block;
-}
- */
