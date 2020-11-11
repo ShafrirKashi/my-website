@@ -3,7 +3,7 @@
     background-color:  rgb(61, 61, 61);
     margin-top:  2.13vh;
     position: relative;
-    /* top: 117px; */
+
 }
 .footop {
     height: 15.99vh;
@@ -27,7 +27,7 @@
     left: 13vw;
     height: 11.5vh;
     width: 24vw;
-    border: 7px solid white;
+    border: 0.74vh solid white;
     display: grid;
     grid-template-columns: 40% 60%; 
     
@@ -49,7 +49,7 @@
     
 }
 .ad {
-    font-size: 90px;
+    font-size: 9.59vh;
     height: 10.66vh;
     font-family: typographica;
     font-weight: bold;
@@ -67,7 +67,7 @@
 .textoverlay {
 
    color: white;
-   font-size: 60px;
+   font-size: 6.39vh;
    font-family:eras itc ; 
    /* font-weight: bold; */
    position: relative;
@@ -85,7 +85,7 @@
     align-items: center;
     justify-content: center;
     height: 3.73vh;
-    font-size: 16px;
+    font-size: 1.70vh;
     background-color: rgb(49, 49, 49);
     font-family: Bell MT;
     color: rgb(150, 150, 150);
