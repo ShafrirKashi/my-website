@@ -146,4 +146,7 @@ margin-top: 12px;
   justify-content: center;
   align-items: center;
   left: 10px;
+
+ }.react-search-field-input{
+   padding: none;
  }
