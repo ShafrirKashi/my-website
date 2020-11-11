@@ -20,10 +20,9 @@ class Vipline extends Component {
                 <li>Accessories</li>                
              </ul>  
                 <div className="searchbowrapper">           
-                <SearchField placeholder='Search item'/>
+                <SearchField placeholder='Search item...'/>
                 </div>
                   <div className="cartbox"> 
-                 {/* <img src={image8} alt="cart logo" className="cartlogo"/> */}
                  <div className="cartboxtext">Cart</div>
                  </div>       
             </div> 

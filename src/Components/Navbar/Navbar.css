@@ -115,7 +115,7 @@ li:hover {
  .cartbox {
    color: white;
    position: relative;
-   /* background-color: blue; */
+   background-color: blue;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -124,7 +124,7 @@ li:hover {
    width: 5vw;
    height: 6vh;
    cursor: pointer;
-margin-top: 12px; 
+   margin-top: 12px; 
 }
 
  .cartboxtext {
@@ -137,6 +137,7 @@ margin-top: 12px;
 
  }
  .cartlogo {
+  background-image: url('../Background/imagecart.png');
   background-position: 0px 0px; 
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,6 +148,33 @@ margin-top: 12px;
   align-items: center;
   left: 10px;
 
- }.react-search-field-input{
-   padding: none;
+ }
+ .searchbowrapper {
+   width: 15vw;
+   position: relative;
+   left: 12vw;
+ }
+ .react-search-field {
+  border-radius: 100vh;
+
+ }
+ .react-search-field-input{
+   display: flex;
+   width: 22vh;
+   height: auto !important;
+   border-top-left-radius: 11vh;
+   border-bottom-left-radius: 11vh;
+   background-color: white;
+   border-width: 0 !important;
+   position: relative;
+   left: 0.09vh;
+ }
+ .react-search-field-button{
+   border-radius: 100vh;
+   width: 5vh !important;
+   border-top-left-radius: 11vh;
+   border-bottom-left-radius: 11vh;
+   height: auto !important;
+   background-color: white !important;
+   border-width: 0 !important;
  }

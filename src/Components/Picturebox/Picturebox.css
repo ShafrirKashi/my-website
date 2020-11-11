@@ -33,12 +33,9 @@
         background-color:#fabc02;
         border: none;
         font-family: Eras itc;
-        /* font-weight: bold; */
         position: absolute;
-        left: 0px;
         top: 1.066vh;
         color: black;
-        /* border: 1px solid black; */
         height: auto;
         width: auto;
         padding: 0.959vh 1.599vh;
@@ -79,22 +76,22 @@
 }
 .buttonbox2 {
     background-color:#fabc02;
+    border: none;
     font-family: eras itc;
     color: black;
     position: relative;
-    top: 1.06vh;
-    height: 2.13vh;
-    width: 4.38vw;
+     top: 1.06vh;
+    height: 2.3vh;
+    width: 8.1vh;
     padding: 0.95vh 1.599vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  /* font-size: 1.70vh; */
-        margin: 0.42vh 0.21vh;
+    margin: 0.42vh 0.21vh;
     cursor: pointer;
     border-radius: 10.66vh;
     grid-row:3/4 ;
-    grid-column:2/3 ;
+    grid-column:2/3 ; 
 
   }
 

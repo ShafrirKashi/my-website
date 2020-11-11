@@ -38,8 +38,8 @@ display: none;
     background-image: url('../Background/image8.png');
 }
 .james{
-    height: 46.37vh;
-    width: 19.73vw;
+    height: 66.37vh;
+    width: auto;
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat; 
