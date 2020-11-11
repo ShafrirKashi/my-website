@@ -2,11 +2,11 @@
     /* background-color: green; */
     /* margin-top: 20px; */
     height: 100%;
-    margin: 20px;
+    margin: 2.132vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 1.599vh;
     
 }
 .box1 {
@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 5% auto;
-    grid-template-rows: auto 30px 120px;
+    grid-template-rows: auto 3.19vh 12.79vh;
     }
     .box1text{
         font-family: Eras itc;
@@ -36,21 +36,21 @@
         /* font-weight: bold; */
         position: absolute;
         left: 0px;
-        top: 10px;
+        top: 1.066vh;
         color: black;
         /* border: 1px solid black; */
         height: auto;
         width: auto;
-        padding: 9px 15px;
+        padding: 0.959vh 1.599vh;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+        font-size: 1.70vh;
+        margin: 0.42vh 0.21vh;
         cursor: pointer;
         grid-row: 3/4;
         grid-column: 2/3;
-        border-radius: 100px;
+        border-radius: 10.660vh;
   
       }
   
@@ -67,7 +67,7 @@
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 5% auto;
-    grid-template-rows: auto 30px 110px;
+    grid-template-rows: auto 3.19vh 11.72vh;
 }
 .box2text{
     font-family: Eras itc;
@@ -85,14 +85,14 @@
     top: 1.06vh;
     height: 2.13vh;
     width: 4.38vw;
-    padding: 9px 15px;
+    padding: 0.95vh 1.599vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+  font-size: 1.70vh;
+        margin: 0.42vh 0.21vh;
     cursor: pointer;
-    border-radius: 100px;
+    border-radius: 10.66vh;
     grid-row:3/4 ;
     grid-column:2/3 ;
 
@@ -118,18 +118,17 @@
     /* font-weight: bold; */
     color: black;
     position: relative;
-    top: 10px;
+    top: 1.066vh;
     /* border: 1px solid black; */
-    height: 20px;
-    width: 140px;
-    padding: 9px 15px;
+    height: auto;
+    width: auto;
+    padding: 0.95vh 1.599vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    padding: 0.95vh 1.599vh;
     cursor: pointer;
-    border-radius: 100px;
+    border-radius: 10.66vh;
     grid-row:3/4 ;
     grid-column:2/3 ;
     position: relative;
@@ -160,18 +159,17 @@
     /* font-weight: bold; */
     color: black;
     position: relative;
-    top: 10px;
+    top: 1.066vh;
     /* border: 1px solid black; */
-    height: 20px;
-    width: 110px;
-    padding: 9px 15px;
+    height: auto;
+    width: auto;
+    padding: 0.95vh 1.599vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    padding: 0.95vh 1.599vh;
     cursor: pointer;
-    border-radius: 100px;
+    border-radius: 10.66vh;
     grid-row:3/4 ;
     grid-column:2/3 ;
     position: relative;

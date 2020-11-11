@@ -1,11 +1,11 @@
 .secondcontainer {
-    height: 700px;
+    height: 74.62vh;
     width: 100vw;
     background-image: url('../Background/2.jpg');
     background-repeat: no-repeat;
-    margin-top: 20px;
+    margin-top: 2.13vh;
     position: relative;
-    top: 90px;
+    top: 9.59vh;
     
     
 }
@@ -17,8 +17,8 @@
         width: 100%;
         height: 60%;
         display: grid;
-        grid-template-columns: 900px 600px auto;
-        grid-template-rows: 130px 100px 100px ;
+        grid-template-columns: 95.94vh  63.96vh auto;
+        grid-template-rows: 13.85vh 10.66vh 10.66vh ;
 }
 
 .button2 {
@@ -27,20 +27,20 @@
     font-family: eras itc;
     position: absolute;
     left: 0px;
-    top: 10px;
+    top: 1.066vh;
     color: black;
     height: auto;
     width: auto;
-    padding: 10px 20px;
+    padding: 1.66vh 2.132vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 19px;
-    margin: 4px 2px;
+    font-size: 2.02vh;
+    margin: 0.42vh 0.21vh;
     cursor: pointer;
     grid-row: 3/4;
     grid-column: 2/3;
-    border-radius: 100px;
+    border-radius: 10.66vh;
 
   }
 

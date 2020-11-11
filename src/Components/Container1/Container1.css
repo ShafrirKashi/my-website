@@ -33,7 +33,7 @@
       grid-column: 2/3;
       grid-row: 3/4;
       position: relative;
-      left: 2px;
+      left: 0.21vh;
   
 }   
     .button1 {
@@ -42,20 +42,20 @@
       font-family: eras itc;
       position: absolute;
       left: 0px;
-      top: 10px;
+      top: 1.06vh;
       color: black;
       height: auto;
       width: auto;
-      padding: 10px 20px;
+      padding: 1.06vh 2.13vh;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 19px;
-      margin: 4px 2px;
+      font-size: 2.02vh;
+      margin: 0.42vh 0.21vh;
       cursor: pointer;
       grid-row: 4/5;
       grid-column: 2/3;
-      border-radius: 100px;
+      border-radius: 10.66vh;
 
     }
 
