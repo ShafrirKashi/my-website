@@ -80,13 +80,11 @@
 .buttonbox2 {
     background-color:#fabc02;
     font-family: eras itc;
-    /* font-weight: bold; */
     color: black;
     position: relative;
-    top: 10px;
-    /* border: 1px solid black; */
-    height: 20px;
-    width: 90px;
+    top: 1.06vh;
+    height: 2.13vh;
+    width: 4.38vw;
     padding: 9px 15px;
     text-align: center;
     text-decoration: none;

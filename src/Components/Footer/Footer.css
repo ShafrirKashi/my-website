@@ -1,12 +1,12 @@
 .foot {
-    height: 550px;
+    height: 58.63vh;
     background-color:  rgb(61, 61, 61);
-    margin-top: 20px;
+    margin-top:  2.13vh;
     position: relative;
     /* top: 117px; */
 }
 .footop {
-    height: 150px;
+    height: 15.99vh;
     background-image: url('../Background/5.jpg');
     background-position: 0px 0px; 
       background-size: cover;
@@ -34,8 +34,8 @@
 }
 .logo {
     background-image: url('../Background/aa.png');
-    height: 100px;
-    width: 100px;
+    height: 10.66vh;
+    width: 5.20vw;
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@
 }
 .ad {
     font-size: 90px;
-    height: 100px;
+    height: 10.66vh;
     font-family: typographica;
     font-weight: bold;
     grid-column: 2/3;
@@ -59,7 +59,7 @@
     display: grid;
     position: relative;
     top: 1vh;
-    right: 30px;
+    right: 1.56vw;
     justify-content:center;
     align-content: center;
 
@@ -76,7 +76,7 @@
 }
 .footer {
     background-color: rgb(41, 41, 41);
-    height: 365px;
+    height: 38.91vh;
 
 
 }
@@ -84,7 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 35px;
+    height: 3.73vh;
     font-size: 16px;
     background-color: rgb(49, 49, 49);
     font-family: Bell MT;
