@@ -45,7 +45,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 1.70vh;
+        /* font-size: 1.70vh; */
         margin: 0.42vh 0.21vh;
         cursor: pointer;
         grid-row: 3/4;
@@ -89,7 +89,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  font-size: 1.70vh;
+  /* font-size: 1.70vh; */
         margin: 0.42vh 0.21vh;
     cursor: pointer;
     border-radius: 10.66vh;
@@ -115,11 +115,9 @@
 .buttonbox3 {
     background-color:#fabc02;
     font-family: eras itc;
-    /* font-weight: bold; */
     color: black;
     position: relative;
     top: 1.066vh;
-    /* border: 1px solid black; */
     height: auto;
     width: auto;
     padding: 0.95vh 1.599vh;
