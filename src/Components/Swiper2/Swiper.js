@@ -17,7 +17,7 @@ function Swiperbox () {
         {/* <div className="swiperh1">sss</div> */}
         <Swiper
           spaceBetween={0}
-          slidesPerView={3.8}
+          slidesPerView={4.7}
           navigation
           scrollbar={{ draggable: true }}
           onSlideChange={() => console.log('slide change')}
