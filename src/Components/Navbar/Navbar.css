@@ -71,6 +71,24 @@
   cursor: pointer;
   
 }
+.searchbowrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  position: relative;
+  left: 20vw;
+
+}
+.searchbox {
+  height: 4vh;
+  width: 400px;
+
+}
+.searchicon{
+
+
+}
 .dropdown {
   width: 100%;
   height: 350px;
