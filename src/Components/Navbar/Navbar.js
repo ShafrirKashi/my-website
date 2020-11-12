@@ -10,19 +10,12 @@ class Vipline extends Component {
             <div className="texttop">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
               <div className="accessbar">
-              <div className="loginbox">
-                     <div className="loginlogobox">
-                     <img src={Iconlogo} alt="dsa" className="imglogin"/> 
-                     </div>
-                     </div> 
+                 <img src={Iconlogo} alt="dsa" className="imglogin"/> 
                 <div className="cartbox"> 
-                  <div className="cartlogobox">
                       <div className="imgnum">0</div>
                       <img src={Imagecart} alt="asd" className="imgcart"/> 
                   </div>
-                 </div> 
-                 
-              </div>     
+              </div>                     
             </div> 
             <div className="toolbar">
                 <div className="logo_container">
@@ -50,3 +43,5 @@ class Vipline extends Component {
 }
 
 export default Vipline;
+                                      
+                
