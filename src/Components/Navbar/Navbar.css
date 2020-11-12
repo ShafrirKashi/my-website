@@ -59,15 +59,12 @@
 }
 
 .searchboxwrapper {
-  width: 35vh;
-  height: 100%;
- /* left: 2vw; */
- position: relative;
- left: 90vh;
+  width: 15vw;
+ position: absolute;
+ right: 1.5vw;
  display: flex;
  justify-content: center;
  align-items: center; 
- /* background-color: blue; */
  
 }
 .react-search-field {
