@@ -3,42 +3,45 @@
   min-width: 100%;
   z-index: 1000;
 }
-.text {   
+.texttop {   
         display: flex;  
         justify-content: center;
         align-items: center;
         background-color: black;
         color: white;
         width: 100%;
-        height: 3.73vh;
+        height: 3.5vh;
         border-bottom: 0.106vh solid rgb(99, 99, 99);
 }
       
 .toolbar {
   display: flex;
+  align-items: center;
   color:black;
   background-color: rgb(29, 29, 29);
   margin: 0;
   padding: 0;
   border-bottom: 0.106vh solid rgb(68, 68, 68);
-  
+  height: 5.5vh;
 
   
 }
 .logo_container {
-  background-image: url('../Background/1.png');
-  background-position:  center center; 
-  background-size: 95%;
-  background-repeat: no-repeat;
-  display: flex; 
-  align-items: center;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
-  padding-left: 2.66vh;
-  margin-right: 2.66vh;
-  width: 23.45vh;
   
+    height: 7vh;
+    width: 23.45vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logonav {
+  background-image: url('../Background/1.png');
+  background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 77%;
+    width: 77%;
 }
 
 .nav__items {
@@ -93,13 +96,13 @@ li:hover {
  .cartbox {
    color: white;
    position: relative;
-   width: 6vw;
+   width: 2vw;
    display: flex;
    align-items: center;
    justify-content: space-around;
    position: relative;
    cursor: pointer;
-   left: 33vw;
+   left: 35vw;
    /* background-color: blue; */
 }
 
@@ -112,7 +115,7 @@ li:hover {
 
  }
  .cartlogo {
- height: 5vh;
+ height: 3.8vh;
  width: auto;
  position: relative;
 
@@ -120,36 +123,37 @@ li:hover {
 
  }
  .img {
-   width: 2.5vw;
+   width: 2vw;
    height: auto;
     position: relative;
-    top: -2.5vh;
+    top: -2.1vh;
  }
  .imgnum {
    position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
-   top: 2.1vh;
-   left: 0.8vw;
-   top: -0.2vh;
+   left: 0.44vw;
+   top: -0.4vh;
    width: 1.3vw;
-   height: 2.3vh;
-   font-size: 2vh;
+   height: 2.2vh;
+   font-size: 1.7vh;
    color: #fabc02 ;
+   font-family: eras itc;
    /* background-color: pink; */
  }
  .searchboxwrapper {
    width: 35vh;
    left: 2vw;
    position: relative;
-   left: 41vh;
+   left: 25vh;
    display: flex;
    justify-content: center;
    align-items: center;
  }
  .react-search-field {
   border-radius: 100vh;
+  background-color: white;
  }
  .react-search-field-input{
    display: flex;
@@ -157,7 +161,7 @@ li:hover {
    height: auto !important;
    border-top-left-radius: 11vh;
    border-bottom-left-radius: 11vh;
-   background-color: white;
+   background-color: rgb(255, 255, 255);
    border-width: 0 !important;
    position: relative;
    

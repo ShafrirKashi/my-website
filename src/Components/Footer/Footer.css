@@ -78,6 +78,7 @@
 .footer {
     background-color: rgb(41, 41, 41);
     height: 38.91vh;
+    border-bottom: 1px solid #a77d0063;
 
 
 }
