@@ -18,8 +18,8 @@
   top: 16vh;
   left: 10vw;
   align-items: center;
-  grid-template-columns: 95.94vh  63.96vh auto;
-  grid-template-rows: 13.85vh 10.66vh 10.66vh ;
+  grid-template-columns: 39.94vw  36.96vw auto;
+  grid-template-rows: 13.85vh 13.66vh auto ;
 }
 
 .button2 {
@@ -51,7 +51,7 @@
   }
   .h1_2 {
     font-family: typographica;
-    font-size: 4.7rem;
+    font-size: 10vh;
     grid-row: 1/2;
     grid-column: 2/3;
     -webkit-text-size-adjust: none;    color: white;
@@ -59,7 +59,7 @@
   }
   .h2_2 {
     font-family: eras itc;
-    font-size: 1.7rem;
+    font-size: 2.7vh;
     grid-row: 2/3;
     grid-column: 2/3;
     color: white;
