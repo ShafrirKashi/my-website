@@ -24,7 +24,6 @@
         font-size: 8vh;
         grid-column: 2/3;
         grid-row: 2/3;
-        text-size-adjust: none; 
     }
     .h2 {
       font-family: eras itc;

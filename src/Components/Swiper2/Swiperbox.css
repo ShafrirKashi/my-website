@@ -1,12 +1,13 @@
 .swiper-wrapper{
     position: relative;
-    left: 20px;
+    left: 2.132vh;
 
 }
 .swiper-container {
 
 height: 85vh;
 width: 100%;
+top: 3vh;
 
 }
 .swiper-scrollbar{

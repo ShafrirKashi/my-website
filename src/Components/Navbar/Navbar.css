@@ -10,8 +10,8 @@
         background-color: black;
         color: white;
         width: 100%;
-        height: 35px;
-        border-bottom: 1px solid rgb(99, 99, 99);
+        height: 3.73vh;
+        border-bottom: 0.106vh solid rgb(99, 99, 99);
 }
       
 .toolbar {
@@ -20,7 +20,7 @@
   background-color: rgb(29, 29, 29);
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid rgb(68, 68, 68);
+  border-bottom: 0.106vh solid rgb(68, 68, 68);
   
 
   
@@ -35,9 +35,9 @@
   justify-content: space-around;
   margin: 0;
   padding: 0;
-  padding-left: 25px;
-  margin-right: 25px;
-  width: 220px;
+  padding-left: 2.66vh;
+  margin-right: 2.66vh;
+  width: 23.45vh;
   
 }
 
@@ -46,7 +46,7 @@
    justify-content: space-between;  
   align-items: center; 
   width: 25%;
-  height: 80px;
+  height: 8.52vh;
   color: white;
   margin: 0;
   padding: 0;
@@ -61,10 +61,10 @@
   justify-content: space-around;
   list-style: none;
   width: auto;
-  height: 80px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 18px;
+  height: 8.52vh;
+  padding-left: 3.19vh;
+  padding-right: 3.19vh;
+  font-size: 1.91vh;
   font-weight: bold;
   margin: 0;
   border-color: black;
@@ -80,29 +80,7 @@
   left: 20vw;
 
 }
-.searchbox {
-  height: 4vh;
-  width: 400px;
 
-}
-.searchicon{
-
-
-}
-.dropdown {
-  width: 100%;
-  height: 350px;
-  background-color:rgb(70, 70, 70);
-  display: grid;
-  display: none;
-}
-.dropdown {
-  width: 100%;
-  height: 350px;
-  background-color:rgb(70, 70, 70);
-  /* display: grid; */
-  display: none;
-}
 
 li:hover {
   text-decoration: underline;
@@ -122,11 +100,12 @@ li:hover {
    position: relative;
    cursor: pointer;
    left: 33vw;
+   /* background-color: blue; */
 }
 
  .cartboxtext {
    position: relative;
-   font-size: 20px;
+   font-size: 2.13vh;
    font-family: eras itc;
    font-weight: bold;
   
@@ -144,14 +123,21 @@ li:hover {
    width: 2.5vw;
    height: auto;
     position: relative;
-    top: -3vh;
+    top: -2.5vh;
  }
  .imgnum {
    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    top: 2.1vh;
-   left: 1.1vw;
-   top: -0.7vh;
+   left: 0.8vw;
+   top: -0.2vh;
+   width: 1.3vw;
+   height: 2.3vh;
+   font-size: 2vh;
    color: #fabc02 ;
+   /* background-color: pink; */
  }
  .searchboxwrapper {
    width: 35vh;
