@@ -31,12 +31,8 @@ class Vipline extends Component {
                 <div className="searchboxwrapper">           
                 <SearchField placeholder='Search item...'/>
                 </div>
-
-
-
-
-
             </div> 
+            <div className="chatobot">asd</div>
         </div>
         );
     }
