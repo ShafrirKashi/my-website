@@ -24,7 +24,8 @@ class Vipline extends Component {
                 </div>
                   <div className="cartbox"> 
                   <div className="cartlogo">
-                      <img src={Imagecart} alt="asd" className="img"/>
+                      <div className="imgnum">5</div>
+                      <img src={Imagecart} alt="asd" className="img"/> 
                   </div>
                  <div className="cartboxtext">Cart</div>
                  </div>       

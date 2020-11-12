@@ -115,18 +115,17 @@ li:hover {
  .cartbox {
    color: white;
    position: relative;
-   background-color: blue;
-   width: 12vw;
+   width: 6vw;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-around;
    position: relative;
    cursor: pointer;
+   left: 33vw;
 }
 
  .cartboxtext {
    position: relative;
-   left: 1.1vw;
    font-size: 20px;
    font-family: eras itc;
    font-weight: bold;
@@ -134,15 +133,25 @@ li:hover {
 
  }
  .cartlogo {
+ height: 5vh;
+ width: auto;
+ position: relative;
 
- height: 100%;
- width: 50%;
-background-color: green;
+/* background-color: green; */
 
  }
  .img {
-   width: 20px;
-   height: 20px;
+   width: 2.5vw;
+   height: auto;
+    position: relative;
+    top: -3vh;
+ }
+ .imgnum {
+   position: relative;
+   top: 2.1vh;
+   left: 1.1vw;
+   top: -0.7vh;
+   color: #fabc02 ;
  }
  .searchboxwrapper {
    width: 35vh;
