@@ -5,7 +5,7 @@
 }
 .swiper-container {
 
-height: 75vh;
+height: 85vh;
 width: 100%;
 
 }
@@ -38,7 +38,7 @@ display: none;
     background-image: url('../Background/image8.png');
 }
 .james{
-    height: 66.37vh;
+    height: 67.37vh;
     width: auto;
     background-position: 0px 0px; 
     background-size: cover;

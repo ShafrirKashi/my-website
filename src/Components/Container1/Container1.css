@@ -10,18 +10,18 @@
     .textdiv1 {
       position: absolute;
       width: 100%;
-      height: 50%;
+      height: 13vh;
       display: grid;
       display: inline-grid;
       justify-items: flex-start;
       align-items: center;
-      grid-template-columns: 3vw 70vw auto ;
-      grid-template-rows: 9vh 9vh 7vh auto;
+      grid-template-columns: 5vw 50vw auto ;
+      grid-template-rows: 16vh 10vh 7vh auto;
     }
     .h1 {
         font-family: typographica ;
         color: rgb(41, 41, 41);
-        font-size: 420%;
+        font-size: 8vh;
         grid-column: 2/3;
         grid-row: 2/3;
         text-size-adjust: none; 
@@ -29,7 +29,7 @@
     .h2 {
       font-family: eras itc;
       color: rgb(41, 41, 41);
-      font-size: 140%;
+      font-size: 3vh;
       grid-column: 2/3;
       grid-row: 3/4;
       position: relative;

@@ -116,15 +116,12 @@ li:hover {
    color: white;
    position: relative;
    background-color: blue;
+   width: 12vw;
    display: flex;
    align-items: center;
    justify-content: center;
    position: relative;
-   left: 52vw;
-   width: 5vw;
-   height: 6vh;
    cursor: pointer;
-   margin-top: 12px; 
 }
 
  .cartboxtext {
@@ -137,37 +134,38 @@ li:hover {
 
  }
  .cartlogo {
-  background-image: url('../Background/imagecart.png');
-  background-position: 0px 0px; 
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: auto;
-  width: 30%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  left: 10px;
+
+ height: 100%;
+ width: 50%;
+background-color: green;
 
  }
- .searchbowrapper {
-   width: 15vw;
+ .img {
+   width: 20px;
+   height: 20px;
+ }
+ .searchboxwrapper {
+   width: 35vh;
+   left: 2vw;
    position: relative;
-   left: 12vw;
+   left: 41vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
  .react-search-field {
   border-radius: 100vh;
-
  }
  .react-search-field-input{
    display: flex;
-   width: 22vh;
+   width: 33vh;
    height: auto !important;
    border-top-left-radius: 11vh;
    border-bottom-left-radius: 11vh;
    background-color: white;
    border-width: 0 !important;
    position: relative;
-   left: 0.09vh;
+   
  }
  .react-search-field-button{
    border-radius: 100vh;

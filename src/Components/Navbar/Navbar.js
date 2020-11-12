@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import SearchField from 'react-search-field';
-
+import Imagecart from '../Background/imagecart.png'
 
 class Vipline extends Component {
     render() {
@@ -19,10 +19,13 @@ class Vipline extends Component {
                 <li>Equipment</li>
                 <li>Accessories</li>                
              </ul>  
-                <div className="searchbowrapper">           
+                <div className="searchboxwrapper">           
                 <SearchField placeholder='Search item...'/>
                 </div>
                   <div className="cartbox"> 
+                  <div className="cartlogo">
+                      <img src={Imagecart} alt="asd" className="img"/>
+                  </div>
                  <div className="cartboxtext">Cart</div>
                  </div>       
             </div> 
