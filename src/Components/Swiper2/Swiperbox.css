@@ -1,3 +1,7 @@
+.swiperboks {
+    height: 84vh !important;
+}
+
 .swiper-wrapper{
     position: relative;
     left: 2.132vh;
@@ -5,13 +9,10 @@
 }
 .swiper-container {
 
-height: 85vh;
+height: 80vh;
 width: 100%;
 top: 3vh;
-
-}
-.swiper-scrollbar{
-display: none;
+display: block;
 }
 
 .Swiper1{
@@ -38,17 +39,15 @@ display: none;
 .Swiper8{
     background-image: url('../Background/image8.png');
 }
-.james{
+.swipers{
     height: 67.37vh;
     width: auto;
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat; 
 }
-.james:hover {
+.swipers:hover {
  
     cursor: pointer;
     opacity: 75%;
 }
-#swiper-container #swiper-container-initialized #swiper-container-horizontal:hover > #swiper-scrollbar { display: inline; }
-

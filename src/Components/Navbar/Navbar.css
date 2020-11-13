@@ -31,14 +31,13 @@
 }
 .cartbox {
   position: relative;
-  background-color: green;
   height:100%;
+  width: 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
   top: 0.2vh;
 }
-
 
 .imgcart {
   width: 2.2vw;
@@ -136,7 +135,6 @@ height: 4.4vh !important;
   margin: 0;
   padding: 0;
   font-family: eras itc;
-  /* background-color: green; */
 margin-right: 1vw;
 
   
@@ -167,9 +165,15 @@ li:hover {
   
 }
 .chatobot {
+  background-image: url('../Background/logochat.png');
+  background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
   position: fixed;
-  right:1vh;
-  top: 95vh;
-  background-color:red;
+  height: 11vh;
+  width: 11vh;
+  right:4vh;
+  top: 88vh;
+  cursor: pointer;
 }
 

@@ -18,7 +18,7 @@
   top: 16vh;
   left: 10vw;
   align-items: center;
-  grid-template-columns: 39.94vw  36.96vw auto;
+  grid-template-columns: 39.94vw  63.96vw auto;
   grid-template-rows: 13.85vh 13.66vh auto ;
 }
 
