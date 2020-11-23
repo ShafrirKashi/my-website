@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Navbar.css';
+import Cart from './Cart/Cart';
 import SearchField from 'react-search-field';
 import Imagecart from '../Background/imagecart.png'
 import Iconlogo from '../Background/iconlogin.png'
-
 
 class Navbar extends Component {
     render() {
@@ -34,6 +34,7 @@ class Navbar extends Component {
                 </div>
               </div>                     
             </div> 
+            <Cart />
          <div className="chatobot"></div>
     </div>
         );
