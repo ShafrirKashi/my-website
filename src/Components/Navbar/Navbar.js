@@ -19,13 +19,11 @@ class Navbar extends Component {
    }
    BackdropClickHandler = () => {
 
-    this.setState({cartOpen: false}
-     );
-   }
+    setTimeout(() => {
+        this.setState({cartOpen: false})}, 200);}
 
     render() {
-
-        let cart;
+         let cart;
         let backdrop;
 
         if(this.state.cartOpen) {
@@ -58,7 +56,7 @@ class Navbar extends Component {
 
                 <div className="accessbar">
                     <img src={Iconlogo} alt="dsa" className="imglogin"/> 
-                        <div className="cartbox" onClick={this.CartToggleClickHandler}> 
+                        <div className="cartbox" onMouseEnter={this.CartToggleClickHandler}> 
                           <div className="imgnum">0</div>
                           <img src={Imagecart} alt="asd" className="imgcart"/> 
                         </div>

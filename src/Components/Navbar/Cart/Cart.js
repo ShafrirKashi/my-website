@@ -1,10 +1,9 @@
 import React from 'react'
 import './Cart.css'
-import Backdrop from './Cartbackdrop/Cartbackdrop'
 
 
 
-const Cart = props => (
+const Cart = () => (
   <div>
   <div className="pop">
     <h2 className="cartheader">Shopping Cart</h2>

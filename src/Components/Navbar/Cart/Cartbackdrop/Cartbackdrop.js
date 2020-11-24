@@ -2,7 +2,7 @@ import React from 'react';
 import './Cartbackdrop.css';
 
 const cartbackdrop = props => (
-<div className="cartbackdrop" onClick={props.click}></div>
+<div className="cartbackdrop" onMouseEnter={props.click}></div>
 
 );
 
