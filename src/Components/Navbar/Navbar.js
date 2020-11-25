@@ -28,12 +28,14 @@ class Navbar extends Component {
         );
     }
     ChatremoveClickHandler = () => {
+        
+       
         this.setState({ chatOpen: false });
+       
 
     }
-
-
-
+ 
+ 
     render() {
         let cart;
         let backdrop;
@@ -83,7 +85,7 @@ class Navbar extends Component {
             {cart}
          <div className="chatobot">
              <div className="chatboxclosecircle">
-                 <div className="chatboxX" onClick={this.ChatbotClickHandler}></div>
+                 <div className="chatboxX" onClick={this.ChatremoveClickHandler}></div>
              </div>
          </div>
     </div>
