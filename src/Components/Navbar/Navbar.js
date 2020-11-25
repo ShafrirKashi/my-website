@@ -11,6 +11,10 @@ class Navbar extends Component {
         cartOpen: false
     };
 
+    state = {
+        chatOpen: true
+    }
+
    CartToggleClickHandler = () => {
 
     this.setState((prevState) =>{
@@ -20,10 +24,18 @@ class Navbar extends Component {
    BackdropClickHandler = () => {
 
     setTimeout(() => {
-        this.setState({cartOpen: false})}, 200);}
+        this.setState({cartOpen: false})}, 200
+        );
+    }
+    ChatremoveClickHandler = () => {
+        this.setState({ chatOpen: false });
+
+    }
+
+
 
     render() {
-         let cart;
+        let cart;
         let backdrop;
 
         if(this.state.cartOpen) {
@@ -31,8 +43,12 @@ class Navbar extends Component {
             backdrop = <Backdrop click={this.BackdropClickHandler}/>
         }
 
+  
+
+
+
         return (
-  <div className="both">
+          <div className="both">
             <div className="texttop">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
             </div> 
@@ -65,7 +81,11 @@ class Navbar extends Component {
             </div> 
             {backdrop}
             {cart}
-         <div className="chatobot"></div>
+         <div className="chatobot">
+             <div className="chatboxclosecircle">
+                 <div className="chatboxX" onClick={this.ChatbotClickHandler}></div>
+             </div>
+         </div>
     </div>
         );
     }
