@@ -8,12 +8,11 @@ import Backdrop from './Cart/Cartbackdrop/Cartbackdrop';
 
 class Navbar extends Component {
     state = {
-        cartOpen: false
+        cartOpen: false,
+        chatOpen : true
     };
 
-    state = {
-        chatOpen: true
-    }
+    
 
    CartToggleClickHandler = () => {
 
@@ -21,18 +20,19 @@ class Navbar extends Component {
         return {cartOpen: !prevState.cartOpen}
        })
    }
+
    BackdropClickHandler = () => {
 
     setTimeout(() => {
         this.setState({cartOpen: false})}, 200
         );
     }
+
     ChatremoveClickHandler = () => {
         
        
-        this.setState({ chatOpen: false });
-       
-
+        this.setState({ chatOpen: false }
+        );
     }
  
  
@@ -42,15 +42,10 @@ class Navbar extends Component {
 
         if(this.state.cartOpen) {
             cart = <Cart/>
-            backdrop = <Backdrop click={this.BackdropClickHandler}/>
-        }
-
-  
-
-
+            backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
         return (
-          <div className="both">
+          <div className="nav">
             <div className="texttop">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
             </div> 
@@ -83,11 +78,13 @@ class Navbar extends Component {
             </div> 
             {backdrop}
             {cart}
-         <div className="chatobot">
-             <div className="chatboxclosecircle">
-                 <div className="chatboxX" onClick={this.ChatremoveClickHandler}></div>
-             </div>
-         </div>
+
+            {this.state.chatOpen?
+                <div className="chatobot">
+                <div className="chatboxclosecircle">
+                    <div className="chatboxX" onClick={this.ChatremoveClickHandler}></div>
+                </div>
+            </div>:null}
     </div>
         );
     }
