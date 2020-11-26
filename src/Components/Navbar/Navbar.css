@@ -139,7 +139,7 @@ height: 4.4vh !important;
   margin: 0;
   padding: 0;
   font-family: eras itc;
-margin-right: 1vw;
+ margin-right: 1vw;
 
   
   
@@ -181,11 +181,11 @@ li:hover {
   cursor: pointer;
 }
 .chatboxclosecircle {
-  width: 1.7vh;
-  height: 1.7vh;
+  width: 2.1vh;
+  height: 2.1vh;
   position: absolute;
-  right: 2px;
-  top: 2px;
+  right: 0vh;
+  top: -1vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,4 +198,11 @@ li:hover {
   width: 55%;
   height: 55%;
 }
+.topbarlinks {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+list-style-type: none;}
 

@@ -48,6 +48,11 @@ class Navbar extends Component {
           <div className="nav">
             <div className="texttop">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
+                <ul className="topbarlinks">
+                   <li className="chat">aa</li>
+                   <li className="country">bb</li>
+                   <li className="currency">ss</li>
+                </ul>
             </div> 
             <div className="toolbar">
 
