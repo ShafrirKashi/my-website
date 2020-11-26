@@ -200,9 +200,22 @@ li:hover {
 }
 .topbarlinks {
   display: flex;
-  align-content: space-around;
+  height: 4vh;
+  width: 20vw;
+  justify-content: space-around;
   align-items: center;
   position: absolute;
-  right: 50px;
-list-style-type: none;}
+  right: 5vw;
+  list-style-type: none;
+  background-color: green;
+}
+.chat {
+
+}
+.country{
+
+}
+.currency {
+
+}
 

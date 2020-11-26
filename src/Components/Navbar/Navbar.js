@@ -30,7 +30,6 @@ class Navbar extends Component {
 
     ChatremoveClickHandler = () => {
         
-       
         this.setState({ chatOpen: false }
         );
     }
@@ -45,14 +44,14 @@ class Navbar extends Component {
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
         return (
-          <div className="nav">
+        <div className="nav">
             <div className="texttop">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
-                <ul className="topbarlinks">
-                   <li className="chat">aa</li>
-                   <li className="country">bb</li>
-                   <li className="currency">ss</li>
-                </ul>
+                <div className="topbarlinks">
+                   <div className="chat">Chat</div>
+                   <div className="country">bb</div>
+                   <div className="currency">cc</div>
+                </div>
             </div> 
             <div className="toolbar">
 
@@ -86,11 +85,11 @@ class Navbar extends Component {
 
             {this.state.chatOpen?
                 <div className="chatobot">
-                <div className="chatboxclosecircle">
+                  <div className="chatboxclosecircle">
                     <div className="chatboxX" onClick={this.ChatremoveClickHandler}></div>
-                </div>
-            </div>:null}
-    </div>
+                  </div>
+                </div>:null}
+        </div>
         );
     }
 }
