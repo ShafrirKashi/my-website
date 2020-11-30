@@ -207,15 +207,58 @@ li:hover {
   position: absolute;
   right: 5vw;
   list-style-type: none;
-  background-color: green;
 }
 .chat {
 
 }
 .country{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-.currency {
+.flag {
+  padding: 5px;
+  margin: 6px;
+  width: 13px;
+  height: 5px;
+  background-image: url('../Background/USFLAG.png');
+  background-position: 0px 0px; 
+  background-size: cover;
+  display: flex;
 
+
+}
+
+.wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heartshape {
+  padding: 5px;
+  margin: 6px;
+  width: 8px;
+  height: 6px;
+  background-image: url('../Background/heart.png');
+  background-position: 0px 0px; 
+  background-size: cover;
+  display: flex;
+}
+
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatshape {
+  padding: 5px;
+  margin: 2px;
+  width: 15px;
+  height: 15px;
+  background-image: url('../Background/chat.png');
+  background-position: 0px 0px; 
+  background-size: cover;
+  display: flex;
 }
 

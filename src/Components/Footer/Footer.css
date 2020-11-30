@@ -77,9 +77,12 @@
    top: -8vh;
 }
 .footer {
-    background-color: rgb(41, 41, 41);
-    height: 38.91vh;
+    background-color: rgb(40, 40, 40);
+    height: 48.91vh;
     border-bottom: 1px solid #a77d0063;
+    display: grid;
+    grid-template-columns: 30% 20% 20% auto;
+    
 
 
 }
@@ -87,9 +90,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.73vh;
+    height: 10.73vh;
+    width: 90vw;
+    position: absolute;
+    left: 4.2vw;
+    border-top: 2px solid rgb(92, 92, 92);
+    bottom: -47px;
     font-size: 1.70vh;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(40, 40, 40);
     font-family: Bell MT;
     color: rgb(150, 150, 150);
+}
+.footerlogo {
+    background-image: url('../Background/aa.png');
+    height: 13.96vh;
+    width: 7.20vw;
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    position: relative;
+    left:  4.04vw;
+
+}
+
+.footerfirst {
+
+    grid-column: 1/2;
+    /* background-color:purple; */
+}
+.footersecond {
+    grid-column: 2/3;
+/* background-color:blue; */
+}
+.footerthird {
+/* background-color:red; */
+    grid-column: 3/4;
+}
+.footersub {
+/* background-color:purple; */
+    grid-column: 4/5;
 }

@@ -14,8 +14,14 @@ class Footer extends Component {
                         <div className="textoverlay">Join And Get 10% Off</div>
                     </div>
                 </div>
-                <div className="footer"></div>
-                <div className="footbottom">© Alpine.com | Created and Designed by Shafrir Kashi</div>
+                <div className="footer">
+            <div className="footerfirst">dd</div>
+            <div className="footersecond">ee</div>
+            <div className="footerthird">cc</div>
+            <div className="footersub">ff</div>
+            <div className="footbottom">© Alpine.com | Created and Designed by Shafrir Kashi</div>
+                </div>
+               
             </div>
         );
     }

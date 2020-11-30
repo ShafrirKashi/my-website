@@ -48,9 +48,15 @@ class Navbar extends Component {
             <div className="texttop">
                 Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
                 <div className="topbarlinks">
-                   <div className="chat">Chat</div>
-                   <div className="country">bb</div>
-                   <div className="currency">cc</div>
+                           <div className="chat">Chat
+                             <div className="chatshape"></div>
+                           </div>
+                           <div className="wishlist">Wishlist
+                             <div className="heartshape"></div>
+                          </div>
+                          <div className="country">USA
+                             <div className="flag"></div>
+                         </div>
                 </div>
             </div> 
             <div className="toolbar">
