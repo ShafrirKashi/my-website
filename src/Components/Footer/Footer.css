@@ -77,7 +77,7 @@
    top: -8vh;
 }
 .footer {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(27, 27, 27);
     height: 48.91vh;
     border-bottom: 1px solid #a77d0063;
     display: grid;
@@ -97,23 +97,8 @@
     border-top: 2px solid rgb(92, 92, 92);
     bottom: -47px;
     font-size: 1.70vh;
-    background-color: rgb(40, 40, 40);
-    font-family: Bell MT;
-    color: rgb(150, 150, 150);
+   
 }
-.footerlogo {
-    background-image: url('../Background/aa.png');
-    height: 13.96vh;
-    width: 7.20vw;
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-self: center;
-    position: relative;
-    left:  4.04vw;
-
-}
-
 .footerfirst {
 
     grid-column: 1/2;
@@ -121,13 +106,79 @@
 }
 .footersecond {
     grid-column: 2/3;
-/* background-color:blue; */
+    position: relative;
+    height: 30vh;
+    top: 4vh;
 }
 .footerthird {
-/* background-color:red; */
     grid-column: 3/4;
+    position: relative;
+    height: 30vh;
+    top: 4vh;
 }
 .footersub {
 /* background-color:purple; */
     grid-column: 4/5;
+}
+.footercredit {
+    color: rgb(150, 150, 150);
+    position: absolute;
+    right: 1vh;
+    font-size: 1.70vh;
+    font-family: Bell MT;
+}
+.footersocial {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17vw;
+    height: 10vh;
+}
+.facebook {
+    background-image: url('../Background/face.png');
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6vh;
+    height: 6vh;
+}
+.google {
+    background-image: url('../Background/google.png');
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6vh;
+    height: 6vh;
+}
+.insta {
+    background-image: url('../Background/insta.png');
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6vh;
+    height: 6vh;
+}
+.twitter {
+    background-image: url('../Background/twitter.png');
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6vh;
+    height: 6vh;
+}
+ul {
+    list-style-type: none;
+}
+h2 {
+    color: #fabc02;
+    font-size: 2.7vh;
+    margin: 0 0 3.5vh 0;
+    font-family:eras itc;
+}
+.ss li {
+    color: white;
+    margin: 0 0 8px 0;
+    font-family:eras itc;
+    cursor: pointer;
 }

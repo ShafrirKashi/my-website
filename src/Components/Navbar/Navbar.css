@@ -144,12 +144,11 @@ height: 4.4vh !important;
   
   
 }
-.nav__items li{
+ .nav__items li{
   display: flex; 
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  /* width: auto; */
   height: 100%;
   padding-left: 3.19vh;
   padding-right: 3.19vh;
@@ -161,7 +160,7 @@ height: 4.4vh !important;
 }
 
 
-li:hover {
+.nav__items li:hover {
   text-decoration: underline;
   text-decoration-color: #fabc02;
   text-decoration-thickness: 3px;
