@@ -100,9 +100,93 @@
    
 }
 .footerfirst {
-
-    background-color: #fff;
+display: flex;
+flex-direction: column;
+padding-left: 10vh;
 }
+.footerlogobox {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: green; */
+}
+
+.footerlogo {
+    background-image: url('../Background/1.png');
+    background-position: 0px 0px; 
+    height: 77%;
+    width: 63%;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.contactusbox{
+
+    width: 100%;
+    height: 14vh;
+    /* background-color: #fff; */
+}
+.phonebox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction:  row-reverse;
+}
+.phonelogo{
+width: 16px;
+height: 16px;
+background-image: url('../Background/phonelogo.png');
+background-position: 0px 0px; 
+background-size: cover;
+background-repeat: no-repeat;
+margin-right: 1vh;
+}
+.emailbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction:  row-reverse;
+}
+.emaillogo{
+    width: 16px;
+    height: 12px;
+    background-image: url('../Background/emaillogo.png');
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 1vh;
+}
+h3, h4 {
+    color: white;
+    font-family:eras itc;
+    font-weight: lighter;
+
+    }
+
+h3 {
+    color: #fabc02;
+}
+
+h4.phonebox {
+    margin-bottom: 1vh;
+    font-size: 2vh;
+    font-weight: lighter;
+    cursor: pointer;
+}
+h4.emailbox {
+    margin: 0px;
+    font-size: 2vh;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 .footersecond {
     grid-column: 2/3;
     position: relative;
@@ -117,7 +201,7 @@
     position: relative;
     height: 30vh;
     top: 4vh;
-    width: 9.6vw;
+    width: 11vw;
     /* background-color:purple; */
 }
 .footersub {
@@ -176,7 +260,7 @@ ul {
 }
 h2 {
     color: #fabc02;
-    font-size: 2.1vh;
+    font-size: 2.3vh;
     margin: 0 0 3vh 0;
     font-family:eras itc;
 }
@@ -185,16 +269,17 @@ h2 {
     margin: 0 0 10px 0;
     font-family:eras itc;
     cursor: pointer;
+    font-size: 2vh;
 }
 .ss li:hover {
     color: rgb(179, 179, 179);
 }
  .about {
-     width: 3.6vw;
+     width: 4vw;
      color: blue;
  }
  .more {
-    width: 4.8vw;
+    width: 5.3vw;
     color: blue;
 }
 .blog {
@@ -218,10 +303,10 @@ h2 {
     color: blue;
 }
 .terms {
-    width: 7.3vw;
+    width: 8.2vw;
     color: blue;
 }
 .privacy {
-    width: 5vw;
+    width: 5.7vw;
     color: blue;
 }

@@ -1,18 +1,6 @@
-
-.navbar {
-  position: fixed;
-  top: 35px;
-  z-index: 1;
-  min-width: 100%;
-  border-top: 1px solid rgb(99, 98, 98);
- border-bottom: 1px solid rgb(41, 41, 41);
-  
-}
-.vip__line {
-  position: fixed;
-  top: 0px;
-  z-index: 1;
-  min-width: 100%;
-
-
+.asd {
+  position: -webkit-sticky;
+  top: 0;
+  position: sticky;
+  z-index: 9999;
 }

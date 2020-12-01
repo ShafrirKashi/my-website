@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swiperbox () {
     return (
-      <div className="swiperboks" style={{marginTop: "90px"}}>
+      <div className="swiperboks">
      
         <Swiper
           spaceBetween={20}

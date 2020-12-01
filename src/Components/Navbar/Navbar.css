@@ -1,5 +1,7 @@
 .nav {
-  position: fixed;
+  position: -webkit-sticky;
+  top: 0;
+  position: sticky; 
   min-width: 100%;
   z-index: 1000;
 }

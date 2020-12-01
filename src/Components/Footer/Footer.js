@@ -16,11 +16,23 @@ class Footer extends Component {
                 </div>
                 <div className="footer">
             <div className="footerfirst">
-                <div className="footerlogo"></div>
+                <div className="footerlogobox">
+                    <div className="footerlogo"></div>
+                </div>
+                <div className="contactusbox">
+                    <div className="contactus">
+                        <h3>Contact US</h3>
+                        <h4 className="phonebox">+972 515554789
+                            <div className="phonelogo"></div>
+                        </h4>
+                        <h4 className="emailbox">Support@Alpine.com
+                        <div className="emaillogo"></div></h4>
+                    </div>
+                </div>
             </div>
             <div className="footersecond">
                 <ul className="ss">
-                    <h2 >Information</h2>
+                    <h3 >Information</h3>
                     <li className="about">About Us</li>
                     <li className="more">More Search</li>
                     <li className="blog">Blog</li>
@@ -30,7 +42,7 @@ class Footer extends Component {
             </div>
             <div className="footerthird">
                 <ul className="ss">
-                    <h2>Helpful Links</h2>
+                    <h3>Helpful Links</h3>
                     <li className="services">Services</li>
                     <li className="support">Support</li>
                     <li className="terms">Terms & Conditions</li>
