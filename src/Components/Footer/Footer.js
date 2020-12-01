@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import './Footer.css'
+import SearchField from 'react-search-field';
+
+
+
+
+const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'}); };
 
 class Footer extends Component {
     render() {
@@ -49,24 +56,30 @@ class Footer extends Component {
                     <li className="privacy">Privacy Policy</li>
                 </ul>
             </div>
-            <div className="footersub">ff</div>
+            <div className="footersub">
+            <div className="footer-searchbox-wrapper">           
+                      <SearchField placeholder='Enter your Email...'/>
+                </div>
+
+            </div>
             <div className="footbottom">
                 <div className="footersocial">
                   
-                <a href="http://facebook.com">
+                <a href="http://facebook.com"target="_blank">
                     <div className="facebook"></div>
                 </a>
 
-                <a href="http://instagram.com">
+                <a href="http://instagram.com" target="_blank">
                     <div className="insta"></div>
                 </a>
-                <a href="http://twitter.com">
+                <a href="http://twitter.com" target="_blank">
                     <div className="twitter"></div>
                 </a>
-                <a href="https://en.wikipedia.org/wiki/Google%2B">
+                <a href="https://en.wikipedia.org/wiki/Google%2B"target="_blank">
                     <div className="google"></div>
                 </a>
                 </div>
+                <div className="arrowup" onClick={scrollTop}></div>
                 <div className="footercredit">© Alpine.com | Created and Designed by Shafrir Kashi</div>
             </div>
                 </div>

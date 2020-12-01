@@ -219,10 +219,10 @@ height: 4.4vh !important;
 
 }
 .flag {
-  padding: 5px;
-  margin: 6px;
-  width: 13px;
-  height: 5px;
+  padding: 0.692vh;
+  margin: 0.831vh;
+  width: 1.8vh;
+  height: 0.692vh;
   background-image: url('../Background/USFLAG.png');
   background-position: 0px 0px; 
   background-size: cover;
@@ -237,10 +237,10 @@ height: 4.4vh !important;
   align-items: center;
 }
 .heartshape {
-  padding: 5px;
-  margin: 6px;
-  width: 8px;
-  height: 6px;
+  padding: 0.692vh;
+  margin: 0.831vh;
+  width: 0.90vh;
+  height: 0.63vh;
   background-image: url('../Background/heart.png');
   background-position: 0px 0px; 
   background-size: cover;
@@ -253,10 +253,10 @@ height: 4.4vh !important;
   align-items: center;
 }
 .chatshape {
-  padding: 5px;
-  margin: 2px;
-  width: 15px;
-  height: 15px;
+  padding: 0.69vh;
+  margin: 0.277vh;
+  width: 2.0vh;
+  height: 2.0vh;
   background-image: url('../Background/chat.png');
   background-position: 0px 0px; 
   background-size: cover;

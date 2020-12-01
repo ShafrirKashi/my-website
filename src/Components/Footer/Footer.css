@@ -1,6 +1,6 @@
 .foot {
     height: 58.63vh;
-    background-color:  rgb(61, 61, 61);
+    background-color: rgb(27, 27, 27);
     margin-top:  2.13vh;
     position: relative;
 
@@ -78,7 +78,7 @@
 }
 .footer {
     background-color: rgb(27, 27, 27);
-    height: 48.91vh;
+    height: 49vh;
     border-bottom: 1px solid #a77d0063;
     display: grid;
     grid-template-columns: 30% 20% 20% auto;
@@ -92,6 +92,8 @@
     justify-content: center;
     height: 10.73vh;
     width: 90vw;
+        background-color: rgb(27, 27, 27);
+
     position: absolute;
     left: 4.2vw;
     border-top: 2px solid rgb(92, 92, 92);
@@ -172,7 +174,6 @@ h4.phonebox {
     margin-bottom: 1vh;
     font-size: 2vh;
     font-weight: lighter;
-    cursor: pointer;
 }
 h4.emailbox {
     margin: 0px;
@@ -180,12 +181,6 @@ h4.emailbox {
     font-weight: lighter;
     cursor: pointer;
 }
-
-
-
-
-
-
 
 .footersecond {
     grid-column: 2/3;
@@ -205,13 +200,20 @@ h4.emailbox {
     /* background-color:purple; */
 }
 .footersub {
-/* background-color:purple; */
-    grid-column: 4/5;
+
+
+}
+.footer-searchbox-wrapper{
+
+    width: 10vw;
+    height: 3vw;
+    position: absolute;
+    top: -10px;
 }
 .footercredit {
     color: rgb(150, 150, 150);
     position: absolute;
-    right: 1vh;
+    left: 0vh;
     font-size: 1.70vh;
     font-family: Bell MT;
 }
@@ -310,3 +312,16 @@ h2 {
     width: 5.7vw;
     color: blue;
 }
+.arrowup {
+    background-image: url('../Background/arrowup.png');
+    background-position: 0px 0px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6vh;
+    height: 6vh;
+    position: absolute;
+    right: 4vh;
+    top: -4vh;
+    cursor: pointer;
+}
+
