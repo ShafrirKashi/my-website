@@ -2,6 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import './Swiperbox.css'
+import Data from '../Background/MOCK_DATA.json' 
 
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
@@ -23,7 +24,10 @@ function Swiperbox () {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide><div className="Swiper1 swipers"></div>
-              sss
+
+          {Data.map((dataIndex, index)=>{
+              return <p>{dataIndex.value}</p>})}
+
           </SwiperSlide>
           <SwiperSlide><div className="Swiper2 swipers"></div>
           

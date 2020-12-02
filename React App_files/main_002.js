@@ -1,0 +1,35 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Footer/Footer.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/Footer/Footer.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../Background/5.jpg */ "./src/Components/Background/5.jpg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../Background/aa.png */ "./src/Components/Background/aa.png");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../Background/face.png */ "./src/Components/Background/face.png");
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ../Background/google.png */ "./src/Components/Background/google.png");
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ../Background/insta.png */ "./src/Components/Background/insta.png");
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ../Background/twitter.png */ "./src/Components/Background/twitter.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);
+// Module
+exports.push([module.i, ".foot {\r\n    height: 58.63vh;\r\n    background-color:  rgb(61, 61, 61);\r\n    margin-top:  2.13vh;\r\n    position: relative;\r\n\r\n}\r\n.footop {\r\n    height: 15.99vh;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-position: 0px 0px; \r\n      background-size: cover;\r\n      background-repeat: no-repeat;\r\n      position: relative;\r\n      border-bottom: 1px solid #745700;\r\n      \r\n\r\n\r\n}\r\n.overlay {\r\n  height: 100%; \r\n  background-color: rgba(0, 0, 0, 0.5); \r\n  cursor: pointer;\r\n}\r\n.square {\r\n    color: white;\r\n    position: relative;\r\n    top: 1.6vh;\r\n    left: 13vw;\r\n    height: 11.5vh;\r\n    width: 24vw;\r\n    border: 0.74vh solid white;\r\n    display: grid;\r\n    grid-template-columns: 40% 60%; \r\n    \r\n}\r\n.logo {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n    height: 10.66vh;\r\n    width: 5.20vw;\r\n    background-position: 0px 0px; \r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    grid-column: 1/2;\r\n    grid-row: 1/2;\r\n    align-self: center;\r\n    position: relative;\r\n    left:  1.04vw;\r\n    display: grid;\r\n\r\n    \r\n}\r\n.ad {\r\n    font-size: 9.59vh;\r\n    height: 10.66vh;\r\n    font-family: typographica;\r\n    font-weight: bold;\r\n    grid-column: 2/3;\r\n    grid-row: 1/2;\r\n    position: relative;\r\n    display: grid;\r\n    position: relative;\r\n    top: 1vh;\r\n    right: 1.56vw;\r\n    justify-content:center;\r\n    align-content: center;\r\n\r\n}\r\n.textoverlay {\r\n\r\n   color: white;\r\n   font-size: 6.39vh;\r\n   font-family:eras itc ; \r\n   /* font-weight: bold; */\r\n   position: relative;\r\n   left: 48vw;\r\n   top: -8vh;\r\n}\r\n.footer {\r\n    background-color: rgb(27, 27, 27);\r\n    height: 48.91vh;\r\n    border-bottom: 1px solid #a77d0063;\r\n    display: grid;\r\n    grid-template-columns: 30% 20% 20% auto;\r\n    \r\n\r\n\r\n}\r\n.footbottom {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 10.73vh;\r\n    width: 90vw;\r\n    position: absolute;\r\n    left: 4.2vw;\r\n    border-top: 2px solid rgb(92, 92, 92);\r\n    bottom: -47px;\r\n    font-size: 1.70vh;\r\n   \r\n}\r\n.footerfirst {\r\n\r\n    grid-column: 1/2;\r\n    /* background-color:purple; */\r\n}\r\n.footersecond {\r\n    grid-column: 2/3;\r\n    position: relative;\r\n    height: 30vh;\r\n    top: 4vh;\r\n}\r\n.footerthird {\r\n    grid-column: 3/4;\r\n    position: relative;\r\n    height: 30vh;\r\n    top: 4vh;\r\n}\r\n.footersub {\r\n/* background-color:purple; */\r\n    grid-column: 4/5;\r\n}\r\n.footercredit {\r\n    color: rgb(150, 150, 150);\r\n    position: absolute;\r\n    right: 1vh;\r\n    font-size: 1.70vh;\r\n    font-family: Bell MT;\r\n}\r\n.footersocial {\r\n\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    width: 17vw;\r\n    height: 10vh;\r\n}\r\n.facebook {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\r\n    background-position: 0px 0px; \r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    width: 6vh;\r\n    height: 6vh;\r\n}\r\n.google {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\r\n    background-position: 0px 0px; \r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    width: 6vh;\r\n    height: 6vh;\r\n}\r\n.insta {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\r\n    background-position: 0px 0px; \r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    width: 6vh;\r\n    height: 6vh;\r\n}\r\n.twitter {\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\r\n    background-position: 0px 0px; \r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    width: 6vh;\r\n    height: 6vh;\r\n}\r\nul {\r\n    list-style-type: none;\r\n}\r\nh2 {\r\n    color: #fabc02;\r\n    font-size: 2.7vh;\r\n    margin: 0 0 3.5vh 0;\r\n    font-family:eras itc;\r\n}\r\n.ss li {\r\n    color: white;\r\n    margin: 0 0 8px 0;\r\n    font-family:eras itc;\r\n    cursor: pointer;\r\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.c5fcea87ce125b4abc12.hot-update.js.map

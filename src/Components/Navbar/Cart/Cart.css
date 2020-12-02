@@ -12,13 +12,14 @@
     
 }
 
-.cartheader {
+h2.cartheader {
     position: relative;
     font-size: 2.5vh;
     padding-left: 1VW;
     width: 100%;
-    font-family: eras light itc;
-
+    font-family: eras itc;
+    font-weight: 600;
+    top: 2vh;
 
 }
 .productbox {
@@ -42,11 +43,14 @@ height: 50%;
 .total {
     font-family: Dubai light;
     font-size: 2.5vh;
+    color: black;
 }
 .totnumber {
     font-family: Dubai;
     font-size: 2.5vh;
     letter-spacing: 0.1vh;
+    color: black;
+
     
 }
 .cartfooter {
