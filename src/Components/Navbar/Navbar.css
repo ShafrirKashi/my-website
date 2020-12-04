@@ -216,19 +216,36 @@ height: 4.4vh !important;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+}
+.flagbox {
+  width: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 
+ 
 }
 .flag {
   padding: 0.692vh;
   margin: 0.831vh;
-  width: 1.8vh;
+  width: 2vh;
   height: 0.692vh;
   background-image: url('../Background/USFLAG.png');
   background-position: 0px 0px; 
   background-size: cover;
   display: flex;
-
-
+}
+.arrow-down {
+  background-image: url('../Background/arrow-down.png');
+  background-position: 0px 0px; 
+  background-size: cover;
+  width: 1.5vh;
+  height: 0.792vh;
+  margin: 0.831vh;
+  
+  
 }
 
 .wishlist {

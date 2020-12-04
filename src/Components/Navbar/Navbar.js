@@ -54,8 +54,10 @@ class Navbar extends Component {
                            <div className="wishlist">Wishlist
                              <div className="heartshape"></div>
                           </div>
-                          <div className="country">USA
-                             <div className="flag"></div>
+                          <div className="flagbox">
+                              <div className="flag"></div>
+                             <div className="country">USA</div>
+                             <div className="arrow-down"></div>
                          </div>
                 </div>
             </div> 
