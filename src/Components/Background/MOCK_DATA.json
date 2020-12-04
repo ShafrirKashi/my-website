@@ -1,11 +1,11 @@
 [
-    {"title":"potenti","type":"Tango","price":"$165.82"},
+{"title":"potenti","type":"Tango","price":"$165.82"},
 
-{"title":"amet","type":"Victor","price":"$67.46"},
+{"title":"amet","type":"Victor","price":"$167.46"},
 
 {"title":"massa donec","type":"Tango Whiskey","price":"$484.59"},
 
-{"title":"ut","type":"Delta Papa","price":"$583.50"},
+{"title":"utalian","type":"Delta Papa","price":"$583.50"},
 
 {"title":"posuere","type":"Romeo Victor","price":"$538.18"},
 
@@ -13,5 +13,5 @@
 
 {"title":"est quam","type":"Echo Papa","price":"$153.46"},
 
-{"title":"sagittis dui","type":"Papa","price":"$59.97"}
+{"title":"sagittis dui","type":"Papa","price":"$159.97"}
 ]
