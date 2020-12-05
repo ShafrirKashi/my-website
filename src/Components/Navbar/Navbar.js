@@ -5,6 +5,8 @@ import SearchField from 'react-search-field';
 import Imagecart from '../Background/imagecart.png'
 import Iconlogo from '../Background/iconlogin.png'
 import Backdrop from './Cart/Cartbackdrop/Cartbackdrop';
+import Selector from './Select/Select';
+
 
 class Navbar extends Component {
     state = {
@@ -54,11 +56,11 @@ class Navbar extends Component {
                            <div className="wishlist">Wishlist
                              <div className="heartshape"></div>
                           </div>
-                          <div className="flagbox">
-                              <div className="flag"></div>
-                             <div className="country">USA</div>
-                             <div className="arrow-down"></div>
-                         </div>
+                         
+                          <Selector />
+                
+
+                         
                 </div>
             </div> 
             <div className="toolbar">

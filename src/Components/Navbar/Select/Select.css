@@ -1,0 +1,19 @@
+.selector {
+    width: 12vh;
+}
+.react-select__control {
+    background-color:black !important;
+    width: 12vh;
+    border: 1px solid transparent !important;
+}
+.react-select__single-value {
+    color: white !important;
+}
+.react-select__control--is-focused {
+box-shadow: none !important;
+}
+.react-select__menu {
+    background-color: black !important;
+   
+}
+

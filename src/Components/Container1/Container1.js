@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Container1.css'
-import Json from '../Background/MOCK_DATA.json'
 
 class Container1 extends Component {
     render() {
