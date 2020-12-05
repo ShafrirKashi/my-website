@@ -64,7 +64,7 @@
 }
 
 .searchboxwrapper {
-  width: 15vw;
+  min-width: 15vw;
  position: absolute;
  right: 9.5vw;
  display: flex;

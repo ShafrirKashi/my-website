@@ -6,6 +6,8 @@ import Imagecart from '../Background/imagecart.png'
 import Iconlogo from '../Background/iconlogin.png'
 import Backdrop from './Cart/Cartbackdrop/Cartbackdrop';
 import Selector from './Select/Select';
+import FRA from '../Background/FRA.json' 
+import ENG from '../Background/ENG.json' 
 
 
 class Navbar extends Component {
@@ -30,13 +32,25 @@ class Navbar extends Component {
         );
     }
 
-    ChatremoveClickHandler = () => {
+    ChatRemoveClickHandler = () => {
         
         this.setState({ chatOpen: false }
         );
     }
- 
- 
+
+    ChangeLanguageEvantHandler = () => {
+        
+        switch(localStorage.getItem ("Language")) {
+          case "ENG": return ENG[0].Navtop
+          break;
+          case "FRA": return FRA[0].Navtop
+          break;
+          default: return "fgfgf"
+        
+    }
+  
+}
+        
     render() {
         let cart;
         let backdrop;
@@ -48,7 +62,14 @@ class Navbar extends Component {
         return (
         <div className="nav">
             <div className="texttop">
-                Join Alpine's VIPeak™ Club For 10% Off Your First Online Order
+
+           
+
+            <p className="nav-top-title">{this.ChangeLanguageEvantHandler()}</p>
+
+
+            
+
                 <div className="topbarlinks">
                            <div className="chat">Chat
                              <div className="chatshape"></div>
@@ -96,7 +117,7 @@ class Navbar extends Component {
             {this.state.chatOpen?
                 <div className="chatobot">
                   <div className="chatboxclosecircle">
-                    <div className="chatboxX" onClick={this.ChatremoveClickHandler}></div>
+                    <div className="chatboxX" onClick={this.ChatRemoveClickHandler}></div>
                   </div>
                 </div>:null}
         </div>

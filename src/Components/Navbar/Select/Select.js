@@ -12,14 +12,21 @@ const options = [
   { value: 'ITA', label: '🇮🇹 ITA' },
 ]
  
+
+
 class Selector extends React.Component {
   state = {
     selectedOption: { value: "ENG", label: "🇺🇸 USA" },
   };
   handleChange = selectedOption => {
     this.setState({ selectedOption });
-    console.log(`Option selected:`, selectedOption);
+    localStorage.setItem('Language', selectedOption.value)
+
   };
+
+  
+
+
   render() {
     const { selectedOption } = this.state;
  
