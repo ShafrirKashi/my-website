@@ -40,12 +40,13 @@ class Navbar extends Component {
 
     ChangeLanguageEvantHandler = () => {
         
-        switch(localStorage.getItem ("Language")) {
-          case "ENG": return ENG[0].Navtop
+        switch(sessionStorage.getItem ("Language")) {
+          case "ENG": return ENG[0]
           break;
-          case "FRA": return FRA[0].Navtop
+          case "FRA": return FRA[0]
           break;
-          default: return "fgfgf"
+        //   case "GER": return GER[0]
+          default: return ENG[0]
         
     }
   
@@ -65,7 +66,7 @@ class Navbar extends Component {
 
            
 
-            <p className="nav-top-title">{this.ChangeLanguageEvantHandler()}</p>
+            <p className="nav-top-title">{this.ChangeLanguageEvantHandler().Navtop}</p>
 
 
             
@@ -76,12 +77,8 @@ class Navbar extends Component {
                            </div>
                            <div className="wishlist">Wishlist
                              <div className="heartshape"></div>
-                          </div>
-                         
-                          <Selector />
-                
-
-                         
+                          </div>                        
+                          <Selector />                        
                 </div>
             </div> 
             <div className="toolbar">

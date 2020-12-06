@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 //Components
 
@@ -9,18 +10,24 @@ import Container2 from './Components/Container2/Container2'
 import Container3 from './Components/Container3/Container3'
 import Swiper2 from './Components/Swiper2/Swiper'
 import Footer from './Components/Footer/Footer'
+import Product from './Components/ProductPage/Product'
 
 
 
 function App() {
   return (
     <div className="App">  
-     <div className="asd"><Navbar/></div>
+    <Router>
+    {/* <Switch> */}
+      <div className="asd"><Navbar/></div>
+      <Route path="/product" component={Product} />
       <div><Container1/></div>
       <div><Container2/></div>
       <div><Container3/></div>
       <div><Swiper2/></div> 
       <div><Footer/></div>
+      {/* </Switch> */}
+      </Router>   
     </div>
     
   );

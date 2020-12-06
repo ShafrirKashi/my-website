@@ -20,7 +20,8 @@ class Selector extends React.Component {
   };
   handleChange = selectedOption => {
     this.setState({ selectedOption });
-    localStorage.setItem('Language', selectedOption.value)
+    sessionStorage.setItem('Language', selectedOption.value);
+  
 
   };
 
