@@ -20,14 +20,11 @@ class Selector extends React.Component {
   };
   handleChange = selectedOption => {
     this.setState({ selectedOption });
-    sessionStorage.setItem('Language', selectedOption.value);
+    this.props.parentCallback("Data from child");
   
-
   };
 
   
-
-
   render() {
     const { selectedOption } = this.state;
  

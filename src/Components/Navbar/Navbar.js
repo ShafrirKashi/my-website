@@ -11,6 +11,8 @@ import ENG from '../Background/ENG.json'
 
 
 class Navbar extends Component {
+
+
     state = {
         cartOpen: false,
         chatOpen : true
