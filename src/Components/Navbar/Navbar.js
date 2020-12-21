@@ -5,19 +5,31 @@ import SearchField from 'react-search-field';
 import Imagecart from '../Background/imagecart.png'
 import Iconlogo from '../Background/iconlogin.png'
 import Backdrop from './Cart/Cartbackdrop/Cartbackdrop';
-import Selector from './Select/Select';
+import Select from 'react-select';
 import FRA from '../Background/FRA.json' 
 import ENG from '../Background/ENG.json' 
 
+const options = [
+    { value: 'ENG', label: '🇺🇸 USA' },
+    { value: 'FRA', label: '🇫🇷 FRA' },
+    { value: 'SPA', label: '🇪🇸 SPA' },
+    { value: 'RUS', label: '🇷🇺 RUS' },
+  ]
+   
 
 class Navbar extends Component {
 
 
     state = {
         cartOpen: false,
-        chatOpen : true
+        chatOpen : true,
+        selectedOption: { value: "ENG", label: "🇺🇸 USA" },
     };
 
+    handleChange = selectedOption => {
+        this.setState({ selectedOption });
+      
+      };
     
 
    CartToggleClickHandler = () => {
@@ -42,45 +54,48 @@ class Navbar extends Component {
 
     ChangeLanguageEvantHandler = () => {
         
-        switch(sessionStorage.getItem ("Language")) {
+        switch(this.state.selectedOption.value) {
           case "ENG": return ENG[0]
           break;
           case "FRA": return FRA[0]
           break;
-        //   case "GER": return GER[0]
+        //   case "SPA": return SPA[0]
+        //   break;
+        //   case "RUS": return RUS[0]
           default: return ENG[0]
         
     }
   
 }
+
         
     render() {
         let cart;
         let backdrop;
-
         if(this.state.cartOpen) {
             cart = <Cart/>
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
+        const { selectedOption } = this.state;
+
         return (
         <div className="nav">
             <div className="texttop">
-
-           
-
-            <p className="nav-top-title">{this.ChangeLanguageEvantHandler().Navtop}</p>
-
-
-            
-
-                <div className="topbarlinks">
-                           <div className="chat">Chat
-                             <div className="chatshape"></div>
+            <p className="nav-top-title">{this.ChangeLanguageEvantHandler().navtop}</p>
+                    <div className="topbarlinks">
+                      <div className="chat">Chat
+                          <div className="chatshape"></div>
                            </div>
                            <div className="wishlist">Wishlist
                              <div className="heartshape"></div>
                           </div>                        
-                          <Selector />                        
+                          <Select className='react-select-container' classNamePrefix="react-select"
+                           value={selectedOption}
+                             onChange={this.handleChange}
+                              options={options}
+                              closeMenuOnSelect={true}
+                             theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},
+                             })}/>                       
                 </div>
             </div> 
             <div className="toolbar">
