@@ -8,14 +8,17 @@ import Backdrop from './Cart/Cartbackdrop/Cartbackdrop';
 import Select from 'react-select';
 import FRA from '../Background/FRA.json' 
 import ENG from '../Background/ENG.json' 
+import SPA from '../Background/SPA.json' 
+import GER from '../Background/GER.json' 
 
 const options = [
     { value: 'ENG', label: '🇺🇸 USA' },
     { value: 'FRA', label: '🇫🇷 FRA' },
     { value: 'SPA', label: '🇪🇸 SPA' },
-    { value: 'RUS', label: '🇷🇺 RUS' },
+    { value: 'GER', label: '🇩🇪 GER' },
   ]
-   
+
+
 
 class Navbar extends Component {
 
@@ -55,20 +58,20 @@ class Navbar extends Component {
     ChangeLanguageEvantHandler = () => {
         
         switch(this.state.selectedOption.value) {
-          case "ENG": return ENG[0]
+          case "ENG": return ENG
           break;
-          case "FRA": return FRA[0]
+          case "FRA": return FRA
           break;
-        //   case "SPA": return SPA[0]
-        //   break;
-        //   case "RUS": return RUS[0]
-          default: return ENG[0]
+          case "SPA": return SPA
+          break;
+          case "GER": return GER
+          default: return ENG
         
     }
   
 }
 
-        
+
     render() {
         let cart;
         let backdrop;
@@ -77,16 +80,19 @@ class Navbar extends Component {
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
         const { selectedOption } = this.state;
+    
+
 
         return (
         <div className="nav">
             <div className="texttop">
-            <p className="nav-top-title">{this.ChangeLanguageEvantHandler().navtop}</p>
+            <p className="nav-top-title">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navtop}</p>})}
+            </p>
                     <div className="topbarlinks">
-                      <div className="chat">Chat
+                      <div className="chat">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopChat}</p>})}
                           <div className="chatshape"></div>
                            </div>
-                           <div className="wishlist">Wishlist
+                           <div className="wishlist">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopWishlist}</p>})}
                              <div className="heartshape"></div>
                           </div>                        
                           <Select className='react-select-container' classNamePrefix="react-select"
@@ -105,11 +111,11 @@ class Navbar extends Component {
                 </div>
 
                 <ul className="nav__items"> 
-                     <li>Men</li>
-                     <li>Women</li>
-                      <li>Kids</li>
-                      <li>Equipment</li>
-                      <li>Accessories</li>                
+                     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
+                     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
+                      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
+                      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
+                      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
                 </ul> 
 
                 <div className="searchboxwrapper">           
