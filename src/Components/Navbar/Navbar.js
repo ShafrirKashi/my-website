@@ -31,7 +31,7 @@ class Navbar extends Component {
 
     handleChange = selectedOption => {
         this.setState({ selectedOption });
-      
+        
       };
     
 

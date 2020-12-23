@@ -65,17 +65,17 @@ class Footer extends Component {
             <div className="footbottom">
                 <div className="footersocial">
                   
-                <a href="http://facebook.com"target="_blank">
+                <a href="http://facebook.com"target="_blank" rel="noopener noreferrer">
                     <div className="facebook"></div>
                 </a>
 
-                <a href="http://instagram.com" target="_blank">
+                <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
                     <div className="insta"></div>
                 </a>
-                <a href="http://twitter.com" target="_blank">
+                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
                     <div className="twitter"></div>
                 </a>
-                <a href="https://en.wikipedia.org/wiki/Google%2B"target="_blank">
+                <a href="https://en.wikipedia.org/wiki/Google%2B"target="_blank" rel="noopener noreferrer">
                     <div className="google"></div>
                 </a>
                 </div>
