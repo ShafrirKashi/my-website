@@ -1,6 +1,6 @@
 
 import { green } from '@material-ui/core/colors';
-import React from 'react';
+import React, { useState } from 'react';
 import Select from 'react-select';
 import './Select.css'
  
@@ -14,24 +14,25 @@ const options = [
  
 
 
-class Selector extends React.Component {
-  state = {
+const Selector = props =>{
+  const [Lang, setLang] = useState ({
     selectedOption: { value: "ENG", label: "🇺🇸 USA" },
-  };
-  handleChange = selectedOption => {
-    this.setState({ selectedOption });
-    this.props.parentCallback("Data from child");
+  });
+
+  const handleChange = selectedOption => {
+    setLang({ selectedOption });
+
   
   };
 
   
-  render() {
-    const { selectedOption } = this.state;
+  // render() {
+  //   const { selectedOption } = this.state;
  
     return (
       <Select className='react-select-container' classNamePrefix="react-select"
-        value={selectedOption}
-        onChange={this.handleChange}
+        value={Lang.selectedOption}
+        onChange={handleChange}
         options={options}
         closeMenuOnSelect={true}
         theme={theme => ({
@@ -44,7 +45,7 @@ class Selector extends React.Component {
         })}
       />
     );
-  }
+  // }
 }
 
 export default Selector;
