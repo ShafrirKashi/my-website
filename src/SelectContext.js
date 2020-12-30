@@ -37,20 +37,23 @@ return (
         </SelectContext.Provider>
 
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   
 }
+
+
+
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class SelectContext extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        );
+    }
+}
+
+
+export default SelectContext;

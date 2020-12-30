@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import {SelectProvider} from'./SelectContext'
 
 import Navbar from './Components/Navbar/Navbar'
 import Container1 from  './Components/Container1/Container1'
@@ -11,18 +10,35 @@ import Footer from './Components/Footer/Footer'
 
 
 
-function App() {
+const App = props => {
+
+const [Lang, setLang] = useState ({
+
+    value: "ENG",
+    label: "🇺🇸 USA" 
+
+});
+
+
+const handleChange = selectedOption => {
+  setLang({ selectedOption });
+};
+
+const selectedOption  = handleChange.setLang;
+
+
+
+
   return (
-    <SelectProvider>
     <div className="App">  
-      <div className="asd"><Navbar/></div>
+      <p>{setLang.value}</p>
+      <div className="asd"><Navbar triggerParentUpdate={handleChange}/></div>
       <Container1/>
       <Container2/>
       <Container3/>
       <Swiper2/>
       <Footer/>
     </div>
-    </SelectProvider>
     
   );
 }

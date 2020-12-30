@@ -26,8 +26,8 @@ const Selector = props =>{
   };
 
   
-  // render() {
-  //   const { selectedOption } = this.state;
+  render() {
+    const { selectedOption } = this.state;
  
     return (
       <Select className='react-select-container' classNamePrefix="react-select"
