@@ -18,19 +18,22 @@ const options = [
     { value: 'GER', label: '🇩🇪 GER' },
   ]
 
-// export const Shafrir = this.selectedOption
+
 
 class Navbar extends Component {
-    constructor(props) {
-    super(props)
 
-    this.state = {
-        cartOpen: false,
-        chatOpen : true,
-        selectedOption: { value: "ENG", label: "🇺🇸 USA" },
-    };
-}
-     handleChange = selectedOption => {
+    constructor(props){
+        super(props)
+        this.state = {
+            cartOpen: false,
+            chatOpen : true,
+            selectedOption: { value: props.lang.value, label: props.lang.value },
+        };
+
+    }
+    
+
+    handleChange = selectedOption => {
         this.setState({ selectedOption });
         
       };
@@ -60,17 +63,26 @@ class Navbar extends Component {
         
         switch(this.state.selectedOption.value) {
           case "ENG": return ENG
-       
+          break;
           case "FRA": return FRA
-       
+          break;
           case "SPA": return SPA
-        
+          break;
           case "GER": return GER
           default: return ENG
         
     }
   
 }
+wrapperFunction = () => {
+    
+    this.handleChange();
+    this.props.triggerParentUpdate();
+   
+}
+
+
+
 
 
     render() {
@@ -80,9 +92,9 @@ class Navbar extends Component {
             cart = <Cart/>
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
-    const { selectedOption } = this.state;
-   
-      
+        const { selectedOption } = this.state;
+    
+
 
         return (
         <div className="nav">
@@ -98,7 +110,9 @@ class Navbar extends Component {
                           </div>                        
                           <Select className='react-select-container' classNamePrefix="react-select"
                            value={selectedOption}
-                             onChange={this.props.triggerParentUpdate}
+                            //  onChange={this.handleChange}
+                            //  onChange={this.props.triggerParentUpdate}
+                                onChange={this.wrapperFunction}
                               options={options}
                               closeMenuOnSelect={true}
                              theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},

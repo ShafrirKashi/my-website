@@ -12,10 +12,9 @@ import Footer from './Components/Footer/Footer'
 
 const App = props => {
 
-const [Lang, setLang] = useState ({
+const [lang, setLang] = useState ({
 
-    value: "ENG",
-    label: "🇺🇸 USA" 
+  value: 'ENG', label: '🇺🇸 USA'
 
 });
 
@@ -25,14 +24,17 @@ const handleChange = selectedOption => {
 };
 
 const selectedOption  = handleChange.setLang;
-
+// console.log(selectedOption.value);
 
 
 
   return (
     <div className="App">  
-      <p>{setLang.value}</p>
-      <div className="asd"><Navbar triggerParentUpdate={handleChange}/></div>
+      <p>{lang.value}</p>
+      <div className="asd"><Navbar 
+      triggerParentUpdate={handleChange}
+      lang={lang}/>
+      </div>
       <Container1/>
       <Container2/>
       <Container3/>
