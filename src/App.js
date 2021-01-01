@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 
 import Navbar from './Components/Navbar/Navbar'
 import Container1 from  './Components/Container1/Container1'
@@ -20,21 +19,16 @@ const [lang, setLang] = useState ({
 
 
 const handleChange = selectedOption => {
-  setLang({ selectedOption });
+  setLang(selectedOption);
 };
 
-const selectedOption  = handleChange.setLang;
-// console.log(selectedOption.value);
+
 
 
 
   return (
     <div className="App">  
-      <p>{lang.value}</p>
-      <div className="asd"><Navbar 
-      triggerParentUpdate={handleChange}
-      lang={lang}/>
-      </div>
+      <Navbar style={{position: "-webkit-sticky"}}triggerParent={handleChange}lang={lang}/>
       <Container1/>
       <Container2/>
       <Container3/>

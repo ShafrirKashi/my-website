@@ -74,12 +74,7 @@ class Navbar extends Component {
     }
   
 }
-wrapperFunction = () => {
-    
-    this.handleChange();
-    this.props.triggerParentUpdate();
-   
-}
+
 
 
 
@@ -111,8 +106,7 @@ wrapperFunction = () => {
                           <Select className='react-select-container' classNamePrefix="react-select"
                            value={selectedOption}
                             //  onChange={this.handleChange}
-                            //  onChange={this.props.triggerParentUpdate}
-                                onChange={this.wrapperFunction}
+                             onChange={this.props.triggerParent}
                               options={options}
                               closeMenuOnSelect={true}
                              theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},
