@@ -1,8 +1,11 @@
-import React, { Component } from 'react';
+import React, { useContext } from 'react';
 import './Container2.css';
+import {SelectContext} from '../Selector'
 
-class FirstWrap extends Component {
-    render() {
+
+const FirstWrap = (props) => {
+    const value = useContext(SelectContext);
+
         return (
             <div className="secondcontainer">
                 <div className="wrap__text1"> 
@@ -14,6 +17,6 @@ class FirstWrap extends Component {
             </div>
         );
     }
-}
+
 
 export default FirstWrap;

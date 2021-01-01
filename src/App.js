@@ -1,4 +1,4 @@
-import React, { useState, createContext } from 'react';
+import React, { useState } from 'react';
 import Navbar from './Components/Navbar/Navbar'
 import Container1 from  './Components/Container1/Container1'
 import Container2 from './Components/Container2/Container2'
@@ -29,7 +29,7 @@ const handleChange = selectedOption => {
     <SelectProvider>
     {/* <div className="App">   */}
       <Navbar style={{position: "-webkit-sticky"}}
-      triggerParent={handleChange}lang={lang}
+      // triggerParent={handleChange}lang={lang}
       />
       <Container1/>
       <Container2/>

@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React, { useContext } from 'react';
 import './Footer.css'
 import SearchField from 'react-search-field';
+import {SelectContext} from '../Selector'
+
 
 
 
@@ -8,8 +10,11 @@ import SearchField from 'react-search-field';
 const scrollTop = () =>{
     window.scrollTo({top: 0, behavior: 'smooth'}); };
 
-class Footer extends Component {
-    render() {
+
+    const Footer = (props) => {
+
+        const value = useContext(SelectContext);
+
         return (
             <div className="foot">
                 <div className="footop">
@@ -87,6 +92,6 @@ class Footer extends Component {
             </div>
         );
     }
-}
+
 
 export default Footer;

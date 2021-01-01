@@ -10,6 +10,8 @@ import FRA from '../Background/FRA.json'
 import ENG from '../Background/ENG.json' 
 import SPA from '../Background/SPA.json' 
 import GER from '../Background/GER.json' 
+import {SelectContext} from '../Selector'
+
 
 const options = [
     { value: 'ENG', label: '🇺🇸 USA' },
@@ -21,6 +23,7 @@ const options = [
 
 
 class Navbar extends Component {
+    static contextType = SelectContext;
 
     constructor(props){
         super(props)
@@ -63,20 +66,14 @@ class Navbar extends Component {
         
         switch(this.state.selectedOption.value) {
           case "ENG": return ENG
-          break;
           case "FRA": return FRA
-          break;
           case "SPA": return SPA
-          break;
           case "GER": return GER
           default: return ENG
         
     }
   
 }
-
-
-
 
 
 
@@ -88,6 +85,7 @@ class Navbar extends Component {
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
         const { selectedOption } = this.state;
+        const {lang, setLang} = this.context
     
 
 
@@ -105,8 +103,8 @@ class Navbar extends Component {
                           </div>                        
                           <Select className='react-select-container' classNamePrefix="react-select"
                            value={selectedOption}
-                            //  onChange={this.handleChange}
-                             onChange={this.props.triggerParent}
+                             onChange={this.handleChange}
+                            //  onChange={this.props.triggerParent}
                               options={options}
                               closeMenuOnSelect={true}
                              theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},

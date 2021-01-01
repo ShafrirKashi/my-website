@@ -35,14 +35,14 @@ export const SelectProvider = (props) =>{
   
 
     return (
-      <SelectContext.Provider value={lang.value}>
+      <SelectContext.Provider value={[lang, setLang]}>
       <Navbar triggerParent={handleChange}lang={lang}/>
       <Container1/>
       <Container2/>
       <Container3/>
       <Swiper2/>
       <Footer/>
-     
+
          </SelectContext.Provider>                    
 
 

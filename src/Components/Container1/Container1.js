@@ -11,8 +11,7 @@ const Container1 = (props) => {
             <div>
                 <div className="container1image">
                   <div className="textdiv1">
-                    {/* <h1 className="h1">Winter Is Coming</h1>    */}
-                    <h1 className="h1">{value}</h1>                  
+                    <h1 className="h1">Winter Is Coming</h1>   
                     <h2 className="h2">Built for unforgiving conditions. 
                     <br/>Trusted by athletes across the globe.</h2>
                     <a href="22" className="button1">Shop Now</a>
