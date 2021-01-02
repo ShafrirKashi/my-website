@@ -1,7 +1,6 @@
 
 import React, { useState, createContext } from 'react';
 import './Selector.css'
-import Select from 'react-select';
 import Navbar from '../Components/Navbar/Navbar'
 import Container1 from  '../Components/Container1/Container1'
 import Container2 from '../Components/Container2/Container2'
@@ -11,13 +10,13 @@ import Footer from '../Components/Footer/Footer'
 
 export const SelectContext = createContext();
 
-const options = [
-  { value: 'ENG', label: '🇺🇸 USA' },
-  { value: 'FRA', label: '🇫🇷 FRA' },
-  { value: 'GER', label: '🇩🇪 GER' },
-  { value: 'SPA', label: '🇪🇸 SPA' },
-  { value: 'ITA', label: '🇮🇹 ITA' },
-]
+// const options = [
+//   { value: 'ENG', label: '🇺🇸 USA' },
+//   { value: 'FRA', label: '🇫🇷 FRA' },
+//   { value: 'GER', label: '🇩🇪 GER' },
+//   { value: 'SPA', label: '🇪🇸 SPA' },
+//   { value: 'ITA', label: '🇮🇹 ITA' },
+// ]
  
 
 
@@ -28,14 +27,11 @@ export const SelectProvider = (props) =>{
 
   const handleChange = selectedOption => {
     setLang( selectedOption );
-
-  
   };
 
-  
-
+ 
     return (
-      <SelectContext.Provider value={[lang, setLang]}>
+      <SelectContext.Provider value={lang.value}>
       <Navbar triggerParent={handleChange}lang={lang}/>
       <Container1/>
       <Container2/>

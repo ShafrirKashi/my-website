@@ -2,6 +2,10 @@ import React, { useContext } from 'react';
 import './Footer.css'
 import SearchField from 'react-search-field';
 import {SelectContext} from '../Selector'
+import FRA from '../Background/FRA.json' 
+import ENG from '../Background/ENG.json' 
+import SPA from '../Background/SPA.json' 
+import GER from '../Background/GER.json' 
 
 
 
@@ -15,6 +19,20 @@ const scrollTop = () =>{
 
         const value = useContext(SelectContext);
 
+        
+const ChangeLanguageEvantHandler = () => {
+    switch(value) {
+    case "ENG": return ENG
+    case "FRA": return FRA
+    case "SPA": return SPA
+    case "GER": return GER
+    default: return ENG 
+   }
+}
+
+
+
+
         return (
             <div className="foot">
                 <div className="footop">
@@ -23,7 +41,7 @@ const scrollTop = () =>{
                             <div className="logo"></div>
                             <div className="ad">VIPeak</div>
                         </div>
-                        <div className="textoverlay">Join And Get 10% Off</div>
+                        <div className="textoverlay">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.FooterTop}</p>})}</div>
                     </div>
                 </div>
                 <div className="footer">

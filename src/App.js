@@ -29,7 +29,7 @@ const handleChange = selectedOption => {
     <SelectProvider>
     {/* <div className="App">   */}
       <Navbar style={{position: "-webkit-sticky"}}
-      // triggerParent={handleChange}lang={lang}
+      triggerParent={handleChange}lang={lang}
       />
       <Container1/>
       <Container2/>

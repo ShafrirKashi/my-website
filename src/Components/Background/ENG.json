@@ -1,6 +1,6 @@
-
-
 [
+
+
   {"Navtop":"Join Alpine's VIPeak™ Club For 10% Off Your First Online Order"},
   {"NavtopChat":"Chat"},
   {"NavtopWishlist":"Wishlist"},
@@ -9,7 +9,23 @@
   {"Navlinks3":"Kids"},
   {"Navlinks4":"Equipement"},
   {"Navlinks5":"Accessories"},
-  {"Searchbar":"Search Items..."}
+  {"Searchbar":"Search Items..."},
+  {"CartH1": "Shopping Cart"},
+  {"Total": "Total"},
+  {"Checkout": "Checkout"},
+  {"ViewCart":"View Cart"},
+  {"Conatiner1H1": "Winter is Coming"},
+  {"Conatiner1H2": "Built for unforgiving conditions. Trusted by athletes across the globe."},
+  {"ShopNow": "Shop Now"},
+  {"Conatiner2H1": "Reset Warmth"},
+  {"Conatiner2H2": "Unrestricted mobility. Lightweight, packable down. The perfect winter jacket isn’t a stretch—it’s a fact."},
+  {"Conatiner3Large": "All-Weather Hiking Gear"},
+  {"Conatiner3Medium": "Ultimate Breathable Protection"},
+  {"Conatiner3WShop": "Shop For Women"},
+  {"Conatiner3MShop": "Shop For Men"},
+  {"SwiperPrice": "$"},
+  {"FooterTop": "Join And Get 10% Off"}
+
 ]
 
 

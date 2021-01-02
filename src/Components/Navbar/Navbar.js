@@ -30,7 +30,7 @@ class Navbar extends Component {
         this.state = {
             cartOpen: false,
             chatOpen : true,
-            selectedOption: { value: props.lang.value, label: props.lang.value },
+            selectedOption: { value: props.lang.value, label: props.lang.label },
         };
 
     }
@@ -64,15 +64,13 @@ class Navbar extends Component {
 
     ChangeLanguageEvantHandler = () => {
         
-        switch(this.state.selectedOption.value) {
+        switch(this.context) {
           case "ENG": return ENG
           case "FRA": return FRA
           case "SPA": return SPA
           case "GER": return GER
-          default: return ENG
-        
+          default: return ENG 
     }
-  
 }
 
 
@@ -84,9 +82,8 @@ class Navbar extends Component {
             cart = <Cart/>
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
 
-        const { selectedOption } = this.state;
-        const {lang, setLang} = this.context
-    
+        // const { selectedOption } = this.state;
+            let value = this.props.lang
 
 
         return (
@@ -102,9 +99,8 @@ class Navbar extends Component {
                              <div className="heartshape"></div>
                           </div>                        
                           <Select className='react-select-container' classNamePrefix="react-select"
-                           value={selectedOption}
-                             onChange={this.handleChange}
-                            //  onChange={this.props.triggerParent}
+                           value={value}
+                           onChange={this.props.triggerParent}
                               options={options}
                               closeMenuOnSelect={true}
                              theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},

@@ -9,7 +9,22 @@
   {"Navlinks3":"niños"},
   {"Navlinks4":"Equipamiento"},
   {"Navlinks5":"Accesorios"},
-  {"Searchbar":"Buscar..."}
+  {"Searchbar":"Search Items..."},
+  {"CartH1": "Carrito de compras"},
+  {"Total": "Total"},
+  {"Checkout": "Revisa"},
+  {"ViewCart":"Ver carrito"},
+  {"Conatiner1H1": "Viene el invierno"},
+  {"Conatiner1H2": "Construido para condiciones implacables. Con la confianza de atletas de todo el mundo."},
+  {"ShopNow": "Compra ahora"},
+  {"Conatiner2H1": "Restablecer calor"},
+  {"Conatiner2H2": "Movilidad sin restricciones. Plumón ligero y plegable. La chaqueta de invierno perfecta no es un estiramiento, es un hecho."},
+  {"Conatiner3Large": "Equipo de senderismo para todo clima"},
+  {"Conatiner3Medium": "Máxima protección transpirable"},
+  {"Conatiner3WShop": "Tienda para mujeres"},
+  {"Conatiner3MShop": "Shop For hombres"},
+  {"SwiperPrice": "€"},
+  {"FooterTop": "Únase y obtenga un 10% de descuento"}
 ]
 
 
