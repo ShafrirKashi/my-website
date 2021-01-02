@@ -22,24 +22,27 @@
 }
 
 .button2 {
-    background-color:#fabc02;
-    border: none;
-    font-family: eras itc;
-    position: absolute;
-    top: 1.066vh;
-    color: black;
-    height: auto;
-    width: auto;
-    padding: 1.66vh 2.132vh;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2.02vh;
-    margin: 0.42vh 0.21vh;
-    cursor: pointer;
-    grid-row: 3/4;
-    grid-column: 2/3;
-    border-radius: 10.66vh;
+  background-color:#fabc02;
+  border: none;
+  font-family: eras itc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 1.06vh;
+  color: black;
+  width: auto;
+  height: 4vh;
+  padding: 1.06vh 2.13vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.02vh;
+  margin: 0.42vh 0.21vh;
+  cursor: pointer;
+  grid-row: 4/5;
+  grid-column: 2/3;
+  border-radius: 10.66vh;   
 
   }
 
@@ -49,8 +52,8 @@
     transition: 0.2s
   }
   .h1_2 {
-    font-family: typographica;
-    font-size: 10vh;
+    font-family: eras itc;
+    font-size: 7vh;
     grid-row: 1/2;
     grid-column: 2/3;
     -webkit-text-size-adjust: none;    color: white;
@@ -62,6 +65,7 @@
     grid-row: 2/3;
     grid-column: 2/3;
     color: white;
+    width: 40vw;
 
     text-size-adjust: none; 
 

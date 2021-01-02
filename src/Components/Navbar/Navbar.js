@@ -81,8 +81,6 @@ class Navbar extends Component {
         if(this.state.cartOpen) {
             cart = <Cart/>
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
-
-        // const { selectedOption } = this.state;
             let value = this.props.lang
 
 
@@ -127,7 +125,7 @@ class Navbar extends Component {
 
                 <div className="accessbar">
                     <img src={Iconlogo} alt="dsa" className="imglogin"/> 
-                        <div className="cartbox" onMouseEnter={this.CartToggleClickHandler}> 
+                        <div className="cartbox" onClick={this.CartToggleClickHandler}> 
                           <div className="imgnum">0</div>
                           <img src={Imagecart} alt="asd" className="imgcart"/> 
                         </div>

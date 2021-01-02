@@ -28,24 +28,27 @@
         
     }
     .buttonbox1 {
-        background-color:#fabc02;
-        border: none;
-        font-family: Eras itc;
-        position: absolute;
-        top: 1.066vh;
-        color: black;
-        height: auto;
-        width: auto;
-        padding: 0.959vh 1.599vh;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 0.42vh 0.21vh;
-        cursor: pointer;
-        border-radius: 10.660vh;
-        grid-row: 3/4;
-        grid-column: 2/3;
-        
+      background-color:#fabc02;
+      border: none;
+      font-family: eras itc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 0px;
+      top: -10.06vh;
+      color: black;
+      width: auto;
+      height: 4vh;
+      padding: 1.06vh 2.13vh;
+      text-align: center;
+      text-decoration: none;
+      font-size: 2.02vh;
+      margin: 0.42vh 0.21vh;
+      cursor: pointer;
+      grid-row: 4/5;
+      grid-column: 2/3;
+      border-radius: 10.66vh;   
   
       }
   
@@ -73,23 +76,27 @@
     position: relative;     
 }
 .buttonbox2 {
-    background-color:#fabc02;
-    border: none;
-    font-family: eras itc;
-    color: black;
-    position: relative;
-     top: 1.06vh;
-    height: 2.3vh;
-    width: 11.9vh;
-    padding: 0.95vh 1.599vh;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0.42vh 0.21vh;
-    cursor: pointer;
-    border-radius: 10.66vh;
-    grid-row:3/4 ;
-    grid-column:2/3 ; 
+  background-color:#fabc02;
+  border: none;
+  font-family: eras itc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 52.6vw;
+  top: 40.5vh;
+  color: black;
+  width: auto;
+  height: 4vh;
+  padding: 1.06vh 2.13vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.02vh;
+  margin: 0.42vh 0.21vh;
+  cursor: pointer;
+  grid-row: 4/5;
+  grid-column: 2/3;
+  border-radius: 10.66vh;   
 
   }
 
@@ -108,25 +115,27 @@
    
 }
 .buttonbox3 {
-    background-color:#fabc02;
-    font-family: eras itc;
-    color: black;
-    position: relative;
-    top: 1.066vh;
-    height: auto;
-    width: auto;
-    padding: 0.95vh 1.599vh;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.95vh 1.599vh;
-    cursor: pointer;
-    border-radius: 10.66vh;
-    grid-row:3/4 ;
-    grid-column:2/3 ;
-    position: relative;
-    left: 1.5vw;
-    top: 41vh;
+  background-color:#fabc02;
+  border: none;
+  font-family: eras itc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 52vw;
+  top: 91vh;
+  color: black;
+  width: auto;
+  height: 4vh;
+  padding: 1.06vh 2.13vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.02vh;
+  margin: 0.42vh 0.21vh;
+  cursor: pointer;
+  grid-row: 4/5;
+  grid-column: 2/3;
+  border-radius: 10.66vh;   
 
   }
   .buttonbox3:hover {
@@ -147,27 +156,27 @@
     
 }
 .buttonbox4 {
-    background-color:#fabc02;
-    font-family: eras itc;
-    /* font-weight: bold; */
-    color: black;
-    position: relative;
-    top: 1.066vh;
-    /* border: 1px solid black; */
-    height: auto;
-    width: auto;
-    padding: 0.95vh 1.599vh;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.95vh 1.599vh;
-    cursor: pointer;
-    border-radius: 10.66vh;
-    grid-row:3/4 ;
-    grid-column:2/3 ;
-    position: relative;
-    left: 1.5vw;
-    top: 41vh;
+  background-color:#fabc02;
+  border: none;
+  font-family: eras itc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 76.5vw;
+  top: 91vh;
+  color: black;
+  width: auto;
+  height: 4vh;
+  padding: 1.06vh 2.13vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.02vh;
+  margin: 0.42vh 0.21vh;
+  cursor: pointer;
+  grid-row: 4/5;
+  grid-column: 2/3;
+  border-radius: 10.66vh;   
 
   }
   .buttonbox4:hover {

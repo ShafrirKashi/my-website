@@ -24,7 +24,18 @@
   {"Conatiner3WShop": "Shop For Women"},
   {"Conatiner3MShop": "Shop For Men"},
   {"SwiperPrice": "$"},
-  {"FooterTop": "Join And Get 10% Off"}
+  {"FooterTop": "Join And Get 10% Off"},
+  {"Info": "Information"},
+  {"Helpful":"Helpful Links"},
+  {"About": "About Us"},
+  {"Blog": "Blog"},
+  {"Testamonials": "Testamonials"},
+  {"Events": "Events"},
+  {"Services": "Services"},
+  {"Support":"Support"},
+  {"Terms": "Terms & Conditions"},
+  {"Privacy": "Privacy Policy"},
+  {"Contact": "Contact Us"}
 
 ]
 

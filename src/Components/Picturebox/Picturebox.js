@@ -25,17 +25,17 @@ const Picturebox = (props) => {
         <div className="container3grid">
             <div className="box1">
                 <div className="box1text">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner3Large}</p>})}</div>
-                <a href="22" className="buttonbox1">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.ShopNow}</p>})}</a>
+                <button href="22" className="buttonbox1">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.ShopNow}</p>})}</button>
             </div>
             <div className="box2">
                 <div className="box2text">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner3Medium}</p>})}</div>
-                <a href="33" className="buttonbox2">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.ShopNow}</p>})}</a>
+                <button href="33" className="buttonbox2">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.ShopNow}</p>})}</button>
             </div>
             <div className="box3">           
-                <a href="44" className="buttonbox3">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner3WShop}</p>})}</a>
+                <button href="44" className="buttonbox3">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner3WShop}</p>})}</button>
             </div>
             <div className="box4">
-                <a href="55" className="buttonbox4">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner3MShop}</p>})}</a>
+                <button href="55" className="buttonbox4">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner3MShop}</p>})}</button>
             </div>
         </div>   
         );

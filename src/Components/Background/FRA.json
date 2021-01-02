@@ -24,7 +24,18 @@
   {"Conatiner3WShop": "Magasinez pour les femmes"},
   {"Conatiner3MShop": "Magasinez pour hommes"},
   {"SwiperPrice": "€"},
-  {"FooterTop": "Rejoignez et obtenez 10% de réduction"}
+  {"FooterTop": "Rejoignez et obtenez 10% de réduction"},
+  {"Info": "Information"},
+  {"Helpful":"Liens Utiles"},
+  {"About": "À propos de nous"},
+  {"Blog": "Blog"},
+  {"Testamonials": "Témoignages"},
+  {"Events": "Événements"},
+  {"Services": "Prestations de Service"},
+  {"Support":"Soutien"},
+  {"Terms": "Termes et Sonditions"},
+  {"Privacy": "Politique de confidentialité"},
+  {"Contact": "Nous contacter"}
 ]
 
 
