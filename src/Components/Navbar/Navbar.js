@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import Cart from './Cart/Cart';
+import Loginbox from './Login/Loginbox';
 import SearchField from 'react-search-field';
 import Imagecart from '../Background/imagecart.png'
 import Iconlogo from '../Background/iconlogin.png'
@@ -26,10 +27,12 @@ class Navbar extends Component {
     static contextType = SelectContext;
 
     constructor(props){
+
         super(props)
         this.state = {
             cartOpen: false,
             chatOpen : true,
+            loginboxOpen : false,
             selectedOption: { value: props.lang.value, label: props.lang.label },
         };
 
@@ -46,6 +49,12 @@ class Navbar extends Component {
 
     this.setState((prevState) =>{
         return {cartOpen: !prevState.cartOpen}
+       })
+   }
+   LoginboxToggleClickHandler = () => {
+
+    this.setState((prevState) =>{
+        return {loginboxOpen: !prevState.loginboxOpen}
        })
    }
 
@@ -77,7 +86,11 @@ class Navbar extends Component {
 
     render() {
         let cart;
+        let loginbox;
         let backdrop;
+        if(this.state.loginboxOpen) {
+            loginbox = <Loginbox />
+            backdrop = <Backdrop click={this.BackdropClickHandler}/>}
         if(this.state.cartOpen) {
             cart = <Cart/>
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
@@ -124,7 +137,10 @@ class Navbar extends Component {
                 </div>
 
                 <div className="accessbar">
-                    <img src={Iconlogo} alt="dsa" className="imglogin"/> 
+                    <div className="loginbox" onClick={this.LoginboxToggleClickHandler}>
+                    <img src={Iconlogo} alt="dsa" className="imglogin" /> 
+
+                    </div>
                         <div className="cartbox" onClick={this.CartToggleClickHandler}> 
                           <div className="imgnum">0</div>
                           <img src={Imagecart} alt="asd" className="imgcart"/> 
@@ -134,6 +150,8 @@ class Navbar extends Component {
             </div> 
             {backdrop}
             {cart}
+            {loginbox}
+          
 
             {this.state.chatOpen?
                 <div className="chatobot">

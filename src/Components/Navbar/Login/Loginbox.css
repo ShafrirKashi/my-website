@@ -1,0 +1,14 @@
+.login{
+
+    position: absolute;
+    right: 5vw;
+    width: 20vw;
+    height: 62vh;
+    background-color: #fff;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid rgb(172, 172, 172);
+    z-index: 200;
+    box-shadow: -2px 2px 6px  rgb(65, 65, 65);
+    
+}
