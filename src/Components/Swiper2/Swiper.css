@@ -48,7 +48,7 @@ display: block;
 }
 .swipers:hover {
  
-    cursor: pointer;
+    /* cursor: pointer; */
     opacity: 95%;
 }
 .swiper-title {
