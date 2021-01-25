@@ -46,11 +46,11 @@ display: block;
     background-size: cover;
     background-repeat: no-repeat; 
 }
-/* .swipers:hover {
+.swipers:hover {
  
     cursor: pointer;
-    opacity: 95%;
-} */
+    opacity: 77%;
+} 
 .swiper-title {
 
     font-family: candara;
