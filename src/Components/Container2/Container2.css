@@ -48,7 +48,7 @@
 
   .button2:hover {
     background-color: #ffd65c;
-    opacity: 78%;
+    opacity: 0.80;
     transition: 0.2s
   }
   .h1_2 {

@@ -64,7 +64,7 @@
 
     .button1:hover {
       background-color: #ffd760;
-      opacity: 78%;
+      opacity: 0.80;
       transition: 0.2s
     }
 

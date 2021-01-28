@@ -54,7 +54,7 @@
   
       .buttonbox1:hover {
         
-        opacity: 82%;
+        opacity: 0.82;
         transition: 0.2s
       }
 .box2 {
@@ -102,7 +102,7 @@
 
   .buttonbox2:hover {
     
-    opacity: 82%;
+    opacity: 0.82;
     transition: 0.2s
   }
 .box3 {
@@ -140,7 +140,7 @@
   }
   .buttonbox3:hover {
     
-    opacity: 82%;
+    opacity: 0.82;
     transition: 0.2s
   }
        
@@ -181,7 +181,7 @@
   }
   .buttonbox4:hover {
     /* background-color: #ffd760; */
-    opacity: 82%;
+    opacity: 0.82;
     transition: 0.2s
   }
 
