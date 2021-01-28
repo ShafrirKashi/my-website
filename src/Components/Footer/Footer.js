@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import './Footer.css'
-import SearchField from 'react-search-field';
 import {SelectContext} from '../Selector'
 import FRA from '../Background/FRA.json' 
 import ENG from '../Background/ENG.json' 
