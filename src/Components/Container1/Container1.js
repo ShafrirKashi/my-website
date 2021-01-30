@@ -24,7 +24,8 @@ const ChangeLanguageEvantHandler = () => {
             <div>
                 <div className="container1image">
                   <div className="textdiv1">
-                    <h1 className="h1">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner1H1}</p>})}</h1>   
+                  <div className="h1bc"></div>  
+                    <h1 className="h1">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner1H1}</p>})}</h1> 
                     <h2 className="h2">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner1H2}</p>})}</h2>
                     <button className="button1">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.ShopNow}</p>})}</button>
                   </div>

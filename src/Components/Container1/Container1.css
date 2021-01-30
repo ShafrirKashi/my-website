@@ -68,5 +68,42 @@
       opacity: 0.80;
       transition: 0.2s
     }
+    .h1bc{
+      position: relative;
+      top: 90vw;
+      width: 110vw;
+      height: 18vh;
+      background-image: radial-gradient(rgba(0, 0, 0, 0.35) 40%, transparent 60%);
+      display: none;
+    }
+
+    @media (max-width:400px) {
+
+      .container1image{
+        background-position: -80vw 0px; 
+        height: 60vh;
+      }
+        .h1{
+          font-size: 4.65vh;
+          color: white;
+          position: relative;
+          top: 64vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          white-space: nowrap;
+        }
+        .h2 {
+          display: none;
+        }
+        .h1bc{
+          display: block
+        }
+        .button1{
+          top: 44vw;
+        }
+
+      }
+    
 
     
