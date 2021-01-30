@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import Cart from './Cart/Cart';
 import Loginbox from './Login/Loginbox';
-import SearchField from 'react-search-field';
+// import SearchField from 'react-search-field';
 import Imagecart from '../Background/imagecart.png'
 import Iconlogo from '../Background/iconlogin.png'
 import Backdrop from './Cart/Cartbackdrop/Cartbackdrop';
