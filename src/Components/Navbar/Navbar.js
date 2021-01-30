@@ -12,13 +12,17 @@ import ENG from '../Background/ENG.json'
 import SPA from '../Background/SPA.json' 
 import GER from '../Background/GER.json' 
 import {SelectContext} from '../Selector'
+import USAF from '../Background/usoa.png' 
+import GERF from '../Background/germany.png' 
+import FRAF from '../Background/france.png' 
+import SPAF from '../Background/spain.png' 
 
 
 const options = [
-    { value: 'ENG', label: '🇺🇸 ENG' },
-    { value: 'FRA', label: '🇫🇷 FRA' },
-    { value: 'SPA', label: '🇪🇸 SPA' },
-    { value: 'GER', label: '🇩🇪 GER' },
+    { value: 'ENG', label:  [<img src={USAF} alt="asd" className="imgflag"/>, "English"]},
+    { value: 'FRA', label:  [<img src={FRAF} alt="asd" className="imgflag"/>, "France"]},
+    { value: 'SPA', label:  [<img src={SPAF} alt="asd" className="imgflag"/>, "Spanish"]},
+    { value: 'GER', label:  [<img src={GERF} alt="asd" className="imgflag"/>, "German"]},
   ]
 
 
@@ -133,7 +137,7 @@ class Navbar extends Component {
                 </ul> 
 
                 <div className="searchboxwrapper">           
-                      <SearchField placeholder='Search item...'/>
+                      {/* <SearchField placeholder='Search item...'/> */}
                 </div>
 
                 <div className="accessbar">

@@ -7,6 +7,8 @@ import Container2 from '../Components/Container2/Container2'
 import Container3 from '../Components/Container3/Container3'
 import Swiper2 from '../Components/Swiper2/Swiper'
 import Footer from '../Components/Footer/Footer'
+import USAF from '../Components/Background/usoa.png' 
+
 
 export const SelectContext = createContext();
 
@@ -22,7 +24,7 @@ export const SelectContext = createContext();
 
 export const SelectProvider = (props) =>{
   const [lang, setLang] = useState ({
-    value: "ENG", label: "🇺🇸 USA" 
+    value: "ENG", label: [<img src={USAF} alt="asd" className="imgflag"/>, "English"]
   });
 
   const handleChange = selectedOption => {

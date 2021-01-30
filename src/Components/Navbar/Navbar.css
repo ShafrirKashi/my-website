@@ -14,7 +14,8 @@
   width: 100%;
   height: 4vh;
   border-bottom: 0.106vh solid rgb(99, 99, 99);
-  font-size:1.76vh
+  font-size:1.96vh;
+  font-family: eras itc;
 }
 .accessbar {
   /* background-color:rgb(228, 0, 0); */
@@ -221,35 +222,6 @@ height: 4.4vh !important;
   align-items: center;
  
 }
-.flagbox {
-  width: 13vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-
- 
-}
-.flag {
-  padding: 0.692vh;
-  margin: 0.831vh;
-  width: 2vh;
-  height: 0.692vh;
-  background-image: url('../Background/USFLAG.png');
-  background-position: 0px 0px; 
-  background-size: cover;
-  display: flex;
-}
-.arrow-down {
-  background-image: url('../Background/arrow-down.png');
-  background-position: 0px 0px; 
-  background-size: cover;
-  width: 1.5vh;
-  height: 0.792vh;
-  margin: 0.831vh;
-  
-  
-}
 
 .wishlist {
   display: flex;
@@ -291,13 +263,10 @@ height: 4.4vh !important;
   justify-content: center;
   align-items: center;
   background-color:rgb(0, 0, 0) !important;
-  width: 13vh;
+  min-width: 18vh;
   max-height: 4vh !important;
   min-height: 4vh !important;
   border: 1px solid transparent !important;
-}
-.react-select__single-value {
-  color: white !important;
 }
 
 .react-select__control--is-focused {
@@ -305,6 +274,10 @@ box-shadow: none !important;
 }
 .react-select__menu {
   background-color: black !important;
+  border-bottom-right-radius: 1vh !important;
+  border-bottom-left-radius: 1vh !important;
+  width: 8vw !important;
+  white-space: nowrap;
  
 }
 .react-select-container {
@@ -315,6 +288,12 @@ box-shadow: none !important;
   height: 3.9vh;
 
 }
-
+.imgflag{
+  position: relative;
+  top: 2px;
+  width:25.5px;
+  height: 17px;
+  margin-right: 0.7vw
+}
 
 
