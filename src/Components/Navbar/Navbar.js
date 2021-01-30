@@ -12,10 +12,11 @@ import ENG from '../Background/ENG.json'
 import SPA from '../Background/SPA.json' 
 import GER from '../Background/GER.json' 
 import {SelectContext} from '../Selector'
+import LALA from '../Background/germany.png' 
 
 
 const options = [
-    { value: 'ENG', label: '🇺🇸 USA' },
+    { value: 'ENG', label: '🇺🇸 ENG' },
     { value: 'FRA', label: '🇫🇷 FRA' },
     { value: 'SPA', label: '🇪🇸 SPA' },
     { value: 'GER', label: '🇩🇪 GER' },
