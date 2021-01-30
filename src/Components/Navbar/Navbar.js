@@ -12,7 +12,6 @@ import ENG from '../Background/ENG.json'
 import SPA from '../Background/SPA.json' 
 import GER from '../Background/GER.json' 
 import {SelectContext} from '../Selector'
-import LALA from '../Background/germany.png' 
 
 
 const options = [
