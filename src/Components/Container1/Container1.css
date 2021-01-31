@@ -77,7 +77,7 @@
       display: none;
     }
 
-    @media (min-device-width:360px) {
+    @media (max-width:360px) {
 
       .container1image{
         background-position: -50vw 0px; 
