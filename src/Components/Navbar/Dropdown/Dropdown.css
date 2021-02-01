@@ -1,0 +1,14 @@
+.dropdown{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 34vw;
+    height: 50vh;
+    left: 14.3vw;
+    background-color: #fff;
+  }
+  .links {
+    background-color: white;
+    width: 50%;
+    height:100%
+  }

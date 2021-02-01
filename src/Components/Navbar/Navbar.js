@@ -16,6 +16,8 @@ import USAF from '../Background/usoa.png'
 import GERF from '../Background/germany.png' 
 import FRAF from '../Background/france.png' 
 import SPAF from '../Background/spain.png' 
+import Dropdown from './Dropdown/Dropdown'
+import Dropmen from '../Background/dropdownmen.jpg' 
 
 
 const options = [
@@ -103,9 +105,43 @@ class Navbar extends Component {
 
         return (
         <div className="nav">
-            <div className="texttop">
-            <p className="nav-top-title">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navtop}</p>})}
-            </p>
+
+
+
+<div className="toolbar">
+
+<div className="logo_container">
+    <div className="logonav"></div>
+</div>
+
+<ul className="nav__items"> 
+     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
+     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
+      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
+      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
+      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
+</ul> 
+
+<div className="searchboxwrapper">           
+      {/* <SearchField placeholder='Search item...'/> */}
+</div>
+
+<div className="accessbar">
+    <div className="loginbox" onClick={this.LoginboxToggleClickHandler}>
+    <img src={Iconlogo} alt="dsa" className="imglogin" /> 
+
+    </div>
+        <div className="cartbox" onClick={this.CartToggleClickHandler}> 
+          <div className="imgnum">0</div>
+          <img src={Imagecart} alt="asd" className="imgcart"/> 
+        </div>
+</div>
+
+</div> 
+<Dropdown img={Dropmen}/>
+
+ <div className="texttop">
+ <p className="nav-top-title">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navtop}</p>})}</p>
                     <div className="topbarlinks">
                       <div className="chat">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopChat}</p>})}
                           <div className="chatshape"></div>
@@ -116,42 +152,13 @@ class Navbar extends Component {
                           <Select className='react-select-container' classNamePrefix="react-select"
                            value={value}
                            onChange={this.props.triggerParent}
-                              options={options}
-                              closeMenuOnSelect={true}
-                             theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},
+                           options={options}
+                           closeMenuOnSelect={true}
+                           theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},
                              })}/>                       
                 </div>
             </div> 
-            <div className="toolbar">
-
-                <div className="logo_container">
-                    <div className="logonav"></div>
-                </div>
-
-                <ul className="nav__items"> 
-                     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
-                     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
-                      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
-                      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
-                      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
-                </ul> 
-
-                <div className="searchboxwrapper">           
-                      {/* <SearchField placeholder='Search item...'/> */}
-                </div>
-
-                <div className="accessbar">
-                    <div className="loginbox" onClick={this.LoginboxToggleClickHandler}>
-                    <img src={Iconlogo} alt="dsa" className="imglogin" /> 
-
-                    </div>
-                        <div className="cartbox" onClick={this.CartToggleClickHandler}> 
-                          <div className="imgnum">0</div>
-                          <img src={Imagecart} alt="asd" className="imgcart"/> 
-                        </div>
-                </div>
-
-            </div> 
+           
             {backdrop}
             {cart}
             {loginbox}

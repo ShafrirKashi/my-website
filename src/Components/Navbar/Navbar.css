@@ -143,10 +143,8 @@ height: 4.4vh !important;
   padding: 0;
   font-family: eras itc;
  margin-right: 1vw;
- white-space: nowrap;
- 
-
-  
+ margin-left: 2vw;
+ white-space: nowrap;  
   
 }
  .nav__items li{
@@ -173,11 +171,12 @@ height: 4.4vh !important;
   text-underline-offset: 10px;
   
 }
+
 .chatobot {
   background-image: url('../Background/logochat.png');
   background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: fixed;
   height: 9vh;
   width: 9vh;
@@ -212,15 +211,6 @@ height: 4.4vh !important;
   position: absolute;
   right: 5vw;
   list-style-type: none;
-}
-.chat {
-
-}
-.country{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
 }
 
 .wishlist {
@@ -276,13 +266,16 @@ box-shadow: none !important;
   background-color: black !important;
   border-bottom-right-radius: 1vh !important;
   border-bottom-left-radius: 1vh !important;
-  width: 8vw !important;
+  width: 7vw !important;
   white-space: nowrap;
  
 }
+.react-select__single-value {
+  top:43% !important;
+}
 .react-select-container {
   height: 100%;
-  width: 15vh;
+  width: 14vh;
 }
 .react-select__indicators {
   height: 3.9vh;
@@ -290,10 +283,18 @@ box-shadow: none !important;
 }
 .imgflag{
   position: relative;
-  top: 2px;
-  width:25.5px;
-  height: 17px;
-  margin-right: 0.7vw
+  top: 0.3vh;
+  width:24px;
+  height: 16px;
+  margin-right: 0.5vw
+}
+@media (max-width:360px){
+.chatobot{
+  display: none;
+}
+.nav__items li{
+  display: none;
 }
 
 
+}
