@@ -18,6 +18,14 @@ import FRAF from '../Background/france.png'
 import SPAF from '../Background/spain.png' 
 import Dropdown from './Dropdown/Dropdown'
 import Dropmen from '../Background/dropdownmen.jpg' 
+import Dropwomen from '../Background/dropdownwomen.jpg' 
+import Dropkids from '../Background/dropdownkids.jpg' 
+import Dropequ from '../Background/dropdownequ.jpg' 
+import Dropacc from '../Background/dropdownacce.jpg' 
+
+
+
+
 
 
 const options = [
@@ -40,6 +48,11 @@ class Navbar extends Component {
             chatOpen : true,
             loginboxOpen : false,
             selectedOption: { value: props.lang.value, label: props.lang.label },
+            dropmenOpen: false,
+            dropwomenOpen: false,
+            dropkidsOpen: false,
+            dropequOpen: false,
+            dropaccOpen: false,
         };
 
     }
@@ -61,6 +74,36 @@ class Navbar extends Component {
 
     this.setState((prevState) =>{
         return {loginboxOpen: !prevState.loginboxOpen}
+       })
+   }
+   DropmenToggleClickHandler = () => {
+
+    this.setState((prevState) =>{
+        return {dropmenOpen: !prevState.dropmenOpen}
+       })
+   }
+   DropwomenToggleClickHandler = () => {
+
+    this.setState((prevState) =>{
+        return {dropwomenOpen: !prevState.dropwomenOpen}
+       })
+   }
+   DropkidsToggleClickHandler = () => {
+
+    this.setState((prevState) =>{
+        return {dropkidsOpen: !prevState.dropkidsOpen}
+       })
+   }
+   DropequToggleClickHandler = () => {
+
+    this.setState((prevState) =>{
+        return {dropequOpen: !prevState.dropequOpen}
+       })
+   }
+   DropaccToggleClickHandler = () => {
+
+    this.setState((prevState) =>{
+        return {dropaccOpen: !prevState.dropaccOpen}
        })
    }
 
@@ -94,6 +137,21 @@ class Navbar extends Component {
         let cart;
         let loginbox;
         let backdrop;
+        let dropmen;
+        let dropwomen;
+        let dropkids;
+        let dropequ;
+        let dropacc;
+        if(this.state.dropmenOpen) {
+            dropmen = <Dropdown img={Dropmen} />}
+            if(this.state.dropwomenOpen) {
+                dropwomen = <Dropdown img={Dropwomen} />}
+                if(this.state.dropkidsOpen) {
+                    dropkids = <Dropdown img={Dropkids} />}
+                    if(this.state.dropequOpen) {
+                        dropequ = <Dropdown img={Dropequ} />}
+                        if(this.state.dropaccOpen) {
+                            dropacc = <Dropdown img={Dropacc} />}
         if(this.state.loginboxOpen) {
             loginbox = <Loginbox />
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
@@ -115,11 +173,11 @@ class Navbar extends Component {
 </div>
 
 <ul className="nav__items"> 
-     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
-     <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
-      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
-      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
-      <li>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
+     <li onMouseOver={this.DropmenToggleClickHandler} >{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
+     <li onMouseOver={this.DropwomenToggleClickHandler}>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
+      <li onMouseOver={this.DropkidsToggleClickHandler}>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
+      <li onMouseOver={this.DropequToggleClickHandler}> {this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
+      <li onMouseOver={this.DropaccToggleClickHandler}>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
 </ul> 
 
 <div className="searchboxwrapper">           
@@ -138,7 +196,7 @@ class Navbar extends Component {
 </div>
 
 </div> 
-<Dropdown img={Dropmen}/>
+{/* <Dropdown img={Dropmen}/> */}
 
  <div className="texttop">
  <p className="nav-top-title">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navtop}</p>})}</p>
@@ -162,7 +220,11 @@ class Navbar extends Component {
             {backdrop}
             {cart}
             {loginbox}
-          
+            {dropmen}
+            {dropwomen}
+            {dropkids}
+            {dropequ}
+            {dropacc}
 
             {this.state.chatOpen?
                 <div className="chatobot">
