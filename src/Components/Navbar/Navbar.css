@@ -110,7 +110,7 @@ height: 4.4vh !important;
   margin: 0;
   padding: 0;
   border-bottom: 0.106vh solid rgb(68, 68, 68);
-  height: 7vh;
+  max-height: 7vh;
 
   
 }

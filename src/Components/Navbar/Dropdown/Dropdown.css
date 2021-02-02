@@ -2,8 +2,8 @@
     position: absolute;
     display: flex;
     align-items: center;
-    width: 42.5vw;
-    height: 65vh;
+    height:25vw;
+    width: 33vw;
     left: 14.3vw;
     background-color: #fff;
   }
@@ -14,4 +14,7 @@
   }
   .imgdrop{
     width: 50%;
+    height: 100%;
+    background-size: 185vw;
+
   }
