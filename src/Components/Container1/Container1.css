@@ -7,7 +7,7 @@
       position: relative;
       height: 95vh;
       transition: none;
-      background-size: 1900px 980px;
+      /* background-size: 100% 100%; */
     }
     .textdiv1 {
       position: absolute;
@@ -79,7 +79,12 @@
       background-image: radial-gradient(rgba(0, 0, 0, 0.35) 40%, transparent 60%);
       display: none;
     }
+    @media (max-width:1440px){
+      .container1image{
+        background-size: 1440px 700px;
 
+      }
+}
     @media (max-width:360px) {
 
       .container1image{
