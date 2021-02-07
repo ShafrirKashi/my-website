@@ -141,7 +141,7 @@ height: 4.4vh !important;
   color: white;
   margin: 0;
   padding: 0;
-  font-family: eras itc;
+  /* font-family: eras itc; */
  margin-right: 1vw;
  margin-left: 2vw;
  white-space: nowrap;  
@@ -156,8 +156,8 @@ height: 4.4vh !important;
   height: 3.5vw;
   padding-left: 3.19vh;
   padding-right: 3.19vh;
-  font-size: 1.918vh;
-  font-weight: bold;
+  font-size: 1vw;
+  /* font-weight: bold; */
   margin-top: 0vw;
   cursor: pointer;
   
