@@ -76,44 +76,12 @@ class Navbar extends Component {
         return {loginboxOpen: !prevState.loginboxOpen}
        })
    }
-   DropmenToggleClickHandler = () => {
-
-    this.setState((prevState) =>{
-        return {dropmenOpen: !prevState.dropmenOpen}
-       })
-   }
-   DropwomenToggleClickHandler = () => {
-
-    this.setState((prevState) =>{
-        return {dropwomenOpen: !prevState.dropwomenOpen}
-       })
-   }
-   DropkidsToggleClickHandler = () => {
-
-    this.setState((prevState) =>{
-        return {dropkidsOpen: !prevState.dropkidsOpen}
-       })
-   }
-   DropequToggleClickHandler = () => {
-
-    this.setState((prevState) =>{
-        return {dropequOpen: !prevState.dropequOpen}
-       })
-   }
-   DropaccToggleClickHandler = () => {
-
-    this.setState((prevState) =>{
-        return {dropaccOpen: !prevState.dropaccOpen}
-       })
-   }
-
    BackdropClickHandler = () => {
 
     setTimeout(() => {
         this.setState({cartOpen: false})}, 200
         );
     }
-
     ChatRemoveClickHandler = () => {
         
         this.setState({ chatOpen: false }
@@ -142,16 +110,6 @@ class Navbar extends Component {
         let dropkids;
         let dropequ;
         let dropacc;
-        if(this.state.dropmenOpen) {
-            dropmen = <Dropdown img={Dropmen} />}
-            if(this.state.dropwomenOpen) {
-                dropwomen = <Dropdown img={Dropwomen} />}
-                if(this.state.dropkidsOpen) {
-                    dropkids = <Dropdown img={Dropkids} />}
-                    if(this.state.dropequOpen) {
-                        dropequ = <Dropdown img={Dropequ} />}
-                        if(this.state.dropaccOpen) {
-                            dropacc = <Dropdown img={Dropacc} />}
         if(this.state.loginboxOpen) {
             loginbox = <Loginbox />
             backdrop = <Backdrop click={this.BackdropClickHandler}/>}
@@ -164,6 +122,24 @@ class Navbar extends Component {
         return (
         <div className="nav">
 
+<div className="texttop">
+ <p className="nav-top-title">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navtop}</p>})}</p>
+                    <div className="topbarlinks">
+                      <div className="chat">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopChat}</p>})}
+                          <div className="chatshape"></div>
+                           </div>
+                           <div className="wishlist">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopWishlist}</p>})}
+                             <div className="heartshape"></div>
+                          </div>                        
+                          <Select className='react-select-container' classNamePrefix="react-select"
+                           value={value}
+                           onChange={this.props.triggerParent}
+                           options={options}
+                           closeMenuOnSelect={true}
+                           theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},
+                             })}/>                       
+                </div>
+            </div> 
 
 
 <div className="toolbar">
@@ -172,12 +148,13 @@ class Navbar extends Component {
     <div className="logonav"></div>
 </div>
 
-<ul className="nav__items"> 
-     <li onMouseOver={this.DropmenToggleClickHandler} >{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
-     <li onMouseOver={this.DropwomenToggleClickHandler}>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
-      <li onMouseOver={this.DropkidsToggleClickHandler}>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
-      <li onMouseOver={this.DropequToggleClickHandler}> {this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
-      <li onMouseOver={this.DropaccToggleClickHandler}>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
+<ul className="nav__items">
+     <li className="men"><div className="mendrop"><Dropdown img={Dropmen}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
+     <li className="women"><div className="womendrop"><Dropdown img={Dropwomen}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
+      <li className="kids"><div className="kidsdrop"><Dropdown img={Dropkids}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
+      <li className="equ"><div className="equdrop"><Dropdown img={Dropequ}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
+      <li className="acc"><div className="accdrop"><Dropdown img={Dropacc}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
+      
 </ul> 
 
 <div className="searchboxwrapper">           
@@ -198,24 +175,6 @@ class Navbar extends Component {
 </div> 
 {/* <Dropdown img={Dropmen}/> */}
 
- <div className="texttop">
- <p className="nav-top-title">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navtop}</p>})}</p>
-                    <div className="topbarlinks">
-                      <div className="chat">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopChat}</p>})}
-                          <div className="chatshape"></div>
-                           </div>
-                           <div className="wishlist">{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.NavtopWishlist}</p>})}
-                             <div className="heartshape"></div>
-                          </div>                        
-                          <Select className='react-select-container' classNamePrefix="react-select"
-                           value={value}
-                           onChange={this.props.triggerParent}
-                           options={options}
-                           closeMenuOnSelect={true}
-                           theme={theme => ({...theme,borderRadius: 0,colors: {...theme.colors,primary25: "gray",},
-                             })}/>                       
-                </div>
-            </div> 
            
             {backdrop}
             {cart}
