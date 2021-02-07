@@ -116,7 +116,7 @@ height: 4.4vh !important;
 .logo_container {
   
     height: 7vh;
-    width: 23.45vh; 
+    min-width: 23.45vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,8 +127,8 @@ height: 4.4vh !important;
   background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
-    height: 89%;
-    width: 89%;
+    height: 6vh;
+    width: 11vw;
 }
 
 .nav__items {
@@ -153,8 +153,8 @@ height: 4.4vh !important;
   justify-content: space-around;
   list-style: none;
   height: 3.5vw;
-  padding-left: 3.19vh;
-  padding-right: 3.19vh;
+  padding-left: 2.19vw;
+  padding-right: 2.19vw;
   font-size: 1vw;
   /* font-weight: bold; */
   margin-top: 0vw;
@@ -340,7 +340,7 @@ box-shadow: none !important;
   left: 13vw;
 } 
 .accdrop{
-  display: none;
+  /* display: none; */
   position: absolute;
   top: 11.2vh;
   left: 13vw;
