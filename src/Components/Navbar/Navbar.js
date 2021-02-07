@@ -22,6 +22,7 @@ import Dropwomen from '../Background/dropdownwomen.jpg'
 import Dropkids from '../Background/dropdownkids.jpg' 
 import Dropequ from '../Background/dropdownequ.jpg' 
 import Dropacc from '../Background/dropdownacce.jpg' 
+import Triangle from '../Background/triangle.png' 
 
 
 
@@ -149,11 +150,26 @@ class Navbar extends Component {
 </div>
 
 <ul className="nav__items">
-     <li className="men"><div className="mendrop"><Dropdown img={Dropmen}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
-     <li className="women"><div className="womendrop"><Dropdown img={Dropwomen}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
-      <li className="kids"><div className="kidsdrop"><Dropdown img={Dropkids}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
-      <li className="equ"><div className="equdrop"><Dropdown img={Dropequ}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
-      <li className="acc"><div className="accdrop"><Dropdown img={Dropacc}/></div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
+     <li className="men"><div className="mendrop"><Dropdown img={Dropmen}/>
+     <img src={Triangle} alt="asd" className="whiteTrianglemen"/>
+     
+     </div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks1}</p>})}</li>
+     <li className="women"><div className="womendrop"><Dropdown img={Dropwomen}/>
+     <img src={Triangle} alt="asd" className="whiteTrianglewomen"/>
+
+     </div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks2}</p>})}</li>
+      <li className="kids"><div className="kidsdrop"><Dropdown img={Dropkids}/>
+      <img src={Triangle} alt="asd" className="whiteTrianglekids"/>
+
+      </div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks3}</p>})}</li>
+      <li className="equ"><div className="equdrop"><Dropdown img={Dropequ}/>
+      <img src={Triangle} alt="asd" className="whiteTriangleequ"/>
+
+      </div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks4}</p>})}</li>
+      <li className="acc"><div className="accdrop"><Dropdown img={Dropacc}/>
+      <img src={Triangle} alt="asd" className="whiteTriangleacc"/>
+
+      </div>{this.ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Navlinks5}</p>})}</li>                
       
 </ul> 
 

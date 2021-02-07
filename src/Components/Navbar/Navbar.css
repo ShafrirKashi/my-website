@@ -134,8 +134,8 @@ height: 4.4vh !important;
 
 .nav__items {
    display: flex; 
-   justify-content: space-between;  
-  align-items: center; 
+   justify-content: flex-start;  
+  align-items: flex-start; 
   width: 25%;
   height: 100%;
   color: white;
@@ -158,20 +158,60 @@ height: 4.4vh !important;
   padding-right: 3.19vh;
   font-size: 18px;
   font-weight: bold;
-  margin: 0;
+  margin-top: 0vw;
   cursor: pointer;
   
 }
 
 
 .nav__items li:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-decoration-color: #fabc02;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 10px;
+  /* text-decoration-thickness: 3px; */
+  /* text-underline-offset: 10px; */
+  color: #fabc02;
   
 }
+.whiteTrianglemen{
 
+  position:absolute ;
+  width: 3vh;
+  height: 1.45vh;
+  top: -1.6vh;
+  left: 15.2vw;
+}
+.whiteTrianglewomen{
+
+  position:absolute ;
+  width: 3vh;
+  height: 1.45vh;
+  top: -1.6vh;
+  left: 21.7vw;
+}
+.whiteTrianglekids{
+
+  position:absolute ;
+  width: 3vh;
+  height: 1.45vh;
+  top: -1.6vh;
+  left: 28.2vw;
+}
+.whiteTriangleequ{
+
+  position:absolute ;
+  width: 3vh;
+  height: 1.45vh;
+  top: -1.6vh;
+  left: 36.1vw;
+}
+.whiteTriangleacc{
+
+  position:absolute ;
+  width: 3vh;
+  height: 1.45vh;
+  top: -1.6vh;
+  left: 46.1vw;
+}
 .chatobot {
   background-image: url('../Background/logochat.png');
   background-position: 0px 0px; 
