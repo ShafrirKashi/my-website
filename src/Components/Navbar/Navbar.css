@@ -5,6 +5,17 @@
   min-width: 100%;
   z-index: 1000;
 }
+      
+.toolbar {
+  display: flex;
+  align-items: center;
+  color:black;
+  background-color: rgb(29, 29, 29);
+  margin: 0;
+  padding: 0;
+  border-bottom: 0.106vh solid rgb(68, 68, 68);
+  min-height: 7vh;
+}
 .texttop {   
   display: flex;  
   justify-content: center;
@@ -101,19 +112,7 @@ height: 4.4vh !important;
  border-width: 0 !important;
 }
 
-      
-.toolbar {
-  display: flex;
-  align-items: center;
-  color:black;
-  background-color: rgb(29, 29, 29);
-  margin: 0;
-  padding: 0;
-  border-bottom: 0.106vh solid rgb(68, 68, 68);
-  max-height: 7vh;
 
-  
-}
 .logo_container {
   
     height: 7vh;
@@ -194,7 +193,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 14.3vw;
+  left: 13.8vw;
 }
 .whiteTriangleequ{
 
@@ -202,7 +201,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 21.4vw;
+  left: 20.4vw;
 }
 .whiteTriangleacc{
 
@@ -210,7 +209,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 30vw;
+  left: 29vw;
 } 
 .chatobot {
   background-image: url('../Background/logochat.png');
