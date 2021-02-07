@@ -153,10 +153,10 @@ height: 4.4vh !important;
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  height: 5vw;
+  height: 3.5vw;
   padding-left: 3.19vh;
   padding-right: 3.19vh;
-  font-size: 18px;
+  font-size: 1.918vh;
   font-weight: bold;
   margin-top: 0vw;
   cursor: pointer;
@@ -178,7 +178,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 15.2vw;
+  left: 2.4vw;
 }
 .whiteTrianglewomen{
 
@@ -186,7 +186,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 21.7vw;
+  left: 8.4vw;
 }
 .whiteTrianglekids{
 
@@ -194,7 +194,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 28.2vw;
+  left: 14.3vw;
 }
 .whiteTriangleequ{
 
@@ -202,7 +202,7 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 36.1vw;
+  left: 21.4vw;
 }
 .whiteTriangleacc{
 
@@ -210,8 +210,8 @@ height: 4.4vh !important;
   width: 3vh;
   height: 1.45vh;
   top: -1.6vh;
-  left: 46.1vw;
-}
+  left: 30vw;
+} 
 .chatobot {
   background-image: url('../Background/logochat.png');
   background-position: 0px 0px; 
@@ -324,41 +324,41 @@ box-shadow: none !important;
 .imgflag{
   position: relative;
   top: 0.3vh;
-  width:24px;
-  height: 16px;
+  width:1.25vw;
+  height: 1.705vh;
   margin-right: 0.5vw
 }
 .womendrop{
  display: none;
  position: absolute;
- top: 81px;
- left: 0px;
+ top: 11.2vh;
+ left: 13vw;
 }
 .equdrop{
   display: none;
   position: absolute;
-  top: 81px;
-  left: 0px;
+  top: 11.2vh;
+  left: 13vw;
 } 
 .accdrop{
   display: none;
   position: absolute;
-  top: 81px;
-  left: 0px;
+  top: 11.2vh;
+  left: 13vw;
   
 } 
 .kidsdrop{
   display: none;
   position: absolute;
-  top: 81px;
-  left: 0px;
+  top: 11.2vh;
+  left: 13vw;
 } 
 .mendrop{
   display: none;
   position: absolute;
-  top: 81px;
-  left: 0px;
-  height: 0;
+  top: 11.2vh;
+  left: 13vw;
+  
 } 
 .kids:hover .kidsdrop{
   display: block;
