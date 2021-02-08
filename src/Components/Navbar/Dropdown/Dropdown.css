@@ -2,8 +2,8 @@
     position: absolute;
     display: flex;
     align-items: center;
-    height: 28vw;
-    min-width: 39vw;
+    height: 28rem;
+    min-width: 38rem;
     /* left: 14.3vw; */
     background-color: #fff;
   }
