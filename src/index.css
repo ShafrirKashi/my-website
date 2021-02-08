@@ -13,3 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "Eras";
+  src: local("Eras"),
+    url("./fonts/Eras.TTF") format("truetype");
+  font-weight: bold;
+}
+

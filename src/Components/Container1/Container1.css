@@ -22,14 +22,14 @@
       grid-template-rows: 16vh 10vh 7vh auto;
     }
     .h1 {
-        font-family: eras itc ;
+        font-family: Eras ;
         color: rgb(41, 41, 41);
         font-size: 8vh;
         grid-column: 2/3;
         grid-row: 2/3;
     }
     .h2 {
-      font-family: eras itc;
+      font-family: Eras;
       color: rgb(41, 41, 41);
       font-size: 3vh;
       grid-column: 2/3;
