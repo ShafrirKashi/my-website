@@ -170,16 +170,17 @@ h3, h4 {
 
 h3 {
     color: #fabc02;
+    font-size: 1.3rem;
 }
 
 h4.phonebox {
     margin-bottom: 1vh;
-    font-size: 2vh;
+    font-size: 1rem;
     font-weight: lighter;
 }
 h4.emailbox {
     margin: 0px;
-    font-size: 2vh;
+    font-size: 1rem;
     font-weight: lighter;
     cursor: pointer;
 }
@@ -262,7 +263,7 @@ ul {
 }
 h2 {
     color: #fabc02;
-    font-size: 2.3vh;
+    font-size: 2.5rem;
     margin: 0 0 3vh 0;
     font-family:ErasMed;
 }
@@ -271,7 +272,7 @@ h2 {
     margin: 0 0 10px 0;
     font-family:ErasMed;
     cursor: pointer;
-    font-size: 2vh;
+    font-size: 1rem;
 }
 .ss li:hover {
     color: rgb(179, 179, 179);
@@ -285,7 +286,7 @@ h2 {
     color: blue;
 }
 .blog {
-    width: 1.8vw;
+    width: 1.8vw;;
     color: blue;
 }
 .testamonials {
