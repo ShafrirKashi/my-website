@@ -39,5 +39,11 @@ code {
     url("./fonts/ErasLight.TTF") format("truetype");
   font-weight: bold;
 }
+@font-face {
+  font-family: "TypoGraphica";
+  src: local("TypoGraphica"),
+    url("./fonts/TypoGraphica.otf") format("opentype");
+  font-weight: bold;
+}
 
 

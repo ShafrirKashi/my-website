@@ -1,12 +1,12 @@
 .foot {
-    height: 58.63vh;
+    height: 26rem;
     background-color: rgb(27, 27, 27);
     margin-top:  2.13vh;
     position: relative;
 
 }
 .footop {
-    height: 15.99vh;
+    height: 7.2rem;
     background-image: url('../Background/5.jpg');
     background-position: 0px 0px; 
       background-size: cover;
@@ -25,19 +25,19 @@
 .square {
     color: white;
     position: relative;
-    top: 1.6vh;
-    left: 8vw;
-    height: 11.5vh;
-    width: 24vw;
-    border: 0.74vh solid white;
+    top: 0.6rem;
+    left: 7rem;
+    height: 5.4rem;
+    width: 22rem;
+    border: 0.3rem solid white;
     display: grid;
     grid-template-columns: 40% 60%; 
     
 }
 .logo {
     background-image: url('../Background/aa.png');
-    height: 10.66vh;
-    width: 5.20vw;
+    height: 4.6rem;
+    width: 5rem;
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,42 +45,41 @@
     grid-row: 1/2;
     align-self: center;
     position: relative;
-    left:  1.04vw;
+    left:  1rem;
     display: grid;
 
     
 }
 .ad {
-    font-size: 9.59vh;
-    height: 10.66vh;
-    font-family: typographica;
+    font-size: 4.5rem;
+    height: 4.8rem;
+    font-family: TypoGraphica;
     font-weight: bold;
     grid-column: 2/3;
     grid-row: 1/2;
     position: relative;
     display: grid;
     position: relative;
-    top: 1vh;
-    right: 1.56vw;
+    top: 0.4rem;
+    right: 1.5rem;
     justify-content:center;
     align-content: center;
 
 }
 .textoverlay {
 
-   /* background-color:blue; */
-   color: white;
-   font-size: 6.39vh;
+   color: rgb(255, 255, 255);
+   font-size: 2.8rem;
    font-family:ErasMed ; 
    text-align: center;
    position: relative;
-   width: 65vw;
-   left: 33vw;
-   top: -14.5vh;
+   width: 60rem;
+   left: 33rem;
+   top: -6.5rem;
 }
 .footer {
     background-color: rgb(27, 27, 27);
-    height: 49vh;
+    height: 22rem;
     border-bottom: 1px solid #a77d0063;
     display: grid;
     grid-template-columns: 30% 20% 20% auto;
@@ -92,35 +91,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10.73vh;
-    width: 90vw;
-        background-color: rgb(27, 27, 27);
-
+    height: 4rem;
+    width: 86rem;
+    background-color: rgb(27, 27, 27);
     position: absolute;
-    left: 4.2vw;
+    left: 4rem;
     border-top: 2px solid rgb(92, 92, 92);
-    bottom: -47px;
-    font-size: 1.70vh;
+    bottom: -2.9rem;
    
 }
 .footerfirst {
 display: flex;
 flex-direction: column;
-padding-left: 10vh;
+padding-left: 4.2rem;
 }
 .footerlogobox {
-    width: 100%;
-    height: 13vh;
+    height: 4rem;
+    width: 16rem;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    left: -0.6rem;
     /* background-color: green; */
 }
 
 .footerlogo {
     background-image: url('../Background/1.png');
     background-position: 0px 0px; 
-    height: 77%;
-    width: 63%;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
  
@@ -128,7 +128,9 @@ padding-left: 10vh;
 .contactusbox{
 
     width: 100%;
-    height: 14vh;
+    height: 6rem;
+    position: relative;
+    top: 2.8rem;
     /* background-color: #fff; */
 }
 .phonebox {

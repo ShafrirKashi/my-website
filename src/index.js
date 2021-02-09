@@ -7,6 +7,7 @@ import './fonts/ErasBold.TTF';
 import './fonts/ErasMed.TTF'; 
 import './fonts/ErasMed+.TTF'; 
 import './fonts/ErasLight.TTF'; 
+import './fonts/TypoGraphica.otf'; 
 
 ReactDOM.render(
   <React.StrictMode>
