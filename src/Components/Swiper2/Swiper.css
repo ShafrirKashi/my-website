@@ -1,5 +1,5 @@
 .swiperboks {
-    height: 84vh;
+    height: 40rem;
 }
 
 .swiper-wrapper{
@@ -9,9 +9,9 @@
 }
 .swiper-container {
 
-height: 80vh;
+height: 40rem;
 width: 100%;
-top: 3vh;
+top: 1rem;
 display: block;
 }
 
@@ -40,7 +40,7 @@ display: block;
     background-image: url('../Background/image8.png');
 }
 .swipers{
-    height: 67.37vh;
+    height: 32.5rem;
     width: auto;
     background-position: 0px 0px; 
     background-size: cover;
