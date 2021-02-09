@@ -140,8 +140,8 @@ padding-left: 4.2rem;
     flex-direction:  row-reverse;
 }
 .phonelogo{
-width: 16px;
-height: 16px;
+width: 1rem;
+height: 1rem;
 background-image: url('../Background/phonelogo.png');
 background-position: 0px 0px; 
 background-size: cover;
@@ -155,8 +155,8 @@ margin-right: 1vh;
     flex-direction:  row-reverse;
 }
 .emaillogo{
-    width: 16px;
-    height: 12px;
+    width: 1rem;
+    height: 0.7rem;
     background-image: url('../Background/emaillogo.png');
     background-position: 0px 0px; 
     background-size: cover;
