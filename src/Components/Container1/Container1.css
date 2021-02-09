@@ -22,14 +22,14 @@
       grid-template-rows: 16vh 10vh 7vh auto;
     }
     .h1 {
-        font-family: Eras ;
+        font-family: ErasBold ;
         color: rgb(41, 41, 41);
         font-size: 8vh;
         grid-column: 2/3;
         grid-row: 2/3;
     }
     .h2 {
-      font-family: Eras;
+      font-family: ErasBold;
       color: rgb(41, 41, 41);
       font-size: 3vh;
       grid-column: 2/3;
@@ -43,7 +43,7 @@
     .button1 {
       background-color:#fabc02;
       border: none;
-      font-family: eras itc;
+      font-family: ErasMed;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -62,7 +62,7 @@
       grid-row: 4/5;
       grid-column: 2/3;
       border-radius: 10.66vh;   
-      border: 1px solid rgb(148, 148, 148);
+      border: 1px solid rgb(148, 148, 148, 0.5);
 
     }
 

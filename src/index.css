@@ -14,9 +14,30 @@ code {
     monospace;
 }
 @font-face {
-  font-family: "Eras";
-  src: local("Eras"),
-    url("./fonts/Eras.TTF") format("truetype");
+  font-family: "ErasBold";
+  src: local("ErasBold"),
+    url("./fonts/ErasBold.TTF") format("truetype");
   font-weight: bold;
 }
+@font-face {
+  font-family: "ErasMed";
+  src: local("ErasMed"),
+    url("./fonts/ErasMed.TTF") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ErasMed+";
+  src: local("ErasMed+"),
+    url("./fonts/ErasMed+.TTF") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ErasLight";
+  src: local("ErasLight"),
+    url("./fonts/ErasLight.TTF") format("truetype");
+  font-weight: bold;
+}
+
 

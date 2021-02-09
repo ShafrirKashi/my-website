@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './fonts/Eras.TTF'; 
+import './fonts/ErasBold.TTF'; 
+import './fonts/ErasMed.TTF'; 
+import './fonts/ErasMed+.TTF'; 
+import './fonts/ErasLight.TTF'; 
 
 ReactDOM.render(
   <React.StrictMode>
