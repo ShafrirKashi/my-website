@@ -23,7 +23,7 @@
   background-color: black;
   color: white;
   width: 100%;
-  height: 1.9rem;
+  height: 2.2rem;
   border-bottom: 0.106vh solid rgb(99, 99, 99);
   font-size:1rem;
   font-family: ErasMed;
@@ -104,7 +104,7 @@ height: 4.4vh !important;
 }
 .react-search-field-button{
  border-radius: 100vh;
- width: 5vh !important;
+ width: 2rem !important;
  border-top-left-radius: 11vh;
  border-bottom-left-radius: 11vh;
  height: auto !important;
@@ -116,7 +116,7 @@ height: 4.4vh !important;
 .logo_container {
   
     height: 100%;
-    min-width: 23.45vh; 
+    width: 11rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +143,8 @@ height: 4.4vh !important;
   color: white;
   margin: 0;
   padding: 0;
- margin-right: 1vw;
- margin-left: 2vw;
+ margin-right: 1rem;
+ margin-left: 1.5rem;
  white-space: nowrap;  
   
 }
@@ -215,10 +215,10 @@ height: 4.4vh !important;
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
-  height: 9vh;
-  width: 9vh;
-  right:2vh;
-  top: 90vh;
+  height: 4rem;
+  width: 4rem;
+  right:1.5rem;
+  top: 53rem;
   cursor: pointer;
 }
 .chatboxclosecircle {
@@ -241,12 +241,12 @@ height: 4.4vh !important;
 }
 .topbarlinks {
   display: flex;
-  height: 4vh;
-  width: 20vw;
+  height: 2.5rem;
+  width: 22rem;
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  right: 5vw;
+  right: 5rem !important;
   list-style-type: none;
 }
 
@@ -257,10 +257,10 @@ height: 4.4vh !important;
   white-space: nowrap;
 }
 .heartshape {
-  padding: 0.692vh;
-  margin: 0.831vh;
-  width: 0.90vh;
-  height: 0.63vh;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  width: 0.5rem;
+  height: 0.4rem;
   background-image: url('../Background/heart.png');
   background-position: 0px 0px; 
   background-size: cover;
@@ -273,26 +273,25 @@ height: 4.4vh !important;
   align-items: center;
 }
 .chatshape {
-  padding: 0.69vh;
-  margin: 0.277vh;
-  width: 2.0vh;
-  height: 2.0vh;
+  padding: 0.33rem;
+  margin: 0.3rem;
+  width: 0.8rem;
+  height: 1rem;
   background-image: url('../Background/chat.png');
   background-position: 0px 0px; 
   background-size: cover;
   display: flex;
 }
 .selector {
-  width: 12vh;
+  width: 11rem;
 }
 .react-select__control {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color:rgb(0, 0, 0) !important;
-  min-width: 18vh;
-  max-height: 4vh !important;
-  min-height: 4vh !important;
+  min-width: 10rem;
+  height: 1rem;
   border: 1px solid transparent !important;
 }
 
@@ -301,29 +300,29 @@ box-shadow: none !important;
 }
 .react-select__menu {
   background-color: black !important;
-  border-bottom-right-radius: 1vh !important;
-  border-bottom-left-radius: 1vh !important;
-  width: 7vw !important;
+  border-bottom-right-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+  width: 10rem !important;
   white-space: nowrap;
  
 }
 .react-select__single-value {
-  top:43% !important;
+  top:1rem !important;
 }
 .react-select-container {
-  height: 100%;
-  width: 14vh;
+  height: 7rem;
+  width: 11rem;
 }
 .react-select__indicators {
-  height: 3.9vh;
+  height: 4rem;
 
 }
 .imgflag{
   position: relative;
-  top: 0.3vh;
-  width:1.25vw;
-  height: 1.705vh;
-  margin-right: 0.5vw
+  top: 0.2rem;
+  width:1.5rem;
+  height: 1rem;
+  margin-right: 0.6rem;
 }
 .mendrop{
   display: none;

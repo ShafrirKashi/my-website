@@ -1,5 +1,5 @@
 .secondcontainer {
-    height: 35rem;
+    height: 39rem;
     width: 100%;
     background-image: url('../Background/2.jpg');
     background-repeat: no-repeat;
@@ -7,46 +7,12 @@
     margin-top: 1rem;
     position: relative;
     transition: none;
-
+    display: grid;
+    grid-template-columns: 57rem 55rem auto;
+    grid-template-rows: 3rem 11rem 8rem 7rem 3rem ;
     
     
 }
-.wrap__text1 {
-    
-  position: absolute;
-  width: 100%;
-  display: grid;
-  top: 7rem;
-  left: 8rem;
-  align-items: center;
-  grid-template-columns: 39.94vw  63.96vw auto;
-  grid-template-rows: 13.85vh 13.66vh auto ;
-}
-
-.button2 {
-  background-color:#fabc02;
-  border: none;
-  font-family: ErasMed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 0px;
-  top: 1.06vh;
-  color: black;
-  width: auto;
-  height: 4vh;
-  padding: 1.06vh 2.13vh;
-  text-align: center;
-  text-decoration: none;
-  font-size: 2.02vh;
-  margin: 0.42vh 0.21vh;
-  cursor: pointer;
-  grid-row: 4/5;
-  grid-column: 2/3;
-  border-radius: 10.66vh;   
-
-  }
 
   .button2:hover {
     background-color: #ffd65c;
@@ -55,16 +21,16 @@
   }
   .h1_2 {
     font-family: ErasBold;
-    font-size: 7vh;
-    grid-row: 1/2;
+    font-size: 4rem;
+    grid-row: 2/3;
     grid-column: 2/3;
-    -webkit-text-size-adjust: none;    color: white;
+    color: white; 
 
   }
   .h2_2 {
     font-family: ErasBold;
     font-size: 2.7vh;
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 2/3;
     color: white;
     width: 40vw;
@@ -72,4 +38,29 @@
     text-size-adjust: none; 
 
   }
+  
+.button2 {
+  background-color:#fabc02;
+  border: none;
+  font-family: ErasMed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: black;
+  width: 9rem;
+  height: 2.3rem;
+  padding: 1.06vh 2.13vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0.42vh 0.21vh;
+  cursor: pointer;
+  border-radius: 10.66vh; 
+  white-space: nowrap;  
+  grid-row: 4/5;
+  grid-column: 2/3;
+
+  }
+
 

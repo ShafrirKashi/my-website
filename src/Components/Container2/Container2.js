@@ -25,11 +25,11 @@ const FirstWrap = (props) => {
 
         return (
             <div className="secondcontainer">
-                <div className="wrap__text1"> 
+                {/* <div className="wrap__text1">  */}
                 <h1 className="h1_2">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner2H1}</p>})}</h1>
                 <h2 className="h2_2">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Conatiner2H2}</p>})}</h2>
                 <button className="button2">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.ShopNow}</p>})}</button>  
-                    </div> 
+                    {/* </div>  */}
                 
             </div>
         );

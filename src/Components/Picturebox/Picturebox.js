@@ -42,4 +42,4 @@ const Picturebox = (props) => {
     }
 
 
-export default Picturebox;
+     export default Picturebox;

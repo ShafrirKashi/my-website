@@ -1,11 +1,11 @@
 .container1image {     
       background-image: url('../Background/Trek.jpg');
-      background-position: 0px 0px; 
+      background-position: 0px -10rem; 
       background-size: cover;
       background-repeat: no-repeat;
       width: 100%;
       position: relative;
-      height: 44rem;
+      height: 50rem;
       transition: none;
       /* background-size: 100% 100%; */
     }
@@ -18,26 +18,28 @@
       justify-items: flex-start;
       align-items: center;
       left: -2.5vw;
-      grid-template-columns: 5vw 50vw auto ;
-      grid-template-rows: 16vh 10vh 7vh auto;
+      grid-template-columns: 5rem 38rem auto ;
+      grid-template-rows: 6rem 3rem 2rem 4rem 5rem;
     }
     .h1 {
         font-family: ErasBold ;
         color: rgb(41, 41, 41);
-        font-size: 8vh;
+        font-size: 4rem;
         grid-column: 2/3;
         grid-row: 2/3;
+        white-space: nowrap;
     }
     .h2 {
       font-family: ErasBold;
       color: rgb(41, 41, 41);
-      font-size: 3vh;
+      font-size: 1.7rem;
       grid-column: 2/3;
-      grid-row: 3/4;
+      grid-row: 4/5;
       position: relative;
       left: 0.21vh;
       top: 0.5vw;
       width: 35vw;
+      
   
 }   
     .button1 {
@@ -47,22 +49,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      position: absolute;
-      left: 0px;
-      top: 1.06vh;
       color: black;
-      width: auto;
-      height: 5vh;
+      width: 9rem;
+      height: 2.6rem;
       padding: 1.06vh 2.13vh;
       text-align: center;
       text-decoration: none;
-      font-size: 2.02vh;
+      font-size: 1.2rem;
       margin: 0.42vh 0.21vh;
       cursor: pointer;
-      grid-row: 4/5;
+      grid-row: 5/6;
       grid-column: 2/3;
-      border-radius: 10.66vh;   
-      border: 1px solid rgb(148, 148, 148, 0.6);
+      border-radius: 10.66vh;  
+      border: 1px solid rgb(148, 148, 148, 0.5);
+      white-space: nowrap;  
 
     }
 
