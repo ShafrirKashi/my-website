@@ -1,11 +1,11 @@
 .container1image {     
       background-image: url('../Background/Trek.jpg');
-      background-position: 0px -10rem; 
+      background-position: 0px -12rem; 
       background-size: cover;
       background-repeat: no-repeat;
-      width: 100%;
+      width: 110rem;
       position: relative;
-      height: 50rem;
+      min-height: 46rem;
       transition: none;
       /* background-size: 100% 100%; */
     }
@@ -19,7 +19,7 @@
       align-items: center;
       left: -2.5vw;
       grid-template-columns: 5rem 38rem auto ;
-      grid-template-rows: 6rem 3rem 2rem 4rem 5rem;
+      grid-template-rows: 4rem 3rem 2rem 4rem 5rem;
     }
     .h1 {
         font-family: ErasBold ;
