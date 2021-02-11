@@ -29,7 +29,7 @@
   }
   .h2_2 {
     font-family: ErasBold;
-    font-size: 2.7vh;
+    font-size: 1.6rem;
     grid-row: 3/4;
     grid-column: 2/3;
     color: white;
@@ -50,13 +50,13 @@
   color: black;
   width: 9rem;
   height: 2.3rem;
-  padding: 1.06vh 2.13vh;
+  padding: 1rem 1rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.2rem;
-  margin: 0.42vh 0.21vh;
+  margin: 0rem 0rem;
   cursor: pointer;
-  border-radius: 10.66vh; 
+  border-radius: 30rem; 
   white-space: nowrap;  
   grid-row: 4/5;
   grid-column: 2/3;
