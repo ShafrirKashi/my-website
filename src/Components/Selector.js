@@ -4,9 +4,9 @@ import './Selector.css'
 import Navbar from '../Components/Navbar/Navbar'
 import Container1 from  '../Components/Container1/Container1'
 import Container2 from '../Components/Container2/Container2'
-import Container3 from '../Components/Container3/Container3'
 import Swiper2 from '../Components/Swiper2/Swiper'
 import Footer from '../Components/Footer/Footer'
+import Picturebox from '../Components/Picturebox/Picturebox'
 import USAF from '../Components/Background/usoa.png' 
 
 
@@ -37,7 +37,7 @@ export const SelectProvider = (props) =>{
       <Navbar triggerParent={handleChange}lang={lang}/>
       <Container1/>
       <Container2/>
-      <Container3/>
+      <Picturebox />
       <Swiper2/>
       <Footer/>
 
