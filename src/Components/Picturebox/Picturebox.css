@@ -14,7 +14,7 @@
     grid-column: 1/2;
     background-image: url('../Background/3.jpg');
     position: relative;
-    background-size: 52rem;
+    background-size: 62rem;
     background-position: 0rem 0rem; 
     background-repeat: no-repeat;
     display: grid;
@@ -43,7 +43,7 @@
       height: 2.3rem;
       text-align: center;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       cursor: pointer;
       grid-row: 3/4;
       grid-column: 2/3;
@@ -61,8 +61,8 @@
     background-image: url('../Background/4.jpg');
     grid-row: 1/2;
     grid-column: 2/4;
-    background-size: 74rem;
-    background-position: -12rem 0rem; 
+    background-size: 68rem;
+    background-position: -9rem 0rem; 
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 5% auto;
@@ -70,7 +70,7 @@
 }
 .box2text{
     font-family: ErasMed;
-    color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -88,7 +88,7 @@
   height: 2.3rem;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   cursor: pointer;
   grid-row: 3/4;
   grid-column: 2/3;
@@ -130,7 +130,7 @@
   height: 2.3rem;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0rem 0rem;
   cursor: pointer;
   grid-row: 3/4;
@@ -153,7 +153,7 @@
     grid-column: 3/4;
     background-color: rgb(18, 145, 145);
     background-size: 52.5rem;
-    background-position: -23rem;
+    background-position: -22rem;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 2rem 13rem;
@@ -172,7 +172,7 @@
   height: 2.3rem;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0rem 0rem;
   cursor: pointer;
   grid-row: 3/4;

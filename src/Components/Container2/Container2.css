@@ -8,8 +8,8 @@
     position: relative;
     transition: none;
     display: grid;
-    grid-template-columns: 57rem 55rem auto;
-    grid-template-rows: 3rem 11rem 8rem 7rem 3rem ;
+    grid-template-columns: 50rem 55rem auto;
+    grid-template-rows: 3rem 11rem 10rem ;
     
     
 }
