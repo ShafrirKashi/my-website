@@ -1,7 +1,7 @@
 .foot {
     height: 26rem;
     background-color: rgb(27, 27, 27);
-    margin-top:  2.13vh;
+    margin-top:  1rem;
     position: relative;
 
 }
@@ -92,7 +92,7 @@
     align-items: center;
     justify-content: center;
     height: 4rem;
-    width: 86rem;
+    width: 110rem;
     background-color: rgb(27, 27, 27);
     position: absolute;
     left: 4rem;
@@ -190,9 +190,9 @@ h4.emailbox {
 .footersecond {
     grid-column: 2/3;
     position: relative;
-    height: 30vh;
-    width: 11vw;
-    top: 4vh;
+    height: 12rem;
+    width: 5rem;
+    top: 2rem;
     white-space: nowrap;
 
         
@@ -201,9 +201,9 @@ h4.emailbox {
 .footerthird {
     grid-column: 3/4;
     position: relative;
-    height: 30vh;
-    top: 4vh;
-    width: 11vw;
+    height: 12rem;
+    top: 2rem;
+    width: 8rem;
     white-space: nowrap;
 }
 .footer-searchbox-wrapper{
@@ -225,40 +225,40 @@ h4.emailbox {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 17vw;
-    height: 10vh;
+    width: 20rem;
+    height: 4rem;
 }
 .facebook {
     background-image: url('../Background/face.png');
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
-    width: 6vh;
-    height: 6vh;
+    width: 3rem;
+    height: 3rem;
 }
 .google {
     background-image: url('../Background/google.png');
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
-    width: 6vh;
-    height: 6vh;
+    width: 3rem;
+    height: 3rem;
 }
 .insta {
     background-image: url('../Background/insta.png');
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
-    width: 6vh;
-    height: 6vh;
+    width: 3rem;
+    height: 3rem;
 }
 .twitter {
     background-image: url('../Background/twitter.png');
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
-    width: 6vh;
-    height: 6vh;
+    width: 3rem;
+    height: 3rem;
 }
 ul {
     list-style-type: none;
@@ -320,11 +320,11 @@ h2 {
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat;
-    width: 6vh;
-    height: 6vh;
+    width: 3rem;
+    height: 3rem;
     position: absolute;
-    right: 4vh;
-    top: -4vh;
+    right: 3rem;
+    top: -2rem;
     cursor: pointer;
 }
 

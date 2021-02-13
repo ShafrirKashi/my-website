@@ -281,7 +281,7 @@ height: 4.4vh !important;
   background-size: cover;
   display: flex;
 }
-.selector {
+/* .selector {
   width: 11rem;
 }
 .react-select__control {
@@ -315,7 +315,7 @@ box-shadow: none !important;
 .react-select__indicators {
   height: 4rem;
 
-}
+} */
 .imgflag{
   position: relative;
   top: 0.2rem;
