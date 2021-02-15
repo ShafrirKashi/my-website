@@ -1,5 +1,5 @@
 .foot {
-    height: 26rem;
+    height: 42rem;
     background-color: rgb(27, 27, 27);
     margin-top:  1rem;
     position: relative;
@@ -79,7 +79,7 @@
 }
 .footer {
     background-color: rgb(27, 27, 27);
-    height: 22rem;
+    height: 38rem;
     border-bottom: 1px solid #a77d0063;
     display: grid;
     grid-template-columns: 30% 20% 20% auto;
@@ -104,6 +104,8 @@
 display: flex;
 flex-direction: column;
 padding-left: 4.2rem;
+position: absolute;
+top: 13rem;
 }
 .footerlogobox {
     height: 4rem;
@@ -192,7 +194,7 @@ h4.emailbox {
     position: relative;
     height: 12rem;
     width: 5rem;
-    top: 2rem;
+    top: 7.5rem;
     white-space: nowrap;
 
         
@@ -202,16 +204,16 @@ h4.emailbox {
     grid-column: 3/4;
     position: relative;
     height: 12rem;
-    top: 2rem;
+    top: 7.5rem;
     width: 8rem;
     white-space: nowrap;
 }
-.footer-searchbox-wrapper{
-
-    width: 10vw;
-    height: 3vw;
-    position: absolute;
-    top: -10px;
+.footer-maps-wrapper{
+    background-color: green;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    top: 1.8rem;
 }
 .footercredit {
     color: rgb(150, 150, 150);
@@ -271,7 +273,7 @@ h2 {
 }
 .ss li {
     color: white;
-    margin: 0 0 10px 0;
+    margin: 0 0 2rem 0;
     font-family:ErasMed;
     cursor: pointer;
     font-size: 1rem;
@@ -323,7 +325,7 @@ h2 {
     width: 3rem;
     height: 3rem;
     position: absolute;
-    right: 3rem;
+    right: 35rem;
     top: -2rem;
     cursor: pointer;
 }

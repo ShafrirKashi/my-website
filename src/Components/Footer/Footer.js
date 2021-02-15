@@ -9,7 +9,6 @@ import GER from '../Background/GER.json'
 
 
 
-
 const scrollTop = () =>{
     window.scrollTo({top: 0, behavior: 'smooth'}); };
 
@@ -78,8 +77,9 @@ const ChangeLanguageEvantHandler = () => {
                 </ul>
             </div>
             <div className="footersub">
-            <div className="footer-searchbox-wrapper">           
-                      {/* <SearchField placeholder='Enter your Email...'/> */}
+            <div className="footer-maps-wrapper">
+                    
+                         
                 </div>
 
             </div>
