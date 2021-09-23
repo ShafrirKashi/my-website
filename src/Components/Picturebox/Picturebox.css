@@ -39,7 +39,7 @@
       justify-content: center;
       position: absolute;
       color: black;
-      width: 9rem;
+      width: fit-content;
       height: 2.3rem;
       text-align: center;
       text-decoration: none;
@@ -49,6 +49,8 @@
       grid-column: 2/3;
       border-radius: 10.66vh; 
       white-space: nowrap;  
+      padding: 1rem;
+
 
       }
   
@@ -84,8 +86,9 @@
   align-items: center;
   justify-content: center;
   color: black;
-  width: 9rem;
+  width: fit-content;
   height: 2.3rem;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
@@ -126,13 +129,14 @@
   align-items: center;
   justify-content: center;
   color: black;
-  width: 12rem;
+  width: fit-content;
   height: 2.3rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
   margin: 0rem 0rem;
   cursor: pointer;
+  padding: 1rem;
   grid-row: 3/4;
   grid-column: 2/3;
   border-radius: 33rem;  
@@ -168,12 +172,13 @@
   align-items: center;
   justify-content: center;
   color: black;
-  width: 12rem;
+  width: fit-content;
   height: 2.3rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
   margin: 0rem 0rem;
+  padding: 1rem;
   cursor: pointer;
   grid-row: 3/4;
   grid-column: 2/3;

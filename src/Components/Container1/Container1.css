@@ -18,6 +18,7 @@
       align-items: center;
       grid-template-columns: 5rem 38rem 1rem ;
       grid-template-rows: 4rem 3rem 2rem 4rem 5rem;
+      
     }
     .h1_1 {
         font-family: ErasBold ;
@@ -46,7 +47,7 @@
       align-items: center;
       justify-content: center;
       color: black;
-      width: 9rem;
+      width: fit-content;
       height: 2.6rem;
       padding: 1.06rem 2.13rem;
       text-align: center;
