@@ -209,7 +209,9 @@ h4.emailbox {
     white-space: nowrap;
 }
 .footer-maps-wrapper{
-    background-color: green;
+    background-image: url('../Background/mapnyc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 30rem;
     height: 30rem;
     position: relative;

@@ -10,13 +10,13 @@
     height: 100%;
 
 }
-.swiper-container {
+/* .swiper-container {
 
-height: 40rem;
-width: 289.4rem;
+height: 20rem;
+width: 10rem;
 top: 1rem;
 display: inline-block;
-}
+} */
 
 .Swiper1{
     background-image: url('../Background/image1.png'); 
@@ -44,7 +44,7 @@ display: inline-block;
 }
 .swipers{
     height: 32.5rem;
-    width: auto;
+    width: 34.83rem;
     background-position: 0px 0px; 
     background-size: cover;
     background-repeat: no-repeat; 

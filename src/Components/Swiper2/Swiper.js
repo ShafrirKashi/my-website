@@ -16,7 +16,7 @@ function Swiperbox () {
       <div className="swiperboks">
      
         <Swiper
-          spaceBetween={20}
+          spaceBetween={22}
           slidesPerView={3.3}
           navigation
           scrollbar={{ draggable: true }}

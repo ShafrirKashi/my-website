@@ -50,11 +50,12 @@ const ChangeLanguageEvantHandler = () => {
                 <div className="contactusbox">
                     <div className="contactus">
                         <h3>{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Contact}</p>})}</h3>
-                        <h4 className="phonebox">+972 515554789
+                        <h4 className="phonebox">+1 515554789
                             <div className="phonelogo"></div>
                         </h4>
                         <h4 className="emailbox">Support@Alpine.com
                         <div className="emaillogo"></div></h4>
+                        <h4 className="address">198 W 11th St, New York, NY 10011, Mulry Square, USA</h4>
                     </div>
                 </div>
             </div>
