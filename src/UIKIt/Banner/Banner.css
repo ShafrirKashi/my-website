@@ -1,0 +1,33 @@
+.footop {
+  height: 7.2rem;
+  background-image: url("../../Components/Background/5.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 16px;
+}
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.textoverlay {
+  color: rgb(255, 255, 255);
+  font-size: 2.8rem;
+  font-family: ErasMed;
+  position: relative;
+  right: 6%;
+}
+.bannerlogo {
+  width: 24.45rem;
+  height: 6rem;
+  margin-right: 40rem;
+  position: relative;
+  left: 6%;
+}

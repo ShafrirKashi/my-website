@@ -1,0 +1,19 @@
+
+.vipLogoWhite {
+  background-image: url("../../Components/Background/Vipeak_white.png");
+  height:100%;
+  width: 100%;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.vipLogoBlack{
+  background-image: url("../../Components/Background/Vipeak_black.png");
+  height:9rem;
+  width: 32rem;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}

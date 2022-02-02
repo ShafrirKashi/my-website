@@ -1,114 +1,76 @@
-import React, { useContext } from 'react';
-import './Footer.css'
-import {SelectContext} from '../Selector'
-import FRA from '../Background/FRA.json' 
-import ENG from '../Background/ENG.json' 
-import SPA from '../Background/SPA.json' 
-import GER from '../Background/GER.json' 
+import React from "react";
+import "./Footer.css";
+import Logo from "../Background/1.png";
+const scrollTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
+const Footer = (props) => {
+  return (
+    <div className="foot">
+      <div className="left">
+        <div className="footerlogobox">
+          <img className="footerlogo" src={Logo} alt="" />
+          <p className="about">Exploration is our oxygen. It shapes who we are, what we stand for and what we strive for. Because the path of discovery is also a path of progression. To see the world beyond the map and reimagine what each one of us can accomplish. Since 1974, we've continually explored new ways to make a difference for each other and out planet.</p>
+          {/* <p className="address">1585 Broadway, New York, NY 10019, USA</p> */}
+        </div>
+     
+      </div>
+      <div className="middle">
+        <div className="topLinks">
+          <li>Contact</li>
+          <li>About</li>
+          <li>services</li>
+          <li>Shopping & Returns</li>
+          <li>Privacy Policy</li>
+          <li>Career</li>
+        </div>
+        <div className="topLinks2">
+          <li>Locate Store</li>
+          <li>Cookies Policy</li>
+        </div>
+        <div className="sendIt">
+          <input className="inptFoot" type="text" placeholder="Email Address" />
+          <button className="btnFoot">Subscribe Now</button>
+        </div>
+        <div className="footersocial">
+          <a
+            href="http://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="facebook"></div>
+          </a>
 
-
-
-const scrollTop = () =>{
-    window.scrollTo({top: 0, behavior: 'smooth'}); };
-
-
-    const Footer = (props) => {
-
-        const value = useContext(SelectContext);
-
-        
-const ChangeLanguageEvantHandler = () => {
-    switch(value) {
-    case "ENG": return ENG
-    case "FRA": return FRA
-    case "SPA": return SPA
-    case "GER": return GER
-    default: return ENG 
-   }
-}
-
-
-
-
-        return (
-            <div className="foot">
-                <div className="footop">
-                    <div className="overlay">
-                        <div className="square">
-                            <div className="logo"></div>
-                            <div className="ad">VIPeak</div>
-                        </div>
-                        <div className="textoverlay">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.FooterTop}</p>})}</div>
-                    </div>
-                </div>
-                <div className="footer">
-            <div className="footerfirst">
-                <div className="footerlogobox">
-                    <div className="footerlogo"></div>
-                </div>
-                <div className="contactusbox">
-                    <div className="contactus">
-                        <h3>{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Contact}</p>})}</h3>
-                        <h4 className="phonebox">+1 515554789
-                            <div className="phonelogo"></div>
-                        </h4>
-                        <h4 className="emailbox">Support@Alpine.com
-                        <div className="emaillogo"></div></h4>
-                        <h4 className="address">198 W 11th St, New York, NY 10011, Mulry Square, USA</h4>
-                    </div>
-                </div>
-            </div>
-            <div className="footersecond">
-                <ul className="ss">
-                    <h3 >{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Info}</p>})}</h3>
-                    <li className="about">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.About}</p>})}</li>
-                    <li className="blog">Blog</li>
-                    <li className="testamonials">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Testamonials}</p>})}</li>
-                    <li className="events">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Events}</p>})}</li>
-                </ul>
-            </div>
-            <div className="footerthird">
-                <ul className="ss">
-                    <h3>{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Helpful}</p>})}</h3>
-                    <li className="services">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Services}</p>})}</li>
-                    <li className="support">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Support}</p>})}</li>
-                    <li className="terms">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Terms}</p>})}</li>
-                    <li className="privacy">{ChangeLanguageEvantHandler().map((language, index)=>{return <p>{language.Privacy}</p>})}</li>
-                </ul>
-            </div>
-            <div className="footersub">
-            <div className="footer-maps-wrapper">
-                    
-                         
-                </div>
-
-            </div>
-            <div className="footbottom">
-                <div className="footersocial">
-                  
-                <a href="http://facebook.com"target="_blank" rel="noopener noreferrer">
-                    <div className="facebook"></div>
-                </a>
-
-                <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
-                    <div className="insta"></div>
-                </a>
-                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
-                    <div className="twitter"></div>
-                </a>
-                <a href="https://en.wikipedia.org/wiki/Google%2B"target="_blank" rel="noopener noreferrer">
-                    <div className="google"></div>
-                </a>
-                </div>
-                <div className="arrowup" onClick={scrollTop}></div>
-                <div className="footercredit">© Alpine.com | Created and Designed by Shafrir Kashi</div>
-            </div>
-                </div>
-               
-            </div>
-        );
-    }
-
+          <a
+            href="http://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="insta"></div>
+          </a>
+          <a
+            href="http://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="twitter"></div>
+          </a>
+          <a
+            href="https://en.wikipedia.org/wiki/Google%2B"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="google"></div>
+          </a>
+        </div>
+        <div className="copyright">
+          2022 All Rights Reserved to Alpine LLC, Designed by Shafrir Kashi
+        </div>
+      </div>
+      <div className="right"></div>
+    </div>
+  );
+};
 
 export default Footer;

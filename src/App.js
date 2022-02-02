@@ -1,40 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './Components/Navbar/Navbar'
-import Container1 from  './Components/Container1/Container1'
-import Container2 from './Components/Container2/Container2'
-import Swiper2 from './Components/Swiper2/Swiper'
 import Footer from './Components/Footer/Footer'
-import Picturebox from './Components/Picturebox/Picturebox'
-import { SelectProvider } from './Components/Selector'
-
-
- const App = props => {
-
-const [lang, setLang] = useState ({
-
-  value: 'ENG', label: '🇺🇸 USA'
-
-});
-
-
-const handleChange = selectedOption => {
-  setLang(selectedOption);
-};
-
-
-
+import ScrollToTop from './ScrollToTop';
+import Home from './Pages/Home/Home'
+import Vip from './Pages/Vip/Vip'
+import Store from './Pages/store/Store'
+import VipTerms from './Pages/VipTerms/VipTerms'
+import { Routes, Route } from "react-router-dom"
+ const App = () => {
 
 
   return (
-    <SelectProvider>
-      <Navbar style={{position: "-webkit-sticky"}}
-      triggerParent={handleChange}lang={lang}/>
-      <Container1/>
-      <Container2/>
-      <Picturebox />
-      <Swiper2/>
-      <Footer/>
-    </SelectProvider>
+    <div>
+      <Navbar style={{position: "-webkit-sticky"}}/>
+      <ScrollToTop>
+        <Routes>
+         <Route path="/" element={<Home />} />
+         <Route path="/vip" element={<Vip />} />
+         <Route path="/vipterms" element={<VipTerms />} />
+         <Route path="/store" element={<Store />} />
+        </Routes>
+        </ScrollToTop>
+        <Footer />
+        </div>
   );
 }
 

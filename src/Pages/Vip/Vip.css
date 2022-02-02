@@ -1,0 +1,185 @@
+.vipMain {
+  height: 115rem;
+}
+.vipWelcome {
+  background-image: url("../../Components/Background/3051347.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 52.1rem;
+  position: relative;
+}
+.vipimg {
+  position: relative;
+  width: 15rem;
+  padding-top: 30px;
+  animation-name: vipimg;
+  animation-duration: 1s;
+}
+@keyframes vipimg {
+  from {
+    top: -10px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+.VipLogo {
+  position: relative;
+  animation-name: viplogo;
+  animation-duration: 1s;
+  top: 50px;
+}
+@keyframes viplogo {
+  from {
+    top: 40px;
+    opacity: 0;
+  }
+  to {
+    top: 50px;
+    opacity: 1;
+  }
+}
+.vipBtn {
+  position: relative;
+  top: 50px;
+  animation-name: vipBtn;
+  animation-duration: 1s;
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+.vipBtn:hover {
+  color: black;
+  border: 2px solid black;
+  background-color: #fabc02;
+}
+@keyframes vipBtn {
+  from {
+    top: 40px;
+    opacity: 0;
+  }
+  to {
+    top: 50px;
+    opacity: 1;
+  }
+}
+.viph2 {
+  color: black;
+  position: relative;
+  top: 60px;
+  font-size: 50px;
+  animation-name: viph2;
+  animation-duration: 1s;
+  font-family: Yantramanav;
+}
+.viph3 {
+  color: black;
+  position: relative;
+  top: 30px;
+  font-size: 27px;
+  text-align: center;
+  animation-name: viph3;
+  animation-duration: 1s;
+  font-family: Yantramanav;
+}
+
+@keyframes viph2 {
+  from {
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    top: 60px;
+    opacity: 1;
+  }
+}
+@keyframes viph3 {
+  from {
+    top: 20px;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1;
+  }
+}
+
+.Vipeak {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 95rem;
+  height: 100%;
+  right: 0px;
+}
+.detailsWrapper {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detailsTop {
+  width: 70%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+.detailsTopP {
+  width: 19rem;
+  display: flex;
+  margin-right: 10px;
+}
+.detailsImg {
+  width: 50px;
+  height: 42px;
+  margin-right: 1.6rem;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  width: 30%;
+  height: 100%;
+}
+.vipInput{
+  height: 40px;
+  margin-top: 2rem;
+}
+.check{
+height:50px;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+.vipcheck{
+  margin-right: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.joinBtn{
+  height:2.7rem;
+  background-color: #fabc02;
+  border: 1px solid black;
+  margin-top: 1.8rem;
+  font-family: Yantramanav;
+  font-size: 20px;
+}
+.backtotop{
+  margin-top: 2rem;
+  font-family: Yantramanav;
+  font-size: 20px;
+  cursor: pointer;
+}

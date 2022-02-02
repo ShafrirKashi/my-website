@@ -27,7 +27,17 @@
   border-bottom: 0.106vh solid rgb(99, 99, 99);
   font-size:1rem;
   font-family: ErasMed;
+  cursor: pointer;
+
+} 
+
+.texttop:hover{
+  color: #fabc02 ;
+  animation-name: texttop;
+  animation-duration: 0.4s;
+  
 }
+
 .accessbar {
   /* background-color:rgb(228, 0, 0); */
   width: 8rem;
@@ -120,6 +130,7 @@ height: 4.4vh !important;
     justify-content: center;
     align-items: center;
     padding-left: 0.2rem;
+    cursor: pointer;
 
 }
 .logonav {
@@ -147,96 +158,27 @@ height: 4.4vh !important;
  white-space: nowrap;  
   
 }
- .nav__items li{
+ .nav__items > li{
 
   display: flex; 
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  height: 3.5vw;
-  padding: 1rem 1.8rem 1rem ;
+  height: 100%;
+  padding: 0rem 2rem 0rem 2rem ;
   font-size: 100%;
   cursor: pointer;
   
 }
 
 
-.nav__items li:hover {
-  /* text-decoration: underline; */
+.nav__items > li:hover {
+  text-decoration: underline;
   text-decoration-color: #fabc02;
-  /* text-decoration-thickness: 3px; */
-  /* text-underline-offset: 10px; */
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
   color: #fabc02;
   
-}
-.whiteTrianglemen{
-
-  position:absolute ;
-  width: 1.6rem;
-  height: 0.7rem;
-  top: -0.74rem;
-  left: 0.23rem;
-}
-.whiteTrianglewomen{
-
-  position:absolute ;
-  width: 1.6rem;
-  height: 0.7rem;
-  top: -0.74rem;
-  left: 6.6rem;
-}
-.whiteTrianglekids{
-
-  position:absolute ;
-  width: 1.6rem;
-  height: 0.7rem;
-  top: -0.74rem;
-  left: 12.66rem;
-}
-.whiteTriangleequ{
-
-  position:absolute ;
-  width: 1.6rem;
-  height: 0.7rem;
-  top: -0.74rem;
-  left: 20rem;
-}
-.whiteTriangleacc{
-  position:absolute ;
-  width: 1.6rem;
-  height: 0.7rem;
-  top: -0.74rem;
-  left: 28.8rem;
-} 
-.chatobot {
-  background-image: url('../Background/logochat.png');
-  background-position: 0px 0px; 
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  height: 4rem;
-  width: 4rem;
-  right:1.5rem;
-  top: 53rem;
-  cursor: pointer;
-}
-.chatboxclosecircle {
-  width: 2.1vh;
-  height: 2.1vh;
-  position: absolute;
-  right: 0vh;
-  top: -1vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.chatboxX {
-  background-image: url('../Background/X.png');
-  background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-  width: 55%;
-  height: 55%;
 }
 .topbarlinks {
   display: flex;
@@ -281,41 +223,7 @@ height: 4.4vh !important;
   background-size: cover;
   display: flex;
 }
-/* .selector {
-  width: 11rem;
-}
-.react-select__control {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:rgb(0, 0, 0) !important;
-  min-width: 10rem;
-  height: 1rem;
-  border: 1px solid transparent !important;
-}
 
-.react-select__control--is-focused {
-box-shadow: none !important;
-}
-.react-select__menu {
-  background-color: black !important;
-  border-bottom-right-radius: 1rem !important;
-  border-bottom-left-radius: 1rem !important;
-  width: 10rem !important;
-  white-space: nowrap;
- 
-}
-.react-select__single-value {
-  top:1rem !important;
-}
-.react-select-container {
-  height: 7rem;
-  width: 11rem;
-}
-.react-select__indicators {
-  height: 4rem;
-
-} */
 .imgflag{
   position: relative;
   top: 0.2rem;
@@ -328,32 +236,46 @@ box-shadow: none !important;
   position: relative;
   top: 1.8rem;
   left: 0rem;
+  animation-name: drop;
+  animation-duration: 0.4s;
 } 
 .womendrop{
  display: none;
  position: relative;
  top: 1.8rem;
  left: -5.6rem;
+ animation-name: drop;
+ animation-duration: 0.4s;
 }
 .kidsdrop{
   display: none;
   position: relative;
   top: 1.8rem;
   left: -12.62rem;
+  animation-name: drop;
+  animation-duration: 0.4s;
 } 
 .equdrop{
   display: none;
   position: relative;
   top: 1.8rem;
   left: -18.05rem;
+  animation-name: drop;
+  animation-duration: 0.4s;
 } 
 .accdrop{
   display: none;
   position: relative;
   top: 1.8rem;
   left: -26.94rem;
+  animation-name: drop;
+  animation-duration: 0.4s;
   
 } 
+@keyframes drop {
+  from {opacity:0}
+  to {opacity:1}
+}
 
 .kids:hover .kidsdrop{
   display: block;

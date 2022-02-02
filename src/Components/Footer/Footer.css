@@ -1,334 +1,162 @@
 .foot {
-    height: 42rem;
-    background-color: rgb(27, 27, 27);
-    margin-top:  1rem;
-    position: relative;
+  height: 25rem;
+  background-color: rgb(27, 27, 27);
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(133, 111, 16);
+}
+.left {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.copyright {
+  color: rgb(179, 179, 179);
+  font-family: ErasMed;
+  font-size:15px
 
 }
-.footop {
-    height: 7.2rem;
-    background-image: url('../Background/5.jpg');
-    background-position: 0px 0px; 
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-      border-bottom: 1px solid #745700;
-      
-
+.middle {
+  position: relative;
+  padding-top: 20px;
+  height: 95%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.right {
+  height: 100%;
+  width: 25%;
+  font-family: ErasMed;
 
 }
-.overlay {
-  height: 100%; 
-  background-color: rgba(0, 0, 0, 0.5); 
+.topLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+}
+.topLinks2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+}
+.sendIt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.inptFoot {
+  width: 14rem;
+  height: 2rem;
+  background-color: rgba(27, 27, 27, 0);
+  border: 2px solid rgba(255, 255, 255, 0.76);
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+  font-family: ErasMed;
+
+}
+.btnFoot {
+  width: 10rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+  background-color: white;
+  border: 1px solid rgb(27, 27, 27);
+  font-size: 15px;
+  font-family: ErasMed;
+
   cursor: pointer;
 }
-.square {
-    color: white;
-    position: relative;
-    top: 0.6rem;
-    left: 7rem;
-    height: 5.4rem;
-    width: 22rem;
-    border: 0.3rem solid white;
-    display: grid;
-    grid-template-columns: 40% 60%; 
-    
-}
-.logo {
-    background-image: url('../Background/aa.png');
-    height: 4.6rem;
-    width: 5rem;
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-self: center;
-    position: relative;
-    left:  1rem;
-    display: grid;
-
-    
-}
-.ad {
-    font-size: 4.5rem;
-    height: 4.8rem;
-    font-family: TypoGraphica;
-    font-weight: bold;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    position: relative;
-    display: grid;
-    position: relative;
-    top: 0.4rem;
-    right: 1.5rem;
-    justify-content:center;
-    align-content: center;
-
-}
-.textoverlay {
-
-   color: rgb(255, 255, 255);
-   font-size: 2.8rem;
-   font-family:ErasMed ; 
-   text-align: center;
-   position: relative;
-   width: 60rem;
-   left: 33rem;
-   top: -6.5rem;
-}
-.footer {
-    background-color: rgb(27, 27, 27);
-    height: 38rem;
-    border-bottom: 1px solid #a77d0063;
-    display: grid;
-    grid-template-columns: 30% 20% 20% auto;
-    
 
 
-}
-.footbottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4rem;
-    width: 110rem;
-    background-color: rgb(27, 27, 27);
-    position: absolute;
-    left: 4rem;
-    border-top: 2px solid rgb(92, 92, 92);
-    bottom: -2.9rem;
-   
-}
-.footerfirst {
-display: flex;
-flex-direction: column;
-padding-left: 4.2rem;
-position: absolute;
-top: 13rem;
-}
 .footerlogobox {
-    height: 4rem;
-    width: 16rem;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 2rem;
-    left: -0.6rem;
-    /* background-color: green; */
+  height: 25rem;
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 .footerlogo {
-    background-image: url('../Background/1.png');
-    background-position: 0px 0px; 
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
- 
+  height: auto;
+  width: 60%;
+  
 }
-.contactusbox{
-
-    width: 100%;
-    height: 6rem;
-    position: relative;
-    top: 2.8rem;
-    /* background-color: #fff; */
+.address {
+  color: rgb(197, 197, 197);
 }
-.phonebox {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction:  row-reverse;
-}
-.phonelogo{
-width: 1rem;
-height: 1rem;
-background-image: url('../Background/phonelogo.png');
-background-position: 0px 0px; 
-background-size: cover;
-background-repeat: no-repeat;
-margin-right: 1vh;
-}
-.emailbox {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction:  row-reverse;
-}
-.emaillogo{
-    width: 1rem;
-    height: 0.7rem;
-    background-image: url('../Background/emaillogo.png');
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 1vh;
-}
-h3, h4 {
-    color: white;
-    font-family:ErasMed;
-    font-weight: lighter;
-
-    }
-
-h3 {
-    color: #fabc02;
-    font-size: 1.3rem;
+.about{
+    color: rgb(141, 141, 141);
+    font-size: 15px;
+    font-family: ErasMed;
+    line-height: 24px
 }
 
-h4.phonebox {
-    margin-bottom: 1vh;
-    font-size: 1rem;
-    font-weight: lighter;
-}
-h4.emailbox {
-    margin: 0px;
-    font-size: 1rem;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
-.footersecond {
-    grid-column: 2/3;
-    position: relative;
-    height: 12rem;
-    width: 5rem;
-    top: 7.5rem;
-    white-space: nowrap;
-
-        
-
-}
-.footerthird {
-    grid-column: 3/4;
-    position: relative;
-    height: 12rem;
-    top: 7.5rem;
-    width: 8rem;
-    white-space: nowrap;
-}
-.footer-maps-wrapper{
-    background-image: url('../Background/mapnyc.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30rem;
-    height: 30rem;
-    position: relative;
-    top: 1.8rem;
-}
-.footercredit {
-    color: rgb(150, 150, 150);
-    position: absolute;
-    left: 0vh;
-    font-size: 1rem;
-    font-family: Bell MT;
-}
 .footersocial {
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 20rem;
-    height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+  height: 4rem;
 }
 .facebook {
-    background-image: url('../Background/face.png');
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+  background-image: url("../Background/face.png");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 .google {
-    background-image: url('../Background/google.png');
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+  background-image: url("../Background/google.png");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 .insta {
-    background-image: url('../Background/insta.png');
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+  background-image: url("../Background/insta.png");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 .twitter {
-    background-image: url('../Background/twitter.png');
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+  background-image: url("../Background/twitter.png");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2.4rem;
+  height: 2.4rem;
 }
-ul {
-    list-style-type: none;
+.topLinks,
+.topLinks2 li {
+  color: rgb(197, 197, 197);
+  font-family: ErasMed;
+  cursor: pointer;
+  font-size: 1rem;
 }
-h2 {
-    color: #fabc02;
-    font-size: 2.5rem;
-    margin: 0 0 3vh 0;
-    font-family:ErasMed;
+.topLinks li:hover {
+  color: #fabc02;
 }
-.ss li {
-    color: white;
-    margin: 0 0 2rem 0;
-    font-family:ErasMed;
-    cursor: pointer;
-    font-size: 1rem;
+.topLinks2 li:hover {
+  color: #fabc02;
 }
-.ss li:hover {
-    color: rgb(179, 179, 179);
-}
- .about {
-     width: 4.1vw;
-     color: blue;
- }
- .more {
-    width: 5.5vw;
-    color: blue;
-}
-.blog {
-    width: 1.8vw;;
-    color: blue;
-}
-.testamonials {
-    width: 5vw;
-    color: blue;
-}
-.events {
-    width: 2.5vw;
-    color: blue;
-}
-.services {
-    width: 3vw;
-    color: blue;
-}
-.support {
-    width: 3vw;
-    color: blue;
-}
-.terms {
-    width: 8.5vw;
-    color: blue;
-}
-.privacy {
-    width: 5.8vw;
-    color: blue;
-}
-.arrowup {
-    background-image: url('../Background/arrowup.png');
-    background-position: 0px 0px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
-    position: absolute;
-    right: 35rem;
-    top: -2rem;
-    cursor: pointer;
-}
-
