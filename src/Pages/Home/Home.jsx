@@ -1,7 +1,6 @@
 import React from 'react';
 import Container1 from  '../../Components/Container1/Container1'
 import Container2 from '../../Components/Container2/Container2'
-import Footer from '../../Components/Footer/Footer'
 import Picturebox from '../../Components/Picturebox/Picturebox'
 import Banner from '../../UIKIt/Banner/Banner'
 

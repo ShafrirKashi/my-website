@@ -1,9 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import Logo from "../Background/1.png";
-const scrollTop = () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-};
 
 const Footer = (props) => {
   return (
